@@ -1,6 +1,6 @@
 # prompt-optimisation
 
-This repo hosts code for prompt-optimisation. This project MSc research project exploring autonomous prompt optimisation..
+This repo hosts code for prompt-optimisation. This project is an MSc research project exploring autonomous prompt optimisation..
 
 # Basic setup
 
