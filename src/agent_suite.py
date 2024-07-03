@@ -1,31 +1,5 @@
-# Pre-defined agents
+# Prompt Design Agents
 
-# Agents with specilaised jobs
-mathematician = {
-    "position": "Mathematician", 
-    "role": "Analyze and solve mathematical problems",
-    "function": "Provide feedback on how the prompt can better incorporate and enforce mathematical thinking and problem solving techniques to help solve mathematical problems."
-}
-
-linguist = {
-    "position": "Linguist", 
-    "role": "Analyze linguistic features",
-    "function": "Determine how the syntax, formatting and structure of the prompt can be improved to help instruct a large language model."
-}
-
-prompt_engineer = {
-    "position": "Prompt Engineer", 
-    "role": "Analyze prompts for best practices",
-    "function": "Determine how the prompt can adhere to best practices for writing prompts. Encourage the use of appropriate prompting techniques including zero-shot, few-shot, chain-of-thought, self-consistency, generate knowledge and more."
-}
-
-software_engineer = {
-    "position": "Software Engineer", 
-    "role": "Analyze software engineering problems",
-    "function": "Determine how the prompt can better incorporate and enforce software engineering concepts to help solve software engineering problems."
-}
-
-# Agents specialising in design aspects: http://arxiv.org/abs/2312.16171
 conciseness_and_clarity = {
     "position": "Conciseness and Clarity", 
     "role": "Analyze for conciseness and clarity",
@@ -68,5 +42,71 @@ programming_logic = {
     "function": "Determine how the prompt can better incorporate and enforce programming logic concepts to help solve complex problems. For instance, use of conditional statements, logical operators, or even pseudo-code within the prompt to guide the model’s reasoning process."
 }
 
+# Domain Specific Agents
 
+mathematician = {
+    "position": "Mathematician", 
+    "role": "Analyze and solve mathematical problems",
+    "function": "Determine how the prompt can better incorporate and enforce mathematical thinking and techniques to help solve mathematical problems."
+}
+
+problem_solver = {
+    "position": "Problem Solver", 
+    "role": "Analyze and solve complex problems",
+    "function": "Determine how the prompt can better incorporate and enforce generic problem solving techniques to help solve complex problems."
+}
+
+grammar_checker = {
+    "position": "Grammar Checker", 
+    "role": "Analyze for grammar",
+    "function": "Determine how the prompt can be improved in terms of grammar, punctuation, and sentence structure to ensure clarity and correctness."
+}
+
+linguist = {
+    "position": "Linguist", 
+    "role": "Analyze for language",
+    "function": "Determine how the prompt can be improved in terms of language usage, vocabulary, and syntax to ensure that the instructions are clear and easy to understand."
+}
+
+writer = {
+    "position": "Writer", 
+    "role": "Analyze for writing style",
+    "function": "Determine how the prompt can be improved in terms of writing style, tone, and coherence to engage the model and make the task more interesting and appealing."
+}
+
+sentiment_analyst = {
+    "position": "Sentiment Analyst", 
+    "role": "Analyze for sentiment",
+    "function": "Determine how the prompt can be improved to better instruct a model to identify sentiment, tone, and emotion in text."
+}
+
+software_engineer = {
+    "position": "Software Engineer", 
+    "role": "Analyze and solve software engineering problems",
+    "function": "Determine how the prompt can better incorporate and enforce software engineering concepts to help solve software engineering problems."
+}
+
+software_architect = {
+    "position": "Software Architect", 
+    "role": "Analyze and design software architecture",
+    "function": "Determine how the prompt can better incorporate and enforce software architecture concepts to help design software systems."
+}
+
+qaa_engineer = {
+    "position": "QAA Engineer", 
+    "role": "Analyze and test software systems",
+    "function": "Determine how the prompt can better incorporate and enforce quality assurance and testing concepts to produce robust code."
+}
+
+ai_engineer = {
+    "position": "AI Engineer", 
+    "role": "Analyze and solve AI problems",
+    "function": "Determine how the prompt can better incorporate and enforce AI concepts to help solve AI problems."
+}
+
+data_engineer = {
+    "position": "Data Engineer", 
+    "role": "Analyze and solve data engineering problems",
+    "function": "Determine how the prompt can better incorporate and enforce data engineering concepts to help solve data engineering problems."
+}
 
