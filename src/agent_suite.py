@@ -1,43 +1,43 @@
 # Prompt Design Agents
 
 conciseness_and_clarity = {
-    "position": "Conciseness and Clarity", 
+    "position": "Conciseness and Clarity Expert", 
     "role": "Analyze for conciseness and clarity",
     "function": "Determine how the prompt can be more concise and clear in its instructions and avoid unnecessary information that does not contribute to the task while being specific enough to guide the model."
 }
 
 contextual_relevance = {
-    "position": "Contextual Relevance", 
+    "position": "Contextual Relevance Expert", 
     "role": "Analyze for contextual relevance",
     "function": "Determine how the prompt can better provide relevant context that helps the model understand the background and domain of the task"
 }
 
 task_alignment = {
-    "position": "Task Alignment", 
+    "position": "Task Alignment Expert", 
     "role": "Analyze for task alignment",
     "function": "Determine how the prompt can better align with the task and use using language and structure that clearly indicate the nature of the task to the model."
 }
 
 example_demonstration = {
-    "position": "Example Demonstration", 
+    "position": "Example Demonstration Expert", 
     "role": "Analyze for example demonstration",
     "function": "Determine how the prompt can better provide examples that demonstrate the expected output or behavior of the model."
 }
 
 avoiding_bias = {
-    "position": "Avoiding Bias", 
+    "position": "Avoiding Bias Expert", 
     "role": "Analyze for bias",
     "function": "Determine how the prompt can minimize the activation of biases inherent in the model due to its training data. This involves using neutral language and being mindful of potential ethical implications, especially for sensitive topics."
 }
 
-incremental_pormpting = {
-    "position": "Incremental Prompting", 
+incremental_prompting = {
+    "position": "Incremental Prompting Expert", 
     "role": "Analyze for incremental prompting",
     "function": "Determine how the prompt can be structured in a way that guides the model through a series of steps or questions to help it generate the desired output."
 }
 
 programming_logic = {
-    "position": "Programming Logic", 
+    "position": "Programming Logic Expert", 
     "role": "Analyze for programming logic",
     "function": "Determine how the prompt can better incorporate and enforce programming logic concepts to help solve complex problems. For instance, use of conditional statements, logical operators, or even pseudo-code within the prompt to guide the model’s reasoning process."
 }
@@ -46,14 +46,14 @@ programming_logic = {
 
 mathematician = {
     "position": "Mathematician", 
-    "role": "Analyze and solve mathematical problems",
-    "function": "Determine how the prompt can better incorporate and enforce mathematical thinking and techniques to help solve mathematical problems."
+    "role": "Analyze for mathematcial thinking",
+    "function": "Determine how prompts and instructions can better help language models solve mathematical problems."
 }
 
-problem_solver = {
-    "position": "Problem Solver", 
-    "role": "Analyze and solve complex problems",
-    "function": "Determine how the prompt can better incorporate and enforce generic problem solving techniques to help solve complex problems."
+word_problem_solver = {
+    "position": "Word Problem Solver", 
+    "role": "Analyze for word problem thinking",
+    "function": "Determine how prompts and instructions can better help language models solve word problems."
 }
 
 grammar_checker = {
