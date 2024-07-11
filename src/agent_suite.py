@@ -1,9 +1,9 @@
 # Prompt Design Agents
-# Prompt design team members
+
 conciseness_and_clarity_principles = [
     "Always write clear and concise prompts",
-    "Always use simple and direct language to communicate ideas",
-    "Always consider the task requirements when formatting and structuring prompts",
+    "Always use simple and direct instructions in prompts",
+    "Always avoid ambiguity in prompts",
 ]
 
 contextual_relevance_principles = [
@@ -39,6 +39,38 @@ programming_logic_principles = [
     "Always consider the usefulness of programming logic to the task",
 ]
 
+# Prompt Design Agents 2
+
+output_formatter_principles = [
+    "Always consider the expected output format when designing prompts",
+    "Always provide clear instructions for formatting output",
+    "Always double-check output format to ensure the model will produce the desired result",
+]
+
+prompt_structurer_principles = [
+    "Always consider the structure of prompts to guide the model",
+    "Always ensure prompts are appropriately organized and easy to follow",
+    "Always consider the logical flow of a prompt",
+]
+
+role_assignment_principles = [
+    "Always assign roles in pormpts to guide the models behavior",
+    "Always consider the task requirements when assigning roles",
+    "Always provide clear instructions for the role in prompts",
+]
+
+hallucination_checker_principles = [
+    "Always consider the potential for hallucination in prompts",
+    "Always provide clear instructions to avoid hallucination",
+    "Always consider the limitations of the model to prevent hallucination",
+]
+
+prompt_experimentalist_principles = [
+    "Always experiment with different prompt structures and formats",
+    "Always consider the effectiveness of prompts in guiding the model",
+    "Always try creative and innovative ideas in prompt design",
+]
+
 # Task Domain Agents
 mathematics_principles = [
     "Always think with a mathematical mindset",
@@ -50,4 +82,10 @@ word_problem_solving_principles = [
     "Always pay attention to the keywords in the problem",
     "Always approach problems systematically",
     "Always consider multiple approaches to solving problems",
+]
+
+ai_engineering_principles = [
+    "Always consider the capabilities of AI models",
+    "Always provide clear instructions for AI models",
+    "Always consider the limitations of AI models",
 ]
