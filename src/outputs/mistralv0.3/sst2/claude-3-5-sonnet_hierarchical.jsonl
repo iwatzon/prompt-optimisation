@@ -1,0 +1,568 @@
+{
+    "results": {
+        "1": {
+            "prompt": "You are a skilled sentiment analysis expert. Your task is to classify the overall sentiment of a given text as either positive or negative. Here are some examples to guide you:\n\nExample 1:\nText: \"I absolutely love this new smartphone! It's fast, sleek, and has an amazing camera.\"\nClassification: ##positive\n\nExample 2:\nText: \"The customer service was terrible. I waited for hours and still didn't get my issue resolved.\"\nClassification: ##negative\n\nExample 3:\nText: \"Despite the rainy weather, I managed to have a productive day at work.\"\nClassification: ##positive\n\nNow, analyze the sentiment of the following text:\n\n{content}\n\nConsider the language, context, and emotional tone in your analysis. Focus on key phrases, adjectives, and the overall sentiment expressed.\n\nProvide your classification in the following format:\n##positive\nor\n##negative",
+            "results_1": {
+                "1": {
+                    "content": "a science-fiction pastiche so lacking in originality that if you stripped away its inspirations there would be precious little left . ",
+                    "response": " ##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "2": {
+                    "content": "it haunts you , you ca n't forget it , you admire its conception and are able to resolve some of the confusions you had while watching it . ",
+                    "response": " Based on the language, context, and emotional tone, it appears that the text expresses a mixed sentiment. The viewer is haunted by the experience (which could be interpreted as negative), but they also appreciate the conception of the work and are able to resolve some confusions (positive). Therefore, I would classify this text as:\n\n##mixed",
+                    "pred": -1,
+                    "label": 1
+                },
+                "3": {
+                    "content": "nicks , seemingly uncertain what 's going to make people laugh , runs the gamut from stale parody to raunchy sex gags to formula romantic comedy . ",
+                    "response": " ##neutral",
+                    "pred": -1,
+                    "label": 0
+                },
+                "4": {
+                    "content": "if there 's one thing this world needs less of , it 's movies about college that are written and directed by people who could n't pass an entrance exam . ",
+                    "response": " ##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "5": {
+                    "content": "chokes on its own depiction of upper-crust decorum . ",
+                    "response": " ##neutral",
+                    "pred": -1,
+                    "label": 0
+                },
+                "6": {
+                    "content": "one of the more intelligent children 's movies to hit theaters this year . ",
+                    "response": " ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "7": {
+                    "content": "it provides an honest look at a community striving to anchor itself in new grounds . ",
+                    "response": " ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "8": {
+                    "content": "what better message than ` love thyself ' could young women of any size receive ? ",
+                    "response": " ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "9": {
+                    "content": "the film will play equally well on both the standard and giant screens . ",
+                    "response": " ##neutral",
+                    "pred": -1,
+                    "label": 1
+                },
+                "10": {
+                    "content": "it 's one of those baseball pictures where the hero is stoic , the wife is patient , the kids are as cute as all get-out and the odds against success are long enough to intimidate , but short enough to make a dream seem possible . ",
+                    "response": " ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "11": {
+                    "content": "sustains its dreamlike glide through a succession of cheesy coincidences and voluptuous cheap effects , not the least of which is rebecca romijn-stamos . ",
+                    "response": " Based on the language, context, and emotional tone, it appears that the text is expressing a somewhat sarcastic or critical sentiment towards the movie being described. The use of words like \"cheesy,\" \"voluptuous,\" and \"not the least\" suggests a negative opinion about the quality of the effects and coincidences in the movie. Therefore, the classification would be:\n\n##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "12": {
+                    "content": "may be far from the best of the series , but it 's assured , wonderfully respectful of its past and thrilling enough to make it abundantly clear that this movie phenomenon has once again reinvented itself for a new generation . ",
+                    "response": " ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "13": {
+                    "content": "although german cooking does not come readily to mind when considering the world 's best cuisine , mostly martha could make deutchland a popular destination for hungry tourists . ",
+                    "response": " ##neutral",
+                    "pred": -1,
+                    "label": 1
+                },
+                "14": {
+                    "content": "we know the plot 's a little crazy , but it held my interest from start to finish . ",
+                    "response": " ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "15": {
+                    "content": "vera 's technical prowess ends up selling his film short ; he smoothes over hard truths even as he uncovers them . ",
+                    "response": " ##neutral",
+                    "pred": -1,
+                    "label": 0
+                },
+                "16": {
+                    "content": "coughs and sputters on its own postmodern conceit . ",
+                    "response": " Based on the given text, it is difficult to definitively classify the sentiment as either positive or negative due to the abstract nature of the language used. The text seems to express a critical or dismissive tone towards something (possibly a work of art or literature) referred to as \"its own postmodern conceit.\" However, without more context or specific details about what is being criticized, it's challenging to determine whether the overall sentiment is negative or not.\n\nTherefore, I would classify this text as:\n##neutral (with a leaning towards negative)",
+                    "pred": -1,
+                    "label": 0
+                },
+                "17": {
+                    "content": "a gorgeous , witty , seductive movie . ",
+                    "response": " ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "18": {
+                    "content": "thanks to scott 's charismatic roger and eisenberg 's sweet nephew , roger dodger is one of the most compelling variations on in the company of men . ",
+                    "response": " ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "19": {
+                    "content": "this riveting world war ii moral suspense story deals with the shadow side of american culture : racial prejudice in its ugly and diverse forms . ",
+                    "response": " ##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "20": {
+                    "content": "corny , schmaltzy and predictable , but still manages to be kind of heartwarming , nonetheless . ",
+                    "response": " ##mixed",
+                    "pred": -1,
+                    "label": 1
+                },
+                "21": {
+                    "content": "an occasionally funny , but overall limp , fish-out-of-water story . ",
+                    "response": " ##neutral",
+                    "pred": -1,
+                    "label": 0
+                },
+                "22": {
+                    "content": "not far beneath the surface , this reconfigured tale asks disturbing questions about those things we expect from military epics . ",
+                    "response": " ##negative",
+                    "pred": 0,
+                    "label": 1
+                },
+                "23": {
+                    "content": "there 's really only one good idea in this movie , but the director runs with it and presents it with an unforgettable visual panache . ",
+                    "response": " ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "24": {
+                    "content": "it 's an offbeat treat that pokes fun at the democratic exercise while also examining its significance for those who take part . ",
+                    "response": " ##neutral",
+                    "pred": -1,
+                    "label": 1
+                },
+                "25": {
+                    "content": "a broad , melodramatic estrogen opera that 's pretty toxic in its own right . ",
+                    "response": " ##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "26": {
+                    "content": "bad . ",
+                    "response": " Based on the provided text \"bad\", it appears to express a negative sentiment. The word \"bad\" itself is generally associated with something undesirable or unpleasant. However, without additional context, it's difficult to determine the exact nature of what is being referred to as \"bad\".\n\nClassification: ##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "27": {
+                    "content": "the man from elysian fields is a cold , bliss-less work that groans along thinking itself some important comment on how life throws us some beguiling curves . ",
+                    "response": " ##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "28": {
+                    "content": "and if you 're not nearly moved to tears by a couple of scenes , you 've got ice water in your veins . ",
+                    "response": " Based on the given text, it appears to express a strong emotional response, likely positive sentiment. The phrase \"nearly moved to tears\" suggests an intense emotional reaction, which is often associated with feelings of deep affection or appreciation. Additionally, the use of the term \"ice water in your veins\" implies that not experiencing this strong emotion is unusual or extraordinary. Therefore, I would classify this text as:\n\n##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "29": {
+                    "content": "this is human comedy at its most amusing , interesting and confirming . ",
+                    "response": " ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "30": {
+                    "content": "the film 's hackneyed message is not helped by the thin characterizations , nonexistent plot and pretentious visual style . ",
+                    "response": " ##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "score": 0.6333333333333333
+            },
+            "prompt_mean_score": 0.6333333333333333
+        },
+        "2": {
+            "prompt": "Classify sentiment: {content}\nOutput: ##positive or ##negative",
+            "results_1": {
+                "1": {
+                    "content": "a science-fiction pastiche so lacking in originality that if you stripped away its inspirations there would be precious little left . ",
+                    "response": "##neutral\n\nThe statement seems to express a critical opinion about the originality of the work, but it does not convey an overall positive or negative sentiment. The use of words like \"pastiche\" and \"inspirations\" suggests that the author is comparing this work to others in the genre, which can be seen as neutral since it's common for works to draw inspiration from existing ones. However, the reader's personal feelings about the value of originality versus homage may influence their interpretation.",
+                    "pred": -1,
+                    "label": 0
+                },
+                "2": {
+                    "content": "it haunts you , you ca n't forget it , you admire its conception and are able to resolve some of the confusions you had while watching it . ",
+                    "response": " ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "3": {
+                    "content": "if there 's one thing this world needs less of , it 's movies about college that are written and directed by people who could n't pass an entrance exam . ",
+                    "response": "##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "4": {
+                    "content": "nicks , seemingly uncertain what 's going to make people laugh , runs the gamut from stale parody to raunchy sex gags to formula romantic comedy . ",
+                    "response": " This statement seems more descriptive than expressing a clear sentiment. However, if we interpret it as a review, it could be classified as **mixed** or **neutral**. The author finds the content of Nick's work to be varied but not necessarily positive, with references to stale parody, raunchy sex gags, and formulaic romantic comedy. Yet, they also seem uncertain about what will make people laugh, which could suggest a hopeful or curious tone. Without more context or specific sentiment words, it is challenging to definitively classify this as either positive or negative.",
+                    "pred": -1,
+                    "label": 0
+                },
+                "5": {
+                    "content": "it provides an honest look at a community striving to anchor itself in new grounds . ",
+                    "response": " ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "6": {
+                    "content": "what better message than ` love thyself ' could young women of any size receive ? ",
+                    "response": "##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "7": {
+                    "content": "chokes on its own depiction of upper-crust decorum . ",
+                    "response": " This sentence seems to express a critical or negative sentiment, so it would be classified as ##negative. The use of the word \"chokes\" suggests difficulty or discomfort with the subject being described (upper-class decorum), which implies a negative reaction.",
+                    "pred": 0,
+                    "label": 0
+                },
+                "8": {
+                    "content": "one of the more intelligent children 's movies to hit theaters this year . ",
+                    "response": " ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "9": {
+                    "content": "the film will play equally well on both the standard and giant screens . ",
+                    "response": " ##neutral",
+                    "pred": -1,
+                    "label": 1
+                },
+                "10": {
+                    "content": "it 's one of those baseball pictures where the hero is stoic , the wife is patient , the kids are as cute as all get-out and the odds against success are long enough to intimidate , but short enough to make a dream seem possible . ",
+                    "response": " ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "11": {
+                    "content": "sustains its dreamlike glide through a succession of cheesy coincidences and voluptuous cheap effects , not the least of which is rebecca romijn-stamos . ",
+                    "response": " Based on the provided text, it seems that the sentiment expressed is generally positive. The use of words like \"dreamlike,\" \"cheesy,\" and \"voluptuous\" in a positive context suggests enjoyment or appreciation of the described experience. However, without more context about the reader's personal preferences or expectations, it's difficult to definitively classify the sentiment as either positive or negative.\n\nFinal answer: ##positive (with some reservations due to the use of \"cheesy\" and \"voluptuous cheap effects\")",
+                    "pred": 1,
+                    "label": 0
+                },
+                "12": {
+                    "content": "may be far from the best of the series , but it 's assured , wonderfully respectful of its past and thrilling enough to make it abundantly clear that this movie phenomenon has once again reinvented itself for a new generation . ",
+                    "response": " ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "13": {
+                    "content": "although german cooking does not come readily to mind when considering the world 's best cuisine , mostly martha could make deutchland a popular destination for hungry tourists . ",
+                    "response": "##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "14": {
+                    "content": "we know the plot 's a little crazy , but it held my interest from start to finish . ",
+                    "response": " ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "15": {
+                    "content": "vera 's technical prowess ends up selling his film short ; he smoothes over hard truths even as he uncovers them . ",
+                    "response": " ##neutral\n\nThe statement seems to be a mixed review, expressing both positive (Vera's technical prowess) and negative aspects (smoothing over hard truths). Therefore, it is best classified as neutral.",
+                    "pred": -1,
+                    "label": 0
+                },
+                "16": {
+                    "content": "coughs and sputters on its own postmodern conceit . ",
+                    "response": " It is not possible to classify the sentiment as positive or negative based solely on the provided phrase. The term \"coughs and sputters\" could be used in a variety of contexts, some of which may convey a negative sentiment (e.g., struggling with an idea), while others might suggest a more positive interpretation (e.g., engaging in a lively debate or creative process). The addition of the phrase \"on its own postmodern conceit\" further complicates the sentiment analysis, as it introduces abstract and subjective concepts that may not have straightforward emotional associations. To accurately classify the sentiment, additional context or clarification would be needed.",
+                    "pred": -1,
+                    "label": 0
+                },
+                "17": {
+                    "content": "a gorgeous , witty , seductive movie . ",
+                    "response": " ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "18": {
+                    "content": "thanks to scott 's charismatic roger and eisenberg 's sweet nephew , roger dodger is one of the most compelling variations on in the company of men . ",
+                    "response": "##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "19": {
+                    "content": "this riveting world war ii moral suspense story deals with the shadow side of american culture : racial prejudice in its ugly and diverse forms . ",
+                    "response": "##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "20": {
+                    "content": "corny , schmaltzy and predictable , but still manages to be kind of heartwarming , nonetheless . ",
+                    "response": "##Positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "21": {
+                    "content": "an occasionally funny , but overall limp , fish-out-of-water story . ",
+                    "response": " Based on the provided sentence, it seems to have a slightly positive sentiment. The use of \"occasionally funny\" suggests humor, which is generally associated with positivity. However, the phrase \"overall limp\" implies that the story might not be as engaging or strong as one would hope. But since there's a hint of humor and it's described as a fish-out-of-water story (often seen as relatable and endearing), I would classify it as ##positive.",
+                    "pred": 1,
+                    "label": 0
+                },
+                "22": {
+                    "content": "not far beneath the surface , this reconfigured tale asks disturbing questions about those things we expect from military epics . ",
+                    "response": " ##neutral\n\nThe phrase suggests a thoughtful and critical analysis of a military epic, which could be seen as positive in terms of intellectual engagement. However, the use of \"disturbing\" implies that the work challenges conventional expectations, which might be perceived negatively by some readers who prefer traditional narratives. Therefore, it is more appropriate to classify this sentiment as neutral, as it reflects a complex and nuanced response rather than an outright positive or negative evaluation.",
+                    "pred": -1,
+                    "label": 1
+                },
+                "23": {
+                    "content": "there 's really only one good idea in this movie , but the director runs with it and presents it with an unforgettable visual panache . ",
+                    "response": " ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "24": {
+                    "content": "it 's an offbeat treat that pokes fun at the democratic exercise while also examining its significance for those who take part . ",
+                    "response": " ##Neutral\n\nThe given statement describes a work (an \"offbeat treat\") that both satirizes and analyzes the democratic process. While it may contain elements of humor, it is not inherently positive or negative in its assessment of democracy itself. The sentiment expressed seems to be more about the nature of the work rather than the subject matter.",
+                    "pred": -1,
+                    "label": 1
+                },
+                "25": {
+                    "content": "a broad , melodramatic estrogen opera that 's pretty toxic in its own right . ",
+                    "response": "##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "26": {
+                    "content": "bad . ",
+                    "response": " ##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "27": {
+                    "content": "the man from elysian fields is a cold , bliss-less work that groans along thinking itself some important comment on how life throws us some beguiling curves . ",
+                    "response": " ##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "28": {
+                    "content": "and if you 're not nearly moved to tears by a couple of scenes , you 've got ice water in your veins . ",
+                    "response": " Based on the provided text, it seems that the author is expressing a strong emotional response (in this case, empathy or sensitivity) to certain scenes. The phrase \"you've got ice water in your veins\" suggests that they consider a lack of emotional response as unusual or undesirable. Therefore, the sentiment expressed in this text can be classified as **positive**. However, it's important to note that interpreting sentiment from text can sometimes be complex and subjective, as different people may have varying interpretations based on their own experiences and perspectives.",
+                    "pred": -1,
+                    "label": 1
+                },
+                "29": {
+                    "content": "this is human comedy at its most amusing , interesting and confirming . ",
+                    "response": " ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "30": {
+                    "content": "the film 's hackneyed message is not helped by the thin characterizations , nonexistent plot and pretentious visual style . ",
+                    "response": "##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "score": 0.6666666666666666
+            },
+            "prompt_mean_score": 0.6666666666666666
+        },
+        "3": {
+            "prompt": "Analyze the sentiment of this text:\n\n{content}\n\nIs it positive or negative?\nOutput your answer as ##positive or ##negative",
+            "results_1": {
+                "1": {
+                    "content": "a science-fiction pastiche so lacking in originality that if you stripped away its inspirations there would be precious little left . ",
+                    "response": "##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "2": {
+                    "content": "it haunts you , you ca n't forget it , you admire its conception and are able to resolve some of the confusions you had while watching it . ",
+                    "response": "##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "3": {
+                    "content": "if there 's one thing this world needs less of , it 's movies about college that are written and directed by people who could n't pass an entrance exam . ",
+                    "response": "##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "4": {
+                    "content": "one of the more intelligent children 's movies to hit theaters this year . ",
+                    "response": "##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "5": {
+                    "content": "it provides an honest look at a community striving to anchor itself in new grounds . ",
+                    "response": "##Positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "6": {
+                    "content": "it 's one of those baseball pictures where the hero is stoic , the wife is patient , the kids are as cute as all get-out and the odds against success are long enough to intimidate , but short enough to make a dream seem possible . ",
+                    "response": "##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "7": {
+                    "content": "chokes on its own depiction of upper-crust decorum . ",
+                    "response": "##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "8": {
+                    "content": "the film will play equally well on both the standard and giant screens . ",
+                    "response": "##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "9": {
+                    "content": "nicks , seemingly uncertain what 's going to make people laugh , runs the gamut from stale parody to raunchy sex gags to formula romantic comedy . ",
+                    "response": "##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "10": {
+                    "content": "what better message than ` love thyself ' could young women of any size receive ? ",
+                    "response": "##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "11": {
+                    "content": "sustains its dreamlike glide through a succession of cheesy coincidences and voluptuous cheap effects , not the least of which is rebecca romijn-stamos . ",
+                    "response": "##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "12": {
+                    "content": "may be far from the best of the series , but it 's assured , wonderfully respectful of its past and thrilling enough to make it abundantly clear that this movie phenomenon has once again reinvented itself for a new generation . ",
+                    "response": "##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "13": {
+                    "content": "although german cooking does not come readily to mind when considering the world 's best cuisine , mostly martha could make deutchland a popular destination for hungry tourists . ",
+                    "response": "##Neutral\n\nThe text acknowledges that German cooking may not be immediately associated with the world's best cuisines, but it also suggests that if Martha could cook German food, Germany could become popular among tourists. The sentiment is neutral because it presents a fact (German cooking is not typically considered the best) and a hypothetical situation (if Martha cooked well). It does not express an overall positive or negative opinion about German cuisine or Martha's cooking abilities.",
+                    "pred": -1,
+                    "label": 1
+                },
+                "14": {
+                    "content": "we know the plot 's a little crazy , but it held my interest from start to finish . ",
+                    "response": "##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "15": {
+                    "content": "vera 's technical prowess ends up selling his film short ; he smoothes over hard truths even as he uncovers them . ",
+                    "response": "##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "16": {
+                    "content": "coughs and sputters on its own postmodern conceit . ",
+                    "response": "##neutral",
+                    "pred": -1,
+                    "label": 0
+                },
+                "17": {
+                    "content": "a gorgeous , witty , seductive movie . ",
+                    "response": "##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "18": {
+                    "content": "thanks to scott 's charismatic roger and eisenberg 's sweet nephew , roger dodger is one of the most compelling variations on in the company of men . ",
+                    "response": "##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "19": {
+                    "content": "this riveting world war ii moral suspense story deals with the shadow side of american culture : racial prejudice in its ugly and diverse forms . ",
+                    "response": "##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "20": {
+                    "content": "corny , schmaltzy and predictable , but still manages to be kind of heartwarming , nonetheless . ",
+                    "response": "##neutral (slightly positive)\n\nThe text acknowledges that the content is corny, schmaltzy, and predictable, which are generally negative qualities. However, it also mentions that despite these flaws, it still manages to be heartwarming. This suggests a mixed sentiment where the content may not be great in terms of quality but still has some redeeming qualities.",
+                    "pred": -1,
+                    "label": 1
+                },
+                "21": {
+                    "content": "an occasionally funny , but overall limp , fish-out-of-water story . ",
+                    "response": "##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "22": {
+                    "content": "not far beneath the surface , this reconfigured tale asks disturbing questions about those things we expect from military epics . ",
+                    "response": "##negative",
+                    "pred": 0,
+                    "label": 1
+                },
+                "23": {
+                    "content": "there 's really only one good idea in this movie , but the director runs with it and presents it with an unforgettable visual panache . ",
+                    "response": "##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "24": {
+                    "content": "it 's an offbeat treat that pokes fun at the democratic exercise while also examining its significance for those who take part . ",
+                    "response": "##Neutral\n\nThe text seems to be neither purely positive nor negative. It describes a work (an \"offbeat treat\") that both pokes fun at and examines the democratic exercise, suggesting a critical yet playful perspective. This ambiguity prevents us from definitively labeling it as either positive or negative.",
+                    "pred": -1,
+                    "label": 1
+                },
+                "25": {
+                    "content": "a broad , melodramatic estrogen opera that 's pretty toxic in its own right . ",
+                    "response": "##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "26": {
+                    "content": "bad . ",
+                    "response": "##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "27": {
+                    "content": "the man from elysian fields is a cold , bliss-less work that groans along thinking itself some important comment on how life throws us some beguiling curves . ",
+                    "response": "##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "28": {
+                    "content": "and if you 're not nearly moved to tears by a couple of scenes , you 've got ice water in your veins . ",
+                    "response": "##neutral",
+                    "pred": -1,
+                    "label": 1
+                },
+                "29": {
+                    "content": "this is human comedy at its most amusing , interesting and confirming . ",
+                    "response": "##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "30": {
+                    "content": "the film 's hackneyed message is not helped by the thin characterizations , nonexistent plot and pretentious visual style . ",
+                    "response": "##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "score": 0.8
+            },
+            "prompt_mean_score": 0.8
+        }
+    },
+    "architecture_mean_score": 0.6999999999999998,
+    "architecture_median_score": 0.6666666666666666,
+    "architecture_std_dev": 0.0720082299823096
+}

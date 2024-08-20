@@ -1,0 +1,568 @@
+{
+    "results": {
+        "1": {
+            "prompt": "Classify the sentiment of the following text as either positive or negative, considering the nuances and context of the sentiment expressed. Follow these steps:\n\n1. Identify and list the aspects mentioned in the text.\n2. Evaluate the sentiment of each aspect, considering the context and nuances of the language used. For example, words like \"okay\" or \"fine\" might be neutral but can lean positive or negative based on context. Pay special attention to the intensity of sentiment words (e.g., \"terrible\" is stronger than \"bad\").\n3. Grade the sentiment of each aspect as positive, negative, or neutral. If an aspect is neutral, consider whether it leans positive or negative based on context.\n4. Determine how these aspects contribute to the overall sentiment by weighing the number and intensity of positive and negative sentiments. Note that strong negative sentiments might outweigh multiple mild positive sentiments. Use a scale to balance sentiments, for example:\n   - Strong Positive: +2\n   - Mild Positive: +1\n   - Neutral: 0\n   - Mild Negative: -1\n   - Strong Negative: -2\n5. Consider the overall balance of sentiments before making the final decision. If the total score is positive, classify the sentiment as positive; if negative, classify it as negative.\n6. Output your answer at the end as ##positive or ##negative with no spaces.\n\nExample:\nText: \"The food was delicious, but the service was terrible.\"\nAspects: \n- Food: Positive (delicious) +2\n- Service: Negative (terrible) -2\nOverall Sentiment: ##negative (due to the strong negative sentiment of the service)\n\n{content}\n\nPlease assess the level of positivity or negativity before making a decision.\nOutput your answer at the end as ##positive or ##negative with no spaces.",
+            "results_1": {
+                "1": {
+                    "content": "it haunts you , you ca n't forget it , you admire its conception and are able to resolve some of the confusions you had while watching it . ",
+                    "response": "1. Aspects: Movie (conception, confusion resolution)\n2. Sentiment Evaluation:\n   - Movie Conception: Positive (admire its conception) +1\n   - Confusion Resolution: Positive (able to resolve some of the confusions) +1\n3. Grading: Both aspects are positive but the sentiment is not strong, so let's consider them as mildly positive (+1).\n4. Overall Sentiment: The total score is 2 (1+1), which indicates a slightly positive sentiment. However, since the text also mentions that it haunts and cannot be forgotten, there might be an underlying negative sentiment associated with this aspect. To account for this, let's assign a neutral value (-0) to the haunting aspect.\n5. Balanced Sentiment: The total score is now 2 (1+1-0), which still indicates a slightly positive sentiment. However, considering that the text mentions both positive and negative aspects, it might be more appropriate to classify this as neither purely positive nor negative but rather ambiguous or mixed.\n6. Output: ##ambiguous",
+                    "pred": -1,
+                    "label": 1
+                },
+                "2": {
+                    "content": "chokes on its own depiction of upper-crust decorum . ",
+                    "response": "1. Aspect: Depiction of upper-crust decorum\n2. Sentiment: Negative (chokes) -1\n3. Grade: Mild Negative (-1)\n4. Overall, there is only one aspect mentioned in the text, and it leans negative. However, the word \"mild\" suggests that the negativity is not very strong.\n5. Total Score: -1 (Mild Negative)\n6. ##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "3": {
+                    "content": "nicks , seemingly uncertain what 's going to make people laugh , runs the gamut from stale parody to raunchy sex gags to formula romantic comedy . ",
+                    "response": "1. Comedy style: Range (stale parody, raunchy sex gags, formula romantic comedy)\n\n2. Sentiment evaluation:\n   - Stale parody: Negative (seemingly uncertain) -1\n   - Raunchy sex gags: Neutral (no sentiment expressed in the text) 0\n   - Formula romantic comedy: Neutral (no sentiment expressed in the text) 0\n\n3. Grading of sentiments:\n   - Stale parody: Negative (-1)\n   - Raunchy sex gags, formula romantic comedy: Neutral (0)\n\n4. Overall Sentiment calculation:\n   - Stale parody: -1 (Negative)\n\n5. Considering the overall balance of sentiments, the text leans negative due to the presence of a negative sentiment.\n\nOutput your answer: ##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "4": {
+                    "content": "the film will play equally well on both the standard and giant screens . ",
+                    "response": "1. Aspect: Film Playback Quality\n    - Sentiment: Neutral (will play well) +0\n\nThe text does not express any strong positive or negative sentiment about the film's playback quality on either standard or giant screens. It simply states that it will play equally well, which is a neutral statement. Therefore, the overall sentiment is neutral.\n\n##neutral",
+                    "pred": -1,
+                    "label": 1
+                },
+                "5": {
+                    "content": "one of the more intelligent children 's movies to hit theaters this year . ",
+                    "response": "1. Aspect: Movie\n2. Sentiment: Positive (intelligent, one of the more) +1\n3. Overall Sentiment: The text does not provide enough information to determine a clear sentiment. However, since the word \"intelligent\" is used in a positive context, it leans towards a positive sentiment. Therefore, I would classify it as slightly positive.\n4. Output your answer: ##slightly positive",
+                    "pred": -1,
+                    "label": 1
+                },
+                "6": {
+                    "content": "it provides an honest look at a community striving to anchor itself in new grounds . ",
+                    "response": "1. Community: Neutral (not specified as positive, negative, or struggling)\n2. Striving to anchor itself in new grounds: Neutral (implies effort and struggle, but not necessarily positive or negative)\n3. Community: Neutral (leaning slightly positive due to the word \"honest\")\n4. Striving to anchor itself in new grounds: Neutral (leaning slightly positive due to the word \"honest\")\n5. Overall Sentiment: ##neutral (due to the balance of neutral sentiments)",
+                    "pred": -1,
+                    "label": 1
+                },
+                "7": {
+                    "content": "if there 's one thing this world needs less of , it 's movies about college that are written and directed by people who could n't pass an entrance exam . ",
+                    "response": "1. Aspect: Movies about college\n   - Sentiment: Negative (couldn't pass an entrance exam) -2\n2. Aspect: People who write and direct these movies\n   - Sentiment: Negative (implication of incompetence) -2\n3. Overall Sentiment: ##negative (due to the strong negative sentiment towards movies about college and the people who create them)",
+                    "pred": 0,
+                    "label": 0
+                },
+                "8": {
+                    "content": "what better message than ` love thyself ' could young women of any size receive ? ",
+                    "response": "1. Message: Positive (love thyself)\n2. The sentiment expressed in this message is positive, encouraging self-love and acceptance.\n3. Message: Positive (+2)\n4. Since there's only one aspect mentioned, and it has a strong positive sentiment, the overall sentiment is determined by this single aspect.\n5. Overall Sentiment: ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "9": {
+                    "content": "it 's one of those baseball pictures where the hero is stoic , the wife is patient , the kids are as cute as all get-out and the odds against success are long enough to intimidate , but short enough to make a dream seem possible . ",
+                    "response": "1. Aspects mentioned:\n   - Baseball picture\n   - Hero's stoicism\n   - Wife's patience\n   - Kids' cuteness\n   - Odds against success\n   - Dream of success\n\n2. Sentiment evaluation:\n   - Baseball picture: Neutral (no sentiment expressed)\n   - Hero's stoicism: Neutral (neutral description)\n   - Wife's patience: Positive (patient is often associated with perseverance and resilience)\n   - Kids' cuteness: Positive (cute implies endearing or appealing)\n   - Odds against success: Negative (long odds suggest a challenging situation)\n   - Dream of success: Neutral (dream can be seen as positive or negative depending on the context, but here it seems more hopeful)\n\n3. Sentiment grading:\n   - Wife's patience: +1 (mildly positive)\n   - Kids' cuteness: +1 (mildly positive)\n   - Odds against success: -1 (mildly negative)\n   - Dream of success: 0 (neutral)\n\n4. Overall sentiment calculation:\n   - Total score: (+1) + (+1) - (+1) = 1\n\n5. Considering the overall balance of sentiments, the text leans slightly positive. However, it also acknowledges the challenges and obstacles that come with pursuing a dream, which might make some readers feel a mix of emotions rather than pure positivity.\n\n6. Output: ##slightly_positive (to reflect the nuanced sentiment expressed in the text)",
+                    "pred": -1,
+                    "label": 1
+                },
+                "10": {
+                    "content": "a science-fiction pastiche so lacking in originality that if you stripped away its inspirations there would be precious little left . ",
+                    "response": "1. Aspect: Writing style (pastiche)\n   - Sentiment: Negative (lacking in originality) -1\n2. Aspect: Inspiration (if stripped away, little left)\n   - Sentiment: Negative (-)\n3. Overall Sentiment: The negative sentiment of the writing style outweighs the neutral sentiment about the inspiration, as it contributes more to the overall assessment.\n4. Output your answer: ##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "11": {
+                    "content": "sustains its dreamlike glide through a succession of cheesy coincidences and voluptuous cheap effects , not the least of which is rebecca romijn-stamos . ",
+                    "response": "1. Aspects: Movie (implied), Cheesy coincidences, Voluptuous cheap effects, Rebecca Romijn-Stamos\n2. Sentiment of each aspect:\n   - Movie (implied): Neutral (no explicit sentiment expressed)\n   - Cheesy coincidences and voluptuous cheap effects: Mild Negative (cheap implies low quality, but the use of \"voluptuous\" might suggest some level of enjoyment or appreciation)\n   - Rebecca Romijn-Stamos: Neutral (no explicit sentiment expressed)\n3. Grade each aspect:\n   - Movie (implied): 0\n   - Cheesy coincidences and voluptuous cheap effects: -1\n   - Rebecca Romijn-Stamos: 0\n4. Overall Sentiment: The negative sentiment of the cheesy coincidences and cheap effects slightly outweighs the neutral sentiments, but there is no strong positive or negative sentiment expressed about the movie itself. Therefore, it's difficult to definitively classify the overall sentiment as either positive or negative based on the provided text.\n5. Output: ##neutral (due to the balanced and nuanced sentiment expressed)",
+                    "pred": -1,
+                    "label": 0
+                },
+                "12": {
+                    "content": "may be far from the best of the series , but it 's assured , wonderfully respectful of its past and thrilling enough to make it abundantly clear that this movie phenomenon has once again reinvented itself for a new generation . ",
+                    "response": "1. Movie: Neutral (not explicitly stated as good or bad)\n2. Quality compared to the series: Mild Negative (-1, \"far from the best of the series\")\n3. Assurance and respectfulness: Positive (+1, \"assured\" and \"wonderfully respectful\")\n4. Thrilling nature: Positive (+1, \"thrilling enough\")\n5. Overall Sentiment: The mild negative sentiment about the quality compared to the series is outweighed by the positive sentiments about assurance, respectfulness, and thrill. However, the text does not express a strong positive sentiment overall.\n6. Output your answer: ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "13": {
+                    "content": "although german cooking does not come readily to mind when considering the world 's best cuisine , mostly martha could make deutchland a popular destination for hungry tourists . ",
+                    "response": "1. Aspects: German Cooking, Martha's ability to make Germany a popular tourist destination for food.\n2. Sentiment Evaluation:\n   - German Cooking: Neutral (does not come readily to mind when considering the world's best cuisine)\n   - Martha's ability to make Germany a popular tourist destination: Positive (could make Deutschland a popular destination for hungry tourists)\n3. Sentiment Grading:\n   - German Cooking: 0 (Neutral)\n   - Martha's ability to make Germany a popular tourist destination: +1 (Positive)\n4. Overall Sentiment: The text leans slightly positive due to the mildly positive sentiment about Martha's potential impact on making Germany a popular food destination, but it is balanced by the neutral sentiment about German cooking not being readily associated with the world's best cuisine.\n5. Output: ##slightly positive",
+                    "pred": -1,
+                    "label": 1
+                },
+                "14": {
+                    "content": "we know the plot 's a little crazy , but it held my interest from start to finish . ",
+                    "response": "1. Plot: Mentioned, with sentiment expressed as \"a little crazy\" (neutral), but also held interest (positive).\n2. Sentiment of each aspect:\n   - Plot: Neutral leaning slightly positive due to the interest it held.\n3. Grade the sentiment of each aspect:\n   - Plot: 0 (Neutral, leaning slightly positive)\n4. Determine how these aspects contribute to the overall sentiment:\n   - Strong Positive: +0\n   - Mild Positive: +1 (for holding interest)\n   - Neutral: 0\n   - Mild Negative: 0 (for being a little crazy, but this is neutralized by the positive aspect of holding interest)\n5. Consider the overall balance of sentiments: The total score is +1 (1 mild positive sentiment).\n6. Output your answer: ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "15": {
+                    "content": "vera 's technical prowess ends up selling his film short ; he smoothes over hard truths even as he uncovers them . ",
+                    "response": "1. Aspect: Vera's technical prowess\n   - Sentiment: Neutral (ends up selling his film short) +0 (leaning slightly negative due to the phrase \"selling his film short\")\n2. Aspect: Smoothing over hard truths\n   - Sentiment: Negative (-1)\n3. Aspect: Uncovering hard truths\n   - Sentiment: Neutral (uncovers them) +0\n4. Overall, there is one mild negative sentiment and no positive sentiments. The total score is -1.\n5. ##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "16": {
+                    "content": "coughs and sputters on its own postmodern conceit . ",
+                    "response": "1. Aspect: Writing style (postmodern conceit)\n2. Sentiment: Neutral, leaning slightly negative due to the use of the term \"coughs and sputters,\" which suggests a critical or dismissive tone.\n3. Grade: 0 (-1 for the slight negativity, but balanced by the neutrality)\n\nThe text does not provide enough information to determine an overall sentiment based on the balance of sentiments. The writing style is neutral or slightly negative, but it does not express a clear positive or negative opinion about anything specific. Therefore, I cannot classify the sentiment as either ##positive or ##negative.",
+                    "pred": 1,
+                    "label": 0
+                },
+                "17": {
+                    "content": "a gorgeous , witty , seductive movie . ",
+                    "response": "1. Aspects: Movie (gorgeous, witty, seductive)\n2. Sentiment Evaluation:\n   - Gorgeous: Positive (implies beauty and attractiveness) +2\n   - Witty: Positive (implies intelligence and humor) +1\n   - Seductive: Neutral (can be positive or negative depending on context, but in this case it seems to have a positive connotation) +0\n3. Sentiment Grade:\n   - Gorgeous: Strongly Positive (+2)\n   - Witty: Mildly Positive (+1)\n   - Seductive: Neutral (0)\n4. Overall Sentiment Contribution: The movie is described as gorgeous, witty, and seductive, with two strong positive sentiments and one neutral sentiment. However, the intensity of the positive sentiments outweighs the neutral sentiment.\n5. Considering the overall balance of sentiments, the total score is +3 (2 for gorgeous and 1 for witty). Since the total score is positive, classify the sentiment as ##positive.",
+                    "pred": 1,
+                    "label": 1
+                },
+                "18": {
+                    "content": "thanks to scott 's charismatic roger and eisenberg 's sweet nephew , roger dodger is one of the most compelling variations on in the company of men . ",
+                    "response": "1. Aspects:\n   - Scott's charismatic Roger\n   - Eisenberg's sweet nephew (implied character in \"Roger Dodger\")\n   - Movie \"Roger Dodger\"\n\n2. Sentiment of each aspect:\n   - Scott's charismatic Roger: Positive (charismatic) +1\n   - Eisenberg's sweet nephew: Neutral (implied positive sentiment, but no explicit sentiment expressed) 0\n   - Movie \"Roger Dodger\": Positive (compelling variation on a theme) +1\n\n3. Grading the sentiment of each aspect:\n   - Scott's charismatic Roger: Positive (+1)\n   - Eisenberg's sweet nephew: Neutral (0)\n   - Movie \"Roger Dodger\": Positive (+1)\n\n4. Determining overall sentiment:\n   - Scott's charismatic Roger: +1\n   - Eisenberg's sweet nephew: 0\n   - Movie \"Roger Dodger\": +1\n   - Total score: +2 (two positive sentiments with a neutral one)\n\n5. Outputting the answer: ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "19": {
+                    "content": "this riveting world war ii moral suspense story deals with the shadow side of american culture : racial prejudice in its ugly and diverse forms . ",
+                    "response": "1. Aspects: World War II moral suspense story, American culture, racial prejudice\n2. Sentiment of each aspect:\n   - World War II moral suspense story: Neutral (riveting)\n   - American culture: Neutral (deals with)\n   - Racial prejudice: Negative (ugly and diverse forms)\n3. Grade the sentiment of each aspect:\n   - World War II moral suspense story: 0 (Neutral)\n   - American culture: 0 (Neutral)\n   - Racial prejudice: -1 (Negative, mild)\n4. Consider the overall balance of sentiments:\n   - World War II moral suspense story: +0\n   - American culture: +0\n   - Racial prejudice: -1\n5. Overall Sentiment: ##negative (due to the negative sentiment associated with racial prejudice)",
+                    "pred": 0,
+                    "label": 0
+                },
+                "20": {
+                    "content": "corny , schmaltzy and predictable , but still manages to be kind of heartwarming , nonetheless . ",
+                    "response": "1. Aspects: Movie (or story)\n2. Sentiment of each aspect: Corny, schmaltzy and predictable - Negative (these words suggest something is overly sentimental, clich\u00e9d, and unoriginal); Kind of heartwarming - Neutral leaning slightly positive (indicates a warm or affectionate feeling, but the word \"kind of\" suggests it's not overwhelmingly so)\n3. Grade of each aspect: Corny, schmaltzy and predictable - Negative (-1) ; Kind of heartwarming - Neutral leaning slightly positive (0)\n4. Overall Sentiment: The negative sentiment of the movie being corny, schmaltzy, and predictable outweighs the mildly positive sentiment of it still managing to be kind of heartwarming.\n5. Output your answer: ##negative",
+                    "pred": 0,
+                    "label": 1
+                },
+                "21": {
+                    "content": "an occasionally funny , but overall limp , fish-out-of-water story . ",
+                    "response": "1. Story: Occasionally funny, overall limp (neutral leaning slightly positive)\n\n2. Funny: Positive (occasionally) +1\n3. Limp: Neutral leaning slightly positive (context suggests a lack of excitement rather than dislike) +0.5\n4. Overall Sentiment: The positive sentiment is mild and outweighed by the neutral leaning slightly positive aspect, resulting in a balanced sentiment.\n5. Output your answer: ##neutral",
+                    "pred": -1,
+                    "label": 0
+                },
+                "22": {
+                    "content": "not far beneath the surface , this reconfigured tale asks disturbing questions about those things we expect from military epics . ",
+                    "response": "1. Aspect: Story/Tale\n   - Sentiment: Negative (disturbing)\n   - Grade: -1 (Mild Negative)\n2. Aspect: Expectations from Military Epics\n   - Sentiment: Neutral (asks questions about expectations)\n   - Grade: 0 (Neutral)\n\nOverall, the text leans towards a negative sentiment due to the disturbing nature of the story/tale. However, since it also raises questions about our expectations from military epics, which can be seen as neutral, the overall sentiment is not entirely negative.\n\nOutput: ##neutral",
+                    "pred": -1,
+                    "label": 1
+                },
+                "23": {
+                    "content": "there 's really only one good idea in this movie , but the director runs with it and presents it with an unforgettable visual panache . ",
+                    "response": "1. Movie Idea: Neutral (not explicitly stated as good or bad)\n2. Presentation of the idea: Positive (unforgettable visual panache) +1\n3. Overall Sentiment: The neutral aspect leans slightly positive due to the positive sentiment expressed about the presentation of the idea. However, since there is only one mildly positive sentiment and no negative sentiments, it's difficult to definitively classify the overall sentiment without more context.\n4. Output your answer: ##neutral (due to the balanced number and intensity of sentiments)",
+                    "pred": -1,
+                    "label": 1
+                },
+                "24": {
+                    "content": "it 's an offbeat treat that pokes fun at the democratic exercise while also examining its significance for those who take part . ",
+                    "response": "1. Aspect: Treat (offbeat)\n   - Sentiment: Neutral, leaning slightly positive due to the word \"treat\"\n   - Grade: +0.5\n2. Aspect: Humor (pokes fun at democratic exercise)\n   - Sentiment: Positive, as humor is generally seen as a positive aspect\n   - Grade: +1\n3. Aspect: Significance of democratic exercise for participants (examining its significance)\n   - Sentiment: Neutral, as the text does not express any strong sentiment about this aspect\n   - Grade: 0\n4. Overall Sentiment: The positive sentiment from humor outweighs the slightly positive sentiment from the treat, making the overall sentiment lean towards positive.\n5. Output your answer: ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "25": {
+                    "content": "a broad , melodramatic estrogen opera that 's pretty toxic in its own right . ",
+                    "response": "1. Aspect: Play (broad, melodramatic estrogen opera)\n   - Sentiment: Negative (toxic in its own right)\n   - Grade: -1 (Mild Negative)\n\n2. No other aspects are explicitly mentioned in the text.\n\n3. Overall, there is only one aspect mentioned and it has a negative sentiment.\n\n4. Total Sentiment Score: -1 (Mild Negative)\n\n5. Considering the balance of sentiments, the overall sentiment expressed in the text is ##negative.",
+                    "pred": 0,
+                    "label": 0
+                },
+                "26": {
+                    "content": "bad . ",
+                    "response": "1. Aspects mentioned in the text: Weather (rainy)\n2. Evaluation of sentiment for each aspect: The word \"bad\" is negative, but it doesn't specify the intensity of the sentiment. In this context, it can be considered as a mild negative.\n3. Grade of sentiment for each aspect: Mild Negative (-1)\n4. Overall Sentiment: Since there is only one aspect mentioned and it has a mild negative sentiment, the overall sentiment is ##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "27": {
+                    "content": "the man from elysian fields is a cold , bliss-less work that groans along thinking itself some important comment on how life throws us some beguiling curves . ",
+                    "response": "1. Aspects: The man from Elysian Fields, the work itself (implied), life (implied)\n2. Sentiment of each aspect:\n   - The man from Elysian Fields: Neutral (no explicit sentiment expressed)\n   - The work: Negative (cold, bliss-less, groans along)\n   - Life: Implied negativity (throws us some beguiling curves)\n3. Grade the sentiment of each aspect:\n   - The man from Elysian Fields: 0 (Neutral)\n   - The work: -1 (Mild Negative)\n   - Life: -1 (Mild Negative)\n4. Overall Sentiment: The total score is (-1 + -1) = -2. Since the total score is negative, classify the sentiment as ##negative.",
+                    "pred": 0,
+                    "label": 0
+                },
+                "28": {
+                    "content": "and if you 're not nearly moved to tears by a couple of scenes , you 've got ice water in your veins . ",
+                    "response": "1. Aspect: Emotional Response to Movie Scenes\n2. Sentiment: Negative (not nearly moved to tears) -1\n3. Grade: Mild Negative (-1)\n4. Overall, there is a single mild negative sentiment expressed in the text, which outweighs any potential positive sentiments that might be implied by not having ice water in one's veins.\n5. ##negative",
+                    "pred": 0,
+                    "label": 1
+                },
+                "29": {
+                    "content": "this is human comedy at its most amusing , interesting and confirming . ",
+                    "response": "1. Aspects: Comedy (human comedy)\n2. Sentiment: Positive (amusing, interesting, confirming)\n3. Grade: +2 (Strong Positive)\n4. Overall Sentiment: ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "30": {
+                    "content": "the film 's hackneyed message is not helped by the thin characterizations , nonexistent plot and pretentious visual style . ",
+                    "response": "1. Film: Aspects mentioned are message, characterizations, plot, and visual style.\n2. Message: Not specified (assumed to be negative due to the use of \"hackneyed\").\n3. Characterizations: Negative (thin).\n4. Plot: Negative (nonexistent).\n5. Visual Style: Negative (pretentious).\n6. Overall Sentiment: ##negative (due to the strong negative sentiments expressed towards the message, characterizations, plot, and visual style)",
+                    "pred": 0,
+                    "label": 0
+                },
+                "score": 0.5666666666666667
+            },
+            "prompt_mean_score": 0.5666666666666667
+        },
+        "2": {
+            "prompt": "Classify the sentiment of the following text as either positive or negative. Evaluate key aspects, including emotional impact, emotive language, lexical choices, context, and overall tone, to determine the overall sentiment. Positive sentiment typically includes language that conveys happiness, satisfaction, or approval, while negative sentiment includes language that conveys sadness, dissatisfaction, or disapproval. Output your answer as ##positive or ##negative with no spaces: {content}",
+            "results_1": {
+                "1": {
+                    "content": "a science-fiction pastiche so lacking in originality that if you stripped away its inspirations there would be precious little left . ",
+                    "response": "##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "2": {
+                    "content": "it haunts you , you ca n't forget it , you admire its conception and are able to resolve some of the confusions you had while watching it . ",
+                    "response": "##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "3": {
+                    "content": "if there 's one thing this world needs less of , it 's movies about college that are written and directed by people who could n't pass an entrance exam . ",
+                    "response": "##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "4": {
+                    "content": "chokes on its own depiction of upper-crust decorum . ",
+                    "response": "##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "5": {
+                    "content": "nicks , seemingly uncertain what 's going to make people laugh , runs the gamut from stale parody to raunchy sex gags to formula romantic comedy . ",
+                    "response": "##neutral\n\nThe text seems to be more descriptive and analytical rather than expressing a clear positive or negative sentiment. The author is describing the range of Nick's comedic styles, which can be seen as both positive (diverse) and negative (stale, raunchy). However, without an explicit emotional expression or evaluation from the author, it's challenging to classify this text as either positive or negative.",
+                    "pred": -1,
+                    "label": 0
+                },
+                "6": {
+                    "content": "what better message than ` love thyself ' could young women of any size receive ? ",
+                    "response": "##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "7": {
+                    "content": "the film will play equally well on both the standard and giant screens . ",
+                    "response": "##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "8": {
+                    "content": "it provides an honest look at a community striving to anchor itself in new grounds . ",
+                    "response": "##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "9": {
+                    "content": "one of the more intelligent children 's movies to hit theaters this year . ",
+                    "response": "##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "10": {
+                    "content": "it 's one of those baseball pictures where the hero is stoic , the wife is patient , the kids are as cute as all get-out and the odds against success are long enough to intimidate , but short enough to make a dream seem possible . ",
+                    "response": "##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "11": {
+                    "content": "sustains its dreamlike glide through a succession of cheesy coincidences and voluptuous cheap effects , not the least of which is rebecca romijn-stamos . ",
+                    "response": "##positive",
+                    "pred": 1,
+                    "label": 0
+                },
+                "12": {
+                    "content": "may be far from the best of the series , but it 's assured , wonderfully respectful of its past and thrilling enough to make it abundantly clear that this movie phenomenon has once again reinvented itself for a new generation . ",
+                    "response": "##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "13": {
+                    "content": "although german cooking does not come readily to mind when considering the world 's best cuisine , mostly martha could make deutchland a popular destination for hungry tourists . ",
+                    "response": "##Positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "14": {
+                    "content": "we know the plot 's a little crazy , but it held my interest from start to finish . ",
+                    "response": "##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "15": {
+                    "content": "vera 's technical prowess ends up selling his film short ; he smoothes over hard truths even as he uncovers them . ",
+                    "response": "##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "16": {
+                    "content": "coughs and sputters on its own postmodern conceit . ",
+                    "response": "##neutral\n\nThe text you provided seems to be more of a commentary or critique about a piece of work (postmodern conceit), rather than expressing an emotional state. It doesn't contain clear language that conveys happiness, satisfaction, approval, sadness, dissatisfaction, or disapproval. The overall tone is analytical and critical, but not necessarily positive or negative in the traditional sense.",
+                    "pred": -1,
+                    "label": 0
+                },
+                "17": {
+                    "content": "a gorgeous , witty , seductive movie . ",
+                    "response": "##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "18": {
+                    "content": "thanks to scott 's charismatic roger and eisenberg 's sweet nephew , roger dodger is one of the most compelling variations on in the company of men . ",
+                    "response": "##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "19": {
+                    "content": "this riveting world war ii moral suspense story deals with the shadow side of american culture : racial prejudice in its ugly and diverse forms . ",
+                    "response": "##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "20": {
+                    "content": "corny , schmaltzy and predictable , but still manages to be kind of heartwarming , nonetheless . ",
+                    "response": "##Positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "21": {
+                    "content": "an occasionally funny , but overall limp , fish-out-of-water story . ",
+                    "response": "##neutral\n\nThe text seems to have a mix of positive and negative sentiments. The use of \"occasionally funny\" suggests some enjoyment, while \"overall limp\" indicates a lack of enthusiasm or energy. The term \"fish-out-of-water story\" can be interpreted as a metaphor for an unusual or awkward situation, which could be seen as both positive (interesting or unique) and negative (awkward or uncomfortable). Without more context about the specific story being referred to, it's challenging to definitively classify the sentiment as either positive or negative.",
+                    "pred": -1,
+                    "label": 0
+                },
+                "22": {
+                    "content": "not far beneath the surface , this reconfigured tale asks disturbing questions about those things we expect from military epics . ",
+                    "response": "##neutral\n\nThe text seems to have a neutral sentiment overall. It expresses curiosity and questioning, but does not explicitly convey happiness, satisfaction, or approval (positive sentiment), nor sadness, dissatisfaction, or disapproval (negative sentiment). The emotional impact is ambiguous as it raises questions without providing an immediate answer or emotional response. The emotive language used is somewhat restrained, focusing more on the intellectual aspect of questioning rather than expressing strong emotions. The lexical choices suggest a thoughtful and analytical approach to the subject matter, which contributes to the neutral tone. However, the context suggests that the text may be discussing a military epic in a critical or challenging way, which could potentially lean towards a negative sentiment if one were to interpret the \"disturbing questions\" as criticism or disapproval. But without further context or explicit emotional language, it is difficult to definitively classify this text as either positive or negative.",
+                    "pred": -1,
+                    "label": 1
+                },
+                "23": {
+                    "content": "there 's really only one good idea in this movie , but the director runs with it and presents it with an unforgettable visual panache . ",
+                    "response": "##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "24": {
+                    "content": "it 's an offbeat treat that pokes fun at the democratic exercise while also examining its significance for those who take part . ",
+                    "response": "##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "25": {
+                    "content": "a broad , melodramatic estrogen opera that 's pretty toxic in its own right . ",
+                    "response": "##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "26": {
+                    "content": "bad . ",
+                    "response": "##negative\n\nEmotional impact: The word \"bad\" suggests a negative emotional state or experience.\n\nEmotive language: The use of the word \"bad\" is direct and straightforward, indicating a clear negative sentiment.\n\nLexical choices: The choice of the word \"bad\" is significant in conveying a negative sentiment.\n\nContext: In this case, there is no specific context provided, but the word \"bad\" on its own implies a negative situation or feeling.\n\nOverall tone: The overall tone of the text is negative due to the use of the word \"bad.\"",
+                    "pred": 0,
+                    "label": 0
+                },
+                "27": {
+                    "content": "the man from elysian fields is a cold , bliss-less work that groans along thinking itself some important comment on how life throws us some beguiling curves . ",
+                    "response": "##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "28": {
+                    "content": "and if you 're not nearly moved to tears by a couple of scenes , you 've got ice water in your veins . ",
+                    "response": "##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "29": {
+                    "content": "this is human comedy at its most amusing , interesting and confirming . ",
+                    "response": "##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "30": {
+                    "content": "the film 's hackneyed message is not helped by the thin characterizations , nonexistent plot and pretentious visual style . ",
+                    "response": "##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "score": 0.8333333333333334
+            },
+            "prompt_mean_score": 0.8333333333333334
+        },
+        "3": {
+            "prompt": "Classify the sentiment of the following text as either positive or negative. Follow these steps:\n\n1. List all aspects mentioned.\n2. For each aspect, consider the emotional impact, emotive language, and lexical choices.\n3. Assign a sentiment score (1 to 5) to each aspect: 1 is very negative, 3 is neutral, and 5 is very positive.\n4. Average the scores to determine the overall sentiment.\n5. Output ##positive or ##negative with no spaces. Also, provide the overall sentiment score from 1 to 5.\n\nConsider the emotional impact, emotive language, and lexical choices in the text.\n\n{content}",
+            "results_1": {
+                "1": {
+                    "content": "a science-fiction pastiche so lacking in originality that if you stripped away its inspirations there would be precious little left . ",
+                    "response": "1. Originality of the work: 1 (Very negative)\n2. Quality of the work: 1 (Very negative)\n3. Inspiration sources: 5 (Very positive)\n4. Aggregate sentiment score: (1 + 5) / 2 = 2.5 (Neutral)\n\n##neutral (Overall Sentiment)",
+                    "pred": -1,
+                    "label": 0
+                },
+                "2": {
+                    "content": "it haunts you , you ca n't forget it , you admire its conception and are able to resolve some of the confusions you had while watching it . ",
+                    "response": "1. Haunting experience (negative) - The word \"haunts\" suggests an unpleasant or disturbing feeling, which is typically associated with a negative sentiment. Score: 1\n2. Unforgettable (neutral) - While being unforgettable can be seen as positive, in this context it's paired with the haunting experience, which makes it neutral. Score: 3\n3. Conception (positive) - The word \"admire\" indicates a positive sentiment towards the conception of the movie or event. Score: 5\n4. Resolution of confusion (positive) - Being able to resolve confusions is generally seen as a positive aspect, especially when watching a movie or experiencing something new. Score: 5\n5. Overall Sentiment Score: (1 + 3 + 5 + 5) / 4 = 3.25\n\nThe overall sentiment of the text is slightly positive with a score of 3.25. However, it's important to note that the haunting experience significantly impacts the overall sentiment in a negative direction. So, while there are positive aspects, the text leans more towards being neutral or slightly positive. ##slightly positive (3.25)",
+                    "pred": -1,
+                    "label": 1
+                },
+                "3": {
+                    "content": "if there 's one thing this world needs less of , it 's movies about college that are written and directed by people who could n't pass an entrance exam . ",
+                    "response": "1. Movies about college\n2. Quality of movies (negative sentiment) - The use of \"less\" indicates a desire for reduction, suggesting dissatisfaction with the current state. The phrase \"couldn't pass an entrance exam\" implies that the writer believes these individuals lack the necessary qualifications to create good college-themed movies.\n3. Sentiment score: 1 (very negative)\n4. People who write and direct movies about college (negative sentiment) - The use of \"people\" in a negative context, along with the derogatory statement about their educational background, indicates a negative sentiment towards these individuals.\n5. Sentiment score: 1 (very negative)\n6. Overall average sentiment score: (1+1)/2 = 1 (very negative)\n\nOutput: ##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "4": {
+                    "content": "nicks , seemingly uncertain what 's going to make people laugh , runs the gamut from stale parody to raunchy sex gags to formula romantic comedy . ",
+                    "response": "1. Comedy performance (Nick) - Sentiment score: 2 (The description suggests that Nick's performance is not consistently good, with elements ranging from unfunny to inappropriate.)\n2. Parody - Sentiment score: 2 (Parody can be positive or negative depending on its execution, but the word \"stale\" indicates it's not well-received here.)\n3. Sex gags - Sentiment score: 1 (The use of \"raunchy\" and the context suggest that these jokes are offensive or distasteful to some.)\n4. Formula romantic comedy - Sentiment score: 2 (Formulaic suggests predictability, which can be seen as negative in this context.)\n\nAverage sentiment score: (2 + 2 + 1 + 2) / 4 = 1.75\n\nOverall, the text is ##negative with an overall sentiment score of 1.75. The text expresses dissatisfaction or disappointment with Nick's comedy performance, particularly his use of sex gags and formulaic romantic comedy elements.",
+                    "pred": 0,
+                    "label": 0
+                },
+                "5": {
+                    "content": "it provides an honest look at a community striving to anchor itself in new grounds . ",
+                    "response": "1. Community: Striving to anchor itself in new grounds\n2. Sentiment score for \"Community\": 4 (The word \"striving\" suggests effort and determination, which is generally positive. The phrase \"anchoring itself\" implies stability and resilience, also positive.)\n\nSince there's only one aspect mentioned in the text, we can directly average the sentiment scores:\n\n(4) / 1 = 4\n\nOutput: ##positive with an overall sentiment score of 4.",
+                    "pred": 1,
+                    "label": 1
+                },
+                "6": {
+                    "content": "the film will play equally well on both the standard and giant screens . ",
+                    "response": "1. Film quality (aspects: screen compatibility)\n   - Emotional impact: Neutral\n   - Emotive language: None\n   - Lexical choices: \"play,\" \"standard,\" \"giant\"\n   - Sentiment score: 3 (Neutral)\n\nNo other aspects are mentioned in the text.\n\nAverage sentiment score: 3 (Neutral)\n\nOutput: ##neutral with an overall sentiment score of 3.",
+                    "pred": -1,
+                    "label": 1
+                },
+                "7": {
+                    "content": "it 's one of those baseball pictures where the hero is stoic , the wife is patient , the kids are as cute as all get-out and the odds against success are long enough to intimidate , but short enough to make a dream seem possible . ",
+                    "response": "1. Baseball picture (neutral)\n2. Hero's stoicism (slightly positive) - The word \"stoic\" implies resilience and determination, which can be seen as positive traits.\n3. Wife's patience (positive) - Patience is generally viewed as a desirable trait, especially in the context of supporting someone else's dreams.\n4. Cuteness of kids (very positive) - The phrase \"as cute as all get-out\" suggests extreme cuteness, which is often associated with positivity and affection.\n5. Odds against success (slightly negative) - While the long odds can be seen as a challenge, they are also balanced by the possibility of success, making this aspect slightly negative.\n6. Dream seem possible (slightly positive) - The possibility of achieving a dream is generally viewed as positive.\n\nAverage sentiment score: (1 + 3 + 5 + 3 + 3) / 5 = 3\n\nOverall sentiment: ##neutral",
+                    "pred": -1,
+                    "label": 1
+                },
+                "8": {
+                    "content": "chokes on its own depiction of upper-crust decorum . ",
+                    "response": "1. Depiction of upper-crust decorum: This aspect is criticized, indicating a negative sentiment. The use of \"chokes\" suggests discomfort or distaste, and the word \"depiction\" implies an evaluation of the portrayal as inauthentic or unappealing.\n2. No other aspects are mentioned in the text provided.\n\nAverage Sentiment Score: (1)\n\nOutput: ##negative with an overall sentiment score of 1.",
+                    "pred": 0,
+                    "label": 0
+                },
+                "9": {
+                    "content": "what better message than ` love thyself ' could young women of any size receive ? ",
+                    "response": "1. Message (`love thyself`) - This aspect is positive as it encourages self-love and acceptance, which are important for mental health and well-being. Sentiment score: 5\n2. Recipients (young women of any size) - The inclusion of all young women regardless of their size suggests inclusivity and positivity towards body diversity. Sentiment score: 5\n3. Comparison with other messages - The text implies that this message is superior to others, which can be seen as positive as it emphasizes the importance of self-love. Sentiment score: 4\n\nAverage sentiment score: (5 + 5 + 4) / 3 = 4.67\n\nOverall, the text is ##positive with a score of 4.67 out of 5. The message encourages self-love and acceptance, which are important for mental health and well-being, and it does so in an inclusive manner.",
+                    "pred": 1,
+                    "label": 1
+                },
+                "10": {
+                    "content": "one of the more intelligent children 's movies to hit theaters this year . ",
+                    "response": "1. Movie (One of the more intelligent)\n   - Emotional Impact: Positive (The use of \"intelligent\" suggests a positive aspect about the movie.)\n   - Emotive Language: None significant in this context.\n   - Lexical Choices: \"Intelligent\", \"movie\", \"theaters\", \"this year\".\n   - Sentiment Score: 5 (Very Positive)\n\nSince there is only one aspect mentioned and it has a very positive sentiment score, the overall sentiment of the text can be classified as ##positive with an overall sentiment score of 5.",
+                    "pred": 1,
+                    "label": 1
+                },
+                "11": {
+                    "content": "sustains its dreamlike glide through a succession of cheesy coincidences and voluptuous cheap effects , not the least of which is rebecca romijn-stamos . ",
+                    "response": "1. Dreamlike glide: This aspect seems to be described with a mix of positive (dreamlike) and negative (succession of cheesy coincidences, voluptuous cheap effects) connotations. The dreamlike quality might suggest a pleasant experience, but the other elements associated with it are not favorable. Sentiment score: 2.5\n2. Cheesy coincidences: This is clearly negative as it implies something contrived or unrealistic. Sentiment score: 1\n3. Voluptuous cheap effects: The word \"voluptuous\" could be interpreted as positive, but when combined with \"cheap,\" it suggests a lack of quality or value. Sentiment score: 2\n4. Rebecca Romijn-Stamos: The mention of the celebrity does not have an obvious emotional impact in this context, and it is unclear whether the sentiment is positive or negative. Sentiment score: 3 (neutral)\n5. Average the scores: (2.5 + 1 + 2 + 3) / 4 = 2.25\n6. Output: ##negative with an overall sentiment score of 2.25",
+                    "pred": 0,
+                    "label": 0
+                },
+                "12": {
+                    "content": "may be far from the best of the series , but it 's assured , wonderfully respectful of its past and thrilling enough to make it abundantly clear that this movie phenomenon has once again reinvented itself for a new generation . ",
+                    "response": "1. Movie (phenomenon) - 4\n   - The text mentions that the movie is \"reinvented\" and \"thrilling\", which suggests a positive sentiment towards it.\n\n2. Quality of the movie compared to the series - 3\n   - The phrase \"may be far from the best of the series\" indicates some reservation, but it's not overtly negative as it also acknowledges that it might still be good.\n\n3. Respect for its past - 5\n   - The text states that the movie is \"wonderfully respectful of its past\", indicating a high level of appreciation and positive sentiment towards the series' history.\n\n4. New generation - 4\n   - The phrase \"make it abundantly clear that this movie phenomenon has once again reinvented itself for a new generation\" suggests that the movie is appealing to a new audience, which is generally considered a positive aspect.\n\nAverage sentiment score: (3 + 5 + 4) / 3 = 4\n\nOutput: ##positive with an overall sentiment score of 4.",
+                    "pred": 1,
+                    "label": 1
+                },
+                "13": {
+                    "content": "although german cooking does not come readily to mind when considering the world 's best cuisine , mostly martha could make deutchland a popular destination for hungry tourists . ",
+                    "response": "1. German Cooking: Sentiment Score - 2 (Neutral) The text acknowledges that German cooking may not be immediately associated with the world's best cuisines, but it does not express any strong negative or positive feelings about this aspect.\n\n2. Martha: Sentiment Score - 5 (Very Positive) The text praises Martha for her ability to make Germany a popular destination for tourists through her cooking skills. This indicates a very positive sentiment towards Martha.\n\nAverage Sentiment Score: (2 + 5) / 2 = 3.5\n\nOutput: ##Neutral (3.5)",
+                    "pred": -1,
+                    "label": 1
+                },
+                "14": {
+                    "content": "we know the plot 's a little crazy , but it held my interest from start to finish . ",
+                    "response": "1. Plot: The plot is described as \"a little crazy.\"\n2. Emotional Impact: The speaker finds the plot interesting despite its craziness, indicating a positive emotional response.\n3. Sentiment Score for Plot: 4 (The plot being slightly negative due to it being called 'crazy' but still holding interest is a positive aspect.)\n4. Interest: The speaker mentions that their interest was held from start to finish.\n5. Sentiment Score for Interest: 5 (Strongly positive as the interest was maintained throughout the plot.)\n6. Overall Sentiment Score: (4 + 5) / 2 = 4.5\n7. Output: ##positive with an overall sentiment score of 4.5.",
+                    "pred": 1,
+                    "label": 1
+                },
+                "15": {
+                    "content": "vera 's technical prowess ends up selling his film short ; he smoothes over hard truths even as he uncovers them . ",
+                    "response": "1. Vera's technical prowess\n   - Emotional impact: Neutral\n   - Emotive language: None\n   - Lexical choices: Positive (prowess)\n   - Sentiment score: 4 (Positive)\n\n2. Film selling short\n   - Emotional impact: Negative\n   - Emotive language: None\n   - Lexical choices: Negative (\"sells short\")\n   - Sentiment score: 1 (Very negative)\n\n3. Smoothing over hard truths\n   - Emotional impact: Negative\n   - Emotive language: None\n   - Lexical choices: Negative (\"smooths over\", \"hard truths\")\n   - Sentiment score: 1 (Very negative)\n\n4. Uncovering hard truths\n   - Emotional impact: Neutral\n   - Emotive language: None\n   - Lexical choices: Neutral\n   - Sentiment score: 3 (Neutral)\n\nAverage sentiment scores: (4 + 1 + 1 + 3) / 4 = 2.25\n\nOverall, the text is slightly negative with a score of 2.25.\n##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "16": {
+                    "content": "coughs and sputters on its own postmodern conceit . ",
+                    "response": "1. Coughing and sputtering (Negative aspect)\n2. Postmodern conceit (Ambiguous aspect, can be seen as positive or negative depending on context)\n\nFor the coughing and sputtering, it is a physical action that is generally associated with discomfort or illness, which is negative. So, sentiment score for this aspect is 1.\n\nThe postmodern conceit is a term often used in literature and art to describe self-referential or playful approaches to cultural and literary production. It can be seen as positive if it's creative and thought-provoking, or negative if it's perceived as pretentious or lacking substance. Without more context, it's hard to assign a definitive sentiment score to this aspect. Let's assume a neutral score of 3 for now.\n\nAverage the scores: (1 + 3) / 2 = 2\n\nSince the average score is less than 3, the overall sentiment of the text can be classified as ##negative. The overall sentiment score is 2.",
+                    "pred": 0,
+                    "label": 0
+                },
+                "17": {
+                    "content": "a gorgeous , witty , seductive movie . ",
+                    "response": "1. Movie (aspect)\n   - Emotional Impact: Positive (gorgeous, witty, seductive)\n   - Emotive Language: High (use of adjectives like \"gorgeous,\" \"witty,\" and \"seductive\")\n   - Lexical Choices: Positive (all adjectives are positive in connotation)\n\nSentiment Score for Movie: 5\n\nOverall Sentiment: ##positive\n\nOverall Sentiment Score: 5",
+                    "pred": 1,
+                    "label": 1
+                },
+                "18": {
+                    "content": "thanks to scott 's charismatic roger and eisenberg 's sweet nephew , roger dodger is one of the most compelling variations on in the company of men . ",
+                    "response": "1. Charismatic Roger (Scott) - 5 (Very Positive)\n2. Sweet Nephew (Eisenberg) - 4 (Positive)\n3. Compelling Variation (Roger Dodger) - 4 (Positive)\n4. One of the Most (In the Company of Men) - 3 (Neutral)\n\nAverage Sentiment Score: (5 + 4 + 4 + 3) / 4 = 4.25\n\nOutput: ##positive with an overall sentiment score of 4.25.",
+                    "pred": 1,
+                    "label": 1
+                },
+                "19": {
+                    "content": "this riveting world war ii moral suspense story deals with the shadow side of american culture : racial prejudice in its ugly and diverse forms . ",
+                    "response": "1. Story (Riveting, World War II Moral Suspense)\n2. Emotional Impact: The text conveys a sense of seriousness and concern about the topic.\n3. Emotive Language: \"riveting\", \"ugly\", \"diverse forms\"\n4. Sentiment Score for Story: 3 (Neutral, as it is neither positive nor negative but rather informative)\n5. Aspect 2: American Culture\n6. Emotional Impact: The text portrays American culture in a negative light due to the mention of racial prejudice.\n7. Emotive Language: \"shadow side\", \"ugly\"\n8. Sentiment Score for American Culture: 1 (Very Negative)\n9. Overall Sentiment Score: (3 + 1) / 2 = 1.5 (Leaning slightly negative due to the negative portrayal of American culture)\n10. Output: ##negative with a score of 1.5",
+                    "pred": 0,
+                    "label": 0
+                },
+                "20": {
+                    "content": "corny , schmaltzy and predictable , but still manages to be kind of heartwarming , nonetheless . ",
+                    "response": "1. Corny\n   - Sentiment score: 1 (Very negative)\n\n2. Schmaltzy\n   - Sentiment score: 1 (Very negative)\n\n3. Predictable\n   - Sentiment score: 1 (Very negative)\n\n4. Heartwarming\n   - Sentiment score: 5 (Very positive)\n\nAverage sentiment score: (1+1+1+5)/4 = 2\n\nOutput: ##neutral",
+                    "pred": -1,
+                    "label": 1
+                },
+                "21": {
+                    "content": "an occasionally funny , but overall limp , fish-out-of-water story . ",
+                    "response": "1. Story (aspect): Occasionally funny, limp, fish-out-of-water\n\n   Emotional impact: Mixed (funny but also limp)\n   Emotive language: Somewhat negative (\"limp\") and neutral (\"occasional\", \"fish-out-of-water\")\n   Lexical choices: Negative connotation in \"limp\" and \"fish-out-of-water\"\n\n   Sentiment score for story:\n   - Occasionally funny: 3 (neutral to slightly positive)\n   - Limp: 1 (very negative)\n   - Fish-out-of-water: 2 (slightly negative)\n\n   Average sentiment score: (3 + 1 + 2) / 3 = 2\n\nOutput: ##negative with an overall sentiment score of 2.",
+                    "pred": 0,
+                    "label": 0
+                },
+                "22": {
+                    "content": "not far beneath the surface , this reconfigured tale asks disturbing questions about those things we expect from military epics . ",
+                    "response": "1. Story (reconfigured tale) - Sentiment score: 3 (Neutral)\n   - The term \"reconfigured\" suggests a change or adaptation, which can be seen as neither positive nor negative.\n\n2. Genre (military epic) - Sentiment score: 3 (Neutral)\n   - The genre itself is not inherently positive or negative; it's the context in which it's presented that matters.\n\n3. Depth (not far beneath the surface) - Sentiment score: 4 (Positive)\n   - The phrase \"not far beneath the surface\" implies a deeper, more complex exploration of the topic, which is generally considered positive.\n\n4. Emotional impact (disturbing questions) - Sentiment score: 2 (Negative)\n   - The word \"disturbing\" suggests an uncomfortable or unsettling emotional response, which is negative.\n\n5. Expectations (those things we expect from military epics) - Sentiment score: 3 (Neutral)\n   - The text does not express any particular positive or negative sentiment about expectations; it simply mentions them.\n\nAverage the scores: (3 + 3 + 4 + 2 + 3) / 5 = 3\n\nOutput: ##neutral with an overall sentiment score of 3.",
+                    "pred": -1,
+                    "label": 1
+                },
+                "23": {
+                    "content": "there 's really only one good idea in this movie , but the director runs with it and presents it with an unforgettable visual panache . ",
+                    "response": "1. Movie Idea: The sentiment towards the movie idea is positive (4). Although only one good idea is mentioned, the use of \"really\" and \"good\" indicates a positive connotation.\n2. Visual Presentation: The sentiment towards the visual presentation is very positive (5). The use of \"unforgettable\" and \"panache\" suggests an impressive and memorable visual experience.\n\nAverage Sentiment Score: (4 + 5) / 2 = 4.5\n\nOutput: ##positive with a score of 4.5",
+                    "pred": 1,
+                    "label": 1
+                },
+                "24": {
+                    "content": "it 's an offbeat treat that pokes fun at the democratic exercise while also examining its significance for those who take part . ",
+                    "response": "1. Offbeat treat (movie/entertainment)\n2. Emotional impact: Neutral, no strong positive or negative emotions expressed.\n3. Sentiment score for \"Offbeat treat\": 3 (Neutral)\n4. Significance for those who take part: Examining (neutral), pokes fun at (slightly negative due to the use of 'pokes' which can imply criticism or mockery), democratic exercise (neutral).\n5. Sentiment score for \"Significance for those who take part\": 3 (Neutral)\n6. Average sentiment score: (3 + 3) / 2 = 3\n7. Output: ##Neutral with an overall sentiment score of 3.",
+                    "pred": -1,
+                    "label": 1
+                },
+                "25": {
+                    "content": "a broad , melodramatic estrogen opera that 's pretty toxic in its own right . ",
+                    "response": "1. Topic: Movie (Broad, Melodramatic Estrogen Opera)\n2. Emotional Impact: Negative (toxic)\n3. Sentiment Score for Topic: 1\n4. No other aspects mentioned.\n5. Overall Sentiment: ##negative with a score of 1.",
+                    "pred": 0,
+                    "label": 0
+                },
+                "26": {
+                    "content": "bad . ",
+                    "response": "1. Weather (mentioned: bad)\n\nFor this aspect, the lexical choice \"bad\" indicates a negative sentiment.\n\nSentiment score: 1\n\nNo other aspects are mentioned in the text.\n\nAverage sentiment score: 1\n\nOutput: ##negative\nOverall sentiment score: 1",
+                    "pred": 0,
+                    "label": 0
+                },
+                "27": {
+                    "content": "the man from elysian fields is a cold , bliss-less work that groans along thinking itself some important comment on how life throws us some beguiling curves . ",
+                    "response": "1. Elysian Fields (place) - Neutral\n2. Man (character) - Negative (described as \"cold\" and \"bliss-less\")\n3. Work (artistic piece) - Negative (described as \"cold,\" \"beguiling curves\" used in a negative context, and the author seems to view it as unimportant)\n4. Life (concept) - Neutral (no emotional impact or lexical choices provided)\n5. Curves (aspects of life) - Negative (described as \"beguiling curves,\" which can be interpreted as deceptive or misleading, used in a negative context)\n6. Overall Sentiment Score: 1.33 (average of the scores for each aspect)\n##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "28": {
+                    "content": "and if you 're not nearly moved to tears by a couple of scenes , you 've got ice water in your veins . ",
+                    "response": "1. Emotional response (being moved to tears)\n2. The use of the phrase \"nearly moved to tears\" suggests a strong emotional impact, but the qualifier \"not nearly\" implies that not experiencing this emotion is also possible.\n3. Sentiment score for emotional response: 4 (Strongly positive as it indicates a powerful emotional experience)\n4. No other aspects are mentioned in the text.\n5. Overall sentiment: ##positive with a score of 4. The text suggests that the viewer is expected to have a strong emotional response, which is generally considered a positive aspect of media consumption.",
+                    "pred": 1,
+                    "label": 1
+                },
+                "29": {
+                    "content": "this is human comedy at its most amusing , interesting and confirming . ",
+                    "response": "1. Human Comedy (Aspect)\n   - Emotional Impact: Positive (amusing, interesting, confirming)\n   - Emotive Language: Positive (amusing, interesting, confirming)\n   - Lexical Choices: Positive (most, amusing, interesting, confirming)\n   - Sentiment Score: 5\n\nOverall Sentiment: ##positive\nOverall Sentiment Score: 5",
+                    "pred": 1,
+                    "label": 1
+                },
+                "30": {
+                    "content": "the film 's hackneyed message is not helped by the thin characterizations , nonexistent plot and pretentious visual style . ",
+                    "response": "1. Film (aspect being evaluated)\n2. Hackneyed message: The term \"hackneyed\" implies something overused or clich\u00e9d, which can be negative as it suggests a lack of originality or creativity in the film's theme.\n3. Thin characterizations: This phrase suggests that the characters are not well-developed or complex, which can be seen as a negative aspect.\n4. Nonexistent plot: The absence of a plot is generally considered a significant shortcoming in a film, thus this is a negative aspect.\n5. Pretentious visual style: \"Pretentious\" implies an attempt to appear more sophisticated or important than one really is, which can be seen as a negative quality in the film's visual presentation.\n6. Sentiment scores: Hackneyed message (1), Thin characterizations (2), Nonexistent plot (1), Pretentious visual style (1)\n7. Overall sentiment score: (1+2+1+1)/4 = 0.75, which is a negative sentiment towards the film.\n8. Output: ##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "score": 0.7333333333333333
+            },
+            "prompt_mean_score": 0.7333333333333333
+        }
+    },
+    "architecture_mean_score": 0.7111111111111111,
+    "architecture_median_score": 0.7333333333333333,
+    "architecture_std_dev": 0.10999438818457408
+}

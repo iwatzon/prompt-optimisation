@@ -1,0 +1,568 @@
+{
+    "results": {
+        "1": {
+            "prompt": "Classify the sentiment of the following text as either positive or negative: {content} Output your answer as ##positive or ##negative with no spaces.",
+            "results_1": {
+                "1": {
+                    "content": "one of the more intelligent children 's movies to hit theaters this year . ",
+                    "response": "##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "2": {
+                    "content": "it haunts you , you ca n't forget it , you admire its conception and are able to resolve some of the confusions you had while watching it . ",
+                    "response": "##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "3": {
+                    "content": "chokes on its own depiction of upper-crust decorum . ",
+                    "response": "##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "4": {
+                    "content": "it 's one of those baseball pictures where the hero is stoic , the wife is patient , the kids are as cute as all get-out and the odds against success are long enough to intimidate , but short enough to make a dream seem possible . ",
+                    "response": "##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "5": {
+                    "content": "the film will play equally well on both the standard and giant screens . ",
+                    "response": "##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "6": {
+                    "content": "if there 's one thing this world needs less of , it 's movies about college that are written and directed by people who could n't pass an entrance exam . ",
+                    "response": "##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "7": {
+                    "content": "it provides an honest look at a community striving to anchor itself in new grounds . ",
+                    "response": "##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "8": {
+                    "content": "nicks , seemingly uncertain what 's going to make people laugh , runs the gamut from stale parody to raunchy sex gags to formula romantic comedy . ",
+                    "response": "##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "9": {
+                    "content": "a science-fiction pastiche so lacking in originality that if you stripped away its inspirations there would be precious little left . ",
+                    "response": "##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "10": {
+                    "content": "what better message than ` love thyself ' could young women of any size receive ? ",
+                    "response": "##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "11": {
+                    "content": "vera 's technical prowess ends up selling his film short ; he smoothes over hard truths even as he uncovers them . ",
+                    "response": "##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "12": {
+                    "content": "sustains its dreamlike glide through a succession of cheesy coincidences and voluptuous cheap effects , not the least of which is rebecca romijn-stamos . ",
+                    "response": "##positive",
+                    "pred": 1,
+                    "label": 0
+                },
+                "13": {
+                    "content": "coughs and sputters on its own postmodern conceit . ",
+                    "response": "##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "14": {
+                    "content": "we know the plot 's a little crazy , but it held my interest from start to finish . ",
+                    "response": "##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "15": {
+                    "content": "may be far from the best of the series , but it 's assured , wonderfully respectful of its past and thrilling enough to make it abundantly clear that this movie phenomenon has once again reinvented itself for a new generation . ",
+                    "response": "##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "16": {
+                    "content": "although german cooking does not come readily to mind when considering the world 's best cuisine , mostly martha could make deutchland a popular destination for hungry tourists . ",
+                    "response": "##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "17": {
+                    "content": "corny , schmaltzy and predictable , but still manages to be kind of heartwarming , nonetheless . ",
+                    "response": "##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "18": {
+                    "content": "this riveting world war ii moral suspense story deals with the shadow side of american culture : racial prejudice in its ugly and diverse forms . ",
+                    "response": "##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "19": {
+                    "content": "a gorgeous , witty , seductive movie . ",
+                    "response": "##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "20": {
+                    "content": "thanks to scott 's charismatic roger and eisenberg 's sweet nephew , roger dodger is one of the most compelling variations on in the company of men . ",
+                    "response": "##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "21": {
+                    "content": "an occasionally funny , but overall limp , fish-out-of-water story . ",
+                    "response": "##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "22": {
+                    "content": "not far beneath the surface , this reconfigured tale asks disturbing questions about those things we expect from military epics . ",
+                    "response": "##negative",
+                    "pred": 0,
+                    "label": 1
+                },
+                "23": {
+                    "content": "the man from elysian fields is a cold , bliss-less work that groans along thinking itself some important comment on how life throws us some beguiling curves . ",
+                    "response": "##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "24": {
+                    "content": "a broad , melodramatic estrogen opera that 's pretty toxic in its own right . ",
+                    "response": "##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "25": {
+                    "content": "there 's really only one good idea in this movie , but the director runs with it and presents it with an unforgettable visual panache . ",
+                    "response": "##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "26": {
+                    "content": "bad . ",
+                    "response": "##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "27": {
+                    "content": "it 's an offbeat treat that pokes fun at the democratic exercise while also examining its significance for those who take part . ",
+                    "response": "##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "28": {
+                    "content": "the film 's hackneyed message is not helped by the thin characterizations , nonexistent plot and pretentious visual style . ",
+                    "response": "##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "29": {
+                    "content": "this is human comedy at its most amusing , interesting and confirming . ",
+                    "response": "##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "30": {
+                    "content": "and if you 're not nearly moved to tears by a couple of scenes , you 've got ice water in your veins . ",
+                    "response": "##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "score": 0.9333333333333333
+            },
+            "prompt_mean_score": 0.9333333333333333
+        },
+        "2": {
+            "prompt": "Classify the sentiment of the following text as either positive or negative: {content}\nOutput your answer as ##positive or ##negative.",
+            "results_1": {
+                "1": {
+                    "content": "a science-fiction pastiche so lacking in originality that if you stripped away its inspirations there would be precious little left . ",
+                    "response": "##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "2": {
+                    "content": "one of the more intelligent children 's movies to hit theaters this year . ",
+                    "response": "##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "3": {
+                    "content": "if there 's one thing this world needs less of , it 's movies about college that are written and directed by people who could n't pass an entrance exam . ",
+                    "response": "##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "4": {
+                    "content": "it provides an honest look at a community striving to anchor itself in new grounds . ",
+                    "response": "##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "5": {
+                    "content": "what better message than ` love thyself ' could young women of any size receive ? ",
+                    "response": "##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "6": {
+                    "content": "nicks , seemingly uncertain what 's going to make people laugh , runs the gamut from stale parody to raunchy sex gags to formula romantic comedy . ",
+                    "response": "##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "7": {
+                    "content": "it haunts you , you ca n't forget it , you admire its conception and are able to resolve some of the confusions you had while watching it . ",
+                    "response": "##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "8": {
+                    "content": "it 's one of those baseball pictures where the hero is stoic , the wife is patient , the kids are as cute as all get-out and the odds against success are long enough to intimidate , but short enough to make a dream seem possible . ",
+                    "response": "##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "9": {
+                    "content": "the film will play equally well on both the standard and giant screens . ",
+                    "response": "##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "10": {
+                    "content": "chokes on its own depiction of upper-crust decorum . ",
+                    "response": "##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "11": {
+                    "content": "although german cooking does not come readily to mind when considering the world 's best cuisine , mostly martha could make deutchland a popular destination for hungry tourists . ",
+                    "response": "##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "12": {
+                    "content": "sustains its dreamlike glide through a succession of cheesy coincidences and voluptuous cheap effects , not the least of which is rebecca romijn-stamos . ",
+                    "response": "##positive",
+                    "pred": 1,
+                    "label": 0
+                },
+                "13": {
+                    "content": "may be far from the best of the series , but it 's assured , wonderfully respectful of its past and thrilling enough to make it abundantly clear that this movie phenomenon has once again reinvented itself for a new generation . ",
+                    "response": "##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "14": {
+                    "content": "vera 's technical prowess ends up selling his film short ; he smoothes over hard truths even as he uncovers them . ",
+                    "response": "##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "15": {
+                    "content": "a gorgeous , witty , seductive movie . ",
+                    "response": "##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "16": {
+                    "content": "this riveting world war ii moral suspense story deals with the shadow side of american culture : racial prejudice in its ugly and diverse forms . ",
+                    "response": "##positive",
+                    "pred": 1,
+                    "label": 0
+                },
+                "17": {
+                    "content": "we know the plot 's a little crazy , but it held my interest from start to finish . ",
+                    "response": "##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "18": {
+                    "content": "corny , schmaltzy and predictable , but still manages to be kind of heartwarming , nonetheless . ",
+                    "response": "##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "19": {
+                    "content": "thanks to scott 's charismatic roger and eisenberg 's sweet nephew , roger dodger is one of the most compelling variations on in the company of men . ",
+                    "response": "##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "20": {
+                    "content": "coughs and sputters on its own postmodern conceit . ",
+                    "response": "##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "21": {
+                    "content": "an occasionally funny , but overall limp , fish-out-of-water story . ",
+                    "response": "##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "22": {
+                    "content": "there 's really only one good idea in this movie , but the director runs with it and presents it with an unforgettable visual panache . ",
+                    "response": "##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "23": {
+                    "content": "a broad , melodramatic estrogen opera that 's pretty toxic in its own right . ",
+                    "response": "##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "24": {
+                    "content": "the film 's hackneyed message is not helped by the thin characterizations , nonexistent plot and pretentious visual style . ",
+                    "response": "##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "25": {
+                    "content": "this is human comedy at its most amusing , interesting and confirming . ",
+                    "response": "##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "26": {
+                    "content": "the man from elysian fields is a cold , bliss-less work that groans along thinking itself some important comment on how life throws us some beguiling curves . ",
+                    "response": "##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "27": {
+                    "content": "it 's an offbeat treat that pokes fun at the democratic exercise while also examining its significance for those who take part . ",
+                    "response": "##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "28": {
+                    "content": "bad . ",
+                    "response": "##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "29": {
+                    "content": "and if you 're not nearly moved to tears by a couple of scenes , you 've got ice water in your veins . ",
+                    "response": "##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "30": {
+                    "content": "not far beneath the surface , this reconfigured tale asks disturbing questions about those things we expect from military epics . ",
+                    "response": "##negative",
+                    "pred": 0,
+                    "label": 1
+                },
+                "score": 0.9
+            },
+            "prompt_mean_score": 0.9
+        },
+        "3": {
+            "prompt": "Please classify the sentiment of the following text as either positive or negative, taking into account various elements such as tone, context, and content: {content} Ensure to output the answer at the end as ##positive or ##negative with no spaces.",
+            "results_1": {
+                "1": {
+                    "content": "it provides an honest look at a community striving to anchor itself in new grounds . ",
+                    "response": "The sentiment of the text is positive. It conveys a sense of optimism and determination as the community works towards establishing itself in a new environment. ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "2": {
+                    "content": "nicks , seemingly uncertain what 's going to make people laugh , runs the gamut from stale parody to raunchy sex gags to formula romantic comedy . ",
+                    "response": "The sentiment of the text is negative. The description suggests that the content is lacking in originality and may not be well-received by audiences. ##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "3": {
+                    "content": "the film will play equally well on both the standard and giant screens . ",
+                    "response": "The sentiment of the text is positive. It suggests that the film will be enjoyable and engaging regardless of the screen size. ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "4": {
+                    "content": "if there 's one thing this world needs less of , it 's movies about college that are written and directed by people who could n't pass an entrance exam . ",
+                    "response": "The sentiment of the text is negative. The tone is critical and sarcastic, expressing a disdain for movies about college that are created by individuals perceived as lacking the necessary intelligence. ##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "5": {
+                    "content": "what better message than ` love thyself ' could young women of any size receive ? ",
+                    "response": "The sentiment of the text is positive. It promotes self-love and acceptance, especially for young women of any size. The phrase \"love thyself\" conveys a message of empowerment and positivity. ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "6": {
+                    "content": "it haunts you , you ca n't forget it , you admire its conception and are able to resolve some of the confusions you had while watching it . ",
+                    "response": "Based on the text provided, the sentiment is positive. Phrases such as \"admire its conception\" and \"resolve some of the confusions\" indicate a positive reaction towards the subject. ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "7": {
+                    "content": "a science-fiction pastiche so lacking in originality that if you stripped away its inspirations there would be precious little left . ",
+                    "response": "Based on the text provided, the sentiment is negative. The phrase \"lacking in originality\" and the mention of \"precious little left\" indicate a critical view of the work. Therefore, the sentiment classification is ##negative.",
+                    "pred": 0,
+                    "label": 0
+                },
+                "8": {
+                    "content": "it 's one of those baseball pictures where the hero is stoic , the wife is patient , the kids are as cute as all get-out and the odds against success are long enough to intimidate , but short enough to make a dream seem possible . ",
+                    "response": "The sentiment of the text is positive. It describes a scene from a baseball picture where the hero is stoic, the wife is patient, the kids are cute, and the odds against success are challenging but not insurmountable, making the dream seem possible. Overall, the tone is hopeful and optimistic. ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "9": {
+                    "content": "one of the more intelligent children 's movies to hit theaters this year . ",
+                    "response": "The sentiment of the text is positive. The phrase \"one of the more intelligent children's movies to hit theaters this year\" suggests that the movie is well-received for its intelligence and quality. ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "10": {
+                    "content": "chokes on its own depiction of upper-crust decorum . ",
+                    "response": "Based on the text \"chokes on its own depiction of upper-crust decorum,\" the sentiment is negative. The use of the word \"chokes\" conveys a sense of struggle or discomfort, and the mention of upper-crust decorum suggests a negative portrayal of elitist behavior. Therefore, the sentiment of the text is ##negative.",
+                    "pred": 0,
+                    "label": 0
+                },
+                "11": {
+                    "content": "sustains its dreamlike glide through a succession of cheesy coincidences and voluptuous cheap effects , not the least of which is rebecca romijn-stamos . ",
+                    "response": "The sentiment of the text is negative. The use of words like \"cheesy,\" \"cheap effects,\" and the mention of Rebecca Romijn-Stamos in a seemingly negative context suggest a critical or unfavorable tone. ##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "12": {
+                    "content": "we know the plot 's a little crazy , but it held my interest from start to finish . ",
+                    "response": "Based on the text provided, the sentiment is positive. The phrase \"it held my interest from start to finish\" indicates that the speaker enjoyed the plot despite its craziness. Therefore, the sentiment classification is ##positive.",
+                    "pred": 1,
+                    "label": 1
+                },
+                "13": {
+                    "content": "may be far from the best of the series , but it 's assured , wonderfully respectful of its past and thrilling enough to make it abundantly clear that this movie phenomenon has once again reinvented itself for a new generation . ",
+                    "response": "The sentiment of the text is positive. It acknowledges that the movie may not be the best in the series but praises it for being respectful of its past and thrilling enough to appeal to a new generation. ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "14": {
+                    "content": "a gorgeous , witty , seductive movie . ",
+                    "response": "The sentiment of the text is positive. The words \"gorgeous,\" \"witty,\" and \"seductive\" all convey a positive tone and suggest that the movie is enjoyable and engaging. ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "15": {
+                    "content": "vera 's technical prowess ends up selling his film short ; he smoothes over hard truths even as he uncovers them . ",
+                    "response": "The sentiment of the text is negative. The use of phrases like \"selling his film short\" and \"smoothes over hard truths\" suggests a critical tone towards Vera's technical prowess. ##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "16": {
+                    "content": "although german cooking does not come readily to mind when considering the world 's best cuisine , mostly martha could make deutchland a popular destination for hungry tourists . ",
+                    "response": "The sentiment of the text is positive. The mention of \"mostly martha\" making Germany a popular destination for hungry tourists implies a positive impact on German cuisine and tourism. ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "17": {
+                    "content": "thanks to scott 's charismatic roger and eisenberg 's sweet nephew , roger dodger is one of the most compelling variations on in the company of men . ",
+                    "response": "The sentiment of the text is positive. It praises the characters of Scott and Eisenberg in the movie \"Roger Dodger\" and describes it as a compelling variation on \"In the Company of Men.\" ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "18": {
+                    "content": "corny , schmaltzy and predictable , but still manages to be kind of heartwarming , nonetheless . ",
+                    "response": "The sentiment of the text is positive. Despite being described as corny, schmaltzy, and predictable, the text still manages to be kind of heartwarming, which suggests a positive tone overall. ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "19": {
+                    "content": "this riveting world war ii moral suspense story deals with the shadow side of american culture : racial prejudice in its ugly and diverse forms . ",
+                    "response": "The sentiment of the text is negative. It highlights the negative aspects of American culture, specifically racial prejudice during World War II. The use of words like \"ugly\" and \"shadow side\" conveys a sense of negativity and criticism. ##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "20": {
+                    "content": "coughs and sputters on its own postmodern conceit . ",
+                    "response": "Based on the text \"coughs and sputters on its own postmodern conceit,\" the sentiment can be classified as negative. The use of words like \"coughs\" and \"sputters\" suggests a sense of struggle or dysfunction, while the phrase \"postmodern conceit\" implies a negative view of pretentiousness or self-importance. Overall, the tone appears critical or dismissive. ##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "21": {
+                    "content": "there 's really only one good idea in this movie , but the director runs with it and presents it with an unforgettable visual panache . ",
+                    "response": "The sentiment of the text is positive. Despite there being only one good idea in the movie, the director's presentation with unforgettable visual panache is highlighted, indicating a positive tone overall. ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "22": {
+                    "content": "bad . ",
+                    "response": "I'm sorry, but the text \"bad\" is generally considered to have a negative sentiment. Therefore, the sentiment classification for this text is ##negative.",
+                    "pred": 0,
+                    "label": 0
+                },
+                "23": {
+                    "content": "the man from elysian fields is a cold , bliss-less work that groans along thinking itself some important comment on how life throws us some beguiling curves . ",
+                    "response": "The sentiment of the text is negative. The language used conveys a sense of coldness and lack of joy, with a critical tone towards the work being described. ##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "24": {
+                    "content": "a broad , melodramatic estrogen opera that 's pretty toxic in its own right . ",
+                    "response": "The sentiment of the text is negative. The use of words like \"toxic\" and \"melodramatic\" suggests a critical and unfavorable tone towards the subject matter. ##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "25": {
+                    "content": "an occasionally funny , but overall limp , fish-out-of-water story . ",
+                    "response": "Based on the description provided, the sentiment of the text is negative. The phrases \"overall limp\" and \"fish-out-of-water story\" suggest a lack of excitement or engagement. The occasional humor may not be enough to offset the overall negative tone. \n\n##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "26": {
+                    "content": "it 's an offbeat treat that pokes fun at the democratic exercise while also examining its significance for those who take part . ",
+                    "response": "The sentiment of the text is positive. It describes the content as an \"offbeat treat\" that both pokes fun at the democratic exercise and examines its significance for participants, suggesting a playful and insightful approach. ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "27": {
+                    "content": "this is human comedy at its most amusing , interesting and confirming . ",
+                    "response": "The sentiment of the text is positive. The use of words like \"amusing,\" \"interesting,\" and \"confirming\" indicates a favorable tone towards the subject matter. ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "28": {
+                    "content": "and if you 're not nearly moved to tears by a couple of scenes , you 've got ice water in your veins . ",
+                    "response": "The sentiment of the text is positive. The phrase \"moved to tears\" suggests a strong emotional response, and the statement about having \"ice water in your veins\" implies that the scenes are powerful and moving. Overall, the text conveys a sense of emotional depth and impact. ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "29": {
+                    "content": "not far beneath the surface , this reconfigured tale asks disturbing questions about those things we expect from military epics . ",
+                    "response": "The sentiment of the text is negative. The use of words like \"disturbing\" and the questioning of expectations from military epics suggest a critical or unsettling tone. ##negative",
+                    "pred": 0,
+                    "label": 1
+                },
+                "30": {
+                    "content": "the film 's hackneyed message is not helped by the thin characterizations , nonexistent plot and pretentious visual style . ",
+                    "response": "The sentiment of the text is negative. The use of words like \"hackneyed,\" \"thin characterizations,\" \"nonexistent plot,\" and \"pretentious visual style\" all contribute to a negative tone and overall assessment of the film. ##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "score": 0.9666666666666667
+            },
+            "prompt_mean_score": 0.9666666666666667
+        }
+    },
+    "architecture_mean_score": 0.9333333333333335,
+    "architecture_median_score": 0.9333333333333333,
+    "architecture_std_dev": 0.02721655269759086
+}
