@@ -1,21 +1,7 @@
 class GSM8KPrompts():
 
    def __init__(self):
-      self.suffix = "Please output your answer at the end as ##<your answer (arabic numerals)>"
-
-   def get_baseline_prompt(self):
-      return "{content}\n"+self.suffix
-    
-   def get_criteria(self):
-      return """- The prompt MUST instruct the LLM to solve a maths word problem.
-- The prompt MUST include the content placeholder (this is where the maths word problem will be).
-- The prompt MUST instruct the model to output the answer at the end as ##<your answer (arabic numerals)> with no spaces."""
-    
-   def get_emotive_prompt(self):
-      return "{content}\nThis is very important to my career.\n"+self.suffix
-
-   def get_zero_shot_CoT_prompt(self):
-      return "{content}\nLet's think step by step.\n"+self.suffix
+      pass
     
    # Max time:  328.93039321899414
    # Min time:  44.54635500907898

@@ -1,22 +1,7 @@
 class SST2Prompts():
 
     def __init__(self):
-        self.prefix = "Classify the sentiment of the following text as either positive or negative: "
-        self.suffix = "Please output your answer at the end as ##<your answer (No format restrictions)>"
-
-    def get_baseline_prompt(self):
-        return self.prefix+"{content}\n"+self.suffix
-    
-    def get_criteria(self):
-        return """- The prompt MUST instruct the LLM to classify the text as either positive or negative sentiment.
-- The prompt MUST include the content placeholder (this is where the text to be classified will be).
-- The prompt MUST instruct the model to output the answer at the end as ##positve or ##negative with no spaces."""
-    
-    def get_emotive_prompt(self):
-        return self.prefix+"{content}\nThis is very important to my career.\n"+self.suffix
-
-    def get_zero_shot_CoT_prompt(self):
-        return self.prefix+"{content}\nLet's think step by step.\n"+self.suffix
+        pass
    
     # Max time:  435.4767322540283
     # Min time:  92.57198119163513

@@ -1,25 +1,7 @@
-
 class HumanEvalPrompts():
     
     def __init__(self):
-        self.suffix = "Please output your answer at the end as ```python\n<your answer>\n```"
-
-    def get_baseline_prompt(self):
-        return "```python\n{content}\n```\n"+self.suffix
-    
-    def get_criteria(self):
-        return """- The prompt MUST instruct the LLM to complete a function based on its signature and docstring.
-- The prompt MUST include the content placeholder (this is where the function signature and docstring will be).
-- The prompt MUST instruct the model to output the answer at the end as ```python\n<your answer>\n```."""
-    
-    def get_emotive_prompt(self):
-        return "```python\n{content}\n```\nThis is very important to my career.\n"+self.suffix
-
-    def get_zero_shot_CoT_prompt(self):
-        return "```python\n{content}\n```\nLet's think step by step.\n"+self.suffix
-    
-    def get_reflection_prompts(self):
-        return []
+        pass
     
     # Max time:  194.12198781967163
     # Min time:  51.18845081329346
