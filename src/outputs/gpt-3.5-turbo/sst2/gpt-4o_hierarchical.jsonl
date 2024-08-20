@@ -1,0 +1,568 @@
+{
+    "results": {
+        "1": {
+            "prompt": "You are a sentiment analysis tool. Classify the sentiment of the following text as positive or negative: {content}\n\nOutput as ##positive or ##negative.\n\nExample:\nText: \"I love this product!\"\nOutput: ##positive",
+            "results_1": {
+                "1": {
+                    "content": "if there 's one thing this world needs less of , it 's movies about college that are written and directed by people who could n't pass an entrance exam . ",
+                    "response": "##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "2": {
+                    "content": "it haunts you , you ca n't forget it , you admire its conception and are able to resolve some of the confusions you had while watching it . ",
+                    "response": "Output: ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "3": {
+                    "content": "one of the more intelligent children 's movies to hit theaters this year . ",
+                    "response": "Text: \"one of the more intelligent children's movies to hit theaters this year.\"\nOutput: ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "4": {
+                    "content": "what better message than ` love thyself ' could young women of any size receive ? ",
+                    "response": "Text: \"what better message than ` love thyself ' could young women of any size receive ?\"\nOutput: ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "5": {
+                    "content": "chokes on its own depiction of upper-crust decorum . ",
+                    "response": "Text: \"chokes on its own depiction of upper-crust decorum\"\nOutput: ##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "6": {
+                    "content": "it provides an honest look at a community striving to anchor itself in new grounds . ",
+                    "response": "Text: \"It provides an honest look at a community striving to anchor itself in new grounds.\"\nOutput: ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "7": {
+                    "content": "the film will play equally well on both the standard and giant screens . ",
+                    "response": "Text: \"the film will play equally well on both the standard and giant screens\"\nOutput: ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "8": {
+                    "content": "a science-fiction pastiche so lacking in originality that if you stripped away its inspirations there would be precious little left . ",
+                    "response": "Text: \"a science-fiction pastiche so lacking in originality that if you stripped away its inspirations there would be precious little left.\"\nOutput: ##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "9": {
+                    "content": "nicks , seemingly uncertain what 's going to make people laugh , runs the gamut from stale parody to raunchy sex gags to formula romantic comedy . ",
+                    "response": "Text: \"nicks , seemingly uncertain what 's going to make people laugh , runs the gamut from stale parody to raunchy sex gags to formula romantic comedy.\"\nOutput: ##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "10": {
+                    "content": "it 's one of those baseball pictures where the hero is stoic , the wife is patient , the kids are as cute as all get-out and the odds against success are long enough to intimidate , but short enough to make a dream seem possible . ",
+                    "response": "Text: \"it's one of those baseball pictures where the hero is stoic, the wife is patient, the kids are as cute as all get-out and the odds against success are long enough to intimidate, but short enough to make a dream seem possible.\"\nOutput: ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "11": {
+                    "content": "although german cooking does not come readily to mind when considering the world 's best cuisine , mostly martha could make deutchland a popular destination for hungry tourists . ",
+                    "response": "##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "12": {
+                    "content": "coughs and sputters on its own postmodern conceit . ",
+                    "response": "Text: \"coughs and sputters on its own postmodern conceit\"\nOutput: ##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "13": {
+                    "content": "we know the plot 's a little crazy , but it held my interest from start to finish . ",
+                    "response": "Text: \"we know the plot 's a little crazy , but it held my interest from start to finish.\"\nOutput: ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "14": {
+                    "content": "vera 's technical prowess ends up selling his film short ; he smoothes over hard truths even as he uncovers them . ",
+                    "response": "Text: \"vera's technical prowess ends up selling his film short; he smoothes over hard truths even as he uncovers them.\"\nOutput: ##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "15": {
+                    "content": "a gorgeous , witty , seductive movie . ",
+                    "response": "Text: \"a gorgeous, witty, seductive movie.\"\nOutput: ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "16": {
+                    "content": "may be far from the best of the series , but it 's assured , wonderfully respectful of its past and thrilling enough to make it abundantly clear that this movie phenomenon has once again reinvented itself for a new generation . ",
+                    "response": "Text: \"may be far from the best of the series, but it's assured, wonderfully respectful of its past and thrilling enough to make it abundantly clear that this movie phenomenon has once again reinvented itself for a new generation.\"\nOutput: ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "17": {
+                    "content": "thanks to scott 's charismatic roger and eisenberg 's sweet nephew , roger dodger is one of the most compelling variations on in the company of men . ",
+                    "response": "Text: \"thanks to scott 's charismatic roger and eisenberg 's sweet nephew , roger dodger is one of the most compelling variations on in the company of men .\"\n\nOutput: ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "18": {
+                    "content": "this riveting world war ii moral suspense story deals with the shadow side of american culture : racial prejudice in its ugly and diverse forms . ",
+                    "response": "Text: \"this riveting world war ii moral suspense story deals with the shadow side of american culture : racial prejudice in its ugly and diverse forms.\"\nOutput: ##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "19": {
+                    "content": "sustains its dreamlike glide through a succession of cheesy coincidences and voluptuous cheap effects , not the least of which is rebecca romijn-stamos . ",
+                    "response": "Text: \"sustains its dreamlike glide through a succession of cheesy coincidences and voluptuous cheap effects, not the least of which is rebecca romijn-stamos.\"\nOutput: ##positive",
+                    "pred": 1,
+                    "label": 0
+                },
+                "20": {
+                    "content": "corny , schmaltzy and predictable , but still manages to be kind of heartwarming , nonetheless . ",
+                    "response": "Text: \"corny, schmaltzy and predictable, but still manages to be kind of heartwarming, nonetheless.\"\nOutput: ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "21": {
+                    "content": "an occasionally funny , but overall limp , fish-out-of-water story . ",
+                    "response": "Text: \"an occasionally funny, but overall limp, fish-out-of-water story.\"\nOutput: ##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "22": {
+                    "content": "not far beneath the surface , this reconfigured tale asks disturbing questions about those things we expect from military epics . ",
+                    "response": "Text: \"not far beneath the surface , this reconfigured tale asks disturbing questions about those things we expect from military epics.\"\nOutput: ##negative",
+                    "pred": 0,
+                    "label": 1
+                },
+                "23": {
+                    "content": "there 's really only one good idea in this movie , but the director runs with it and presents it with an unforgettable visual panache . ",
+                    "response": "Text: \"there's really only one good idea in this movie, but the director runs with it and presents it with an unforgettable visual panache.\"\nOutput: ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "24": {
+                    "content": "a broad , melodramatic estrogen opera that 's pretty toxic in its own right . ",
+                    "response": "Text: \"a broad, melodramatic estrogen opera that's pretty toxic in its own right.\"\nOutput: ##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "25": {
+                    "content": "it 's an offbeat treat that pokes fun at the democratic exercise while also examining its significance for those who take part . ",
+                    "response": "Text: \"It's an offbeat treat that pokes fun at the democratic exercise while also examining its significance for those who take part.\"\nOutput: ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "26": {
+                    "content": "bad . ",
+                    "response": "Text: \"bad\"\nOutput: ##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "27": {
+                    "content": "this is human comedy at its most amusing , interesting and confirming . ",
+                    "response": "##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "28": {
+                    "content": "and if you 're not nearly moved to tears by a couple of scenes , you 've got ice water in your veins . ",
+                    "response": "Text: \"and if you 're not nearly moved to tears by a couple of scenes , you 've got ice water in your veins .\"\nOutput: ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "29": {
+                    "content": "the man from elysian fields is a cold , bliss-less work that groans along thinking itself some important comment on how life throws us some beguiling curves . ",
+                    "response": "Text: \"the man from elysian fields is a cold , bliss-less work that groans along thinking itself some important comment on how life throws us some beguiling curves.\"\nOutput: ##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "30": {
+                    "content": "the film 's hackneyed message is not helped by the thin characterizations , nonexistent plot and pretentious visual style . ",
+                    "response": "Text: \"the film's hackneyed message is not helped by the thin characterizations, nonexistent plot and pretentious visual style.\"\nOutput: ##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "score": 0.9333333333333333
+            },
+            "prompt_mean_score": 0.9333333333333333
+        },
+        "2": {
+            "prompt": "Classify the sentiment of the following text as either positive or negative. Break down the text into different aspects and rate each aspect's sentiment on a scale from -5 (very negative) to +5 (very positive). Consider the emotional impact, emotive language, and lexical choices. Provide a brief justification for your overall classification. Describe the overall emotional tone and identify key emotive words or phrases, explaining their significance. Consider the context and interrelations between aspects, and identify any potential biases or conflicting sentiments: {content}\n\nPlease output your answer at the end as ##positive or ##negative with no spaces.",
+            "results_1": {
+                "1": {
+                    "content": "it provides an honest look at a community striving to anchor itself in new grounds . ",
+                    "response": "Overall sentiment classification: ##positive\n\nAspect breakdown:\n1. Emotional impact: +3\n2. Emotive language: +4\n3. Lexical choices: +3\n\nOverall emotional tone: The overall emotional tone of the text is positive. It conveys a sense of honesty and community striving to establish themselves in new surroundings.\n\nKey emotive words/phrases: \"honest look,\" \"striving,\" \"anchor itself in new grounds.\" These phrases evoke feelings of sincerity, effort, and determination, highlighting the positive aspects of the community's journey.\n\nContext and interrelations: The text emphasizes the community's genuine efforts to adapt and grow in a new environment, portraying a positive outlook on their progress. The use of emotive language and positive lexical choices further reinforces the overall sentiment of hope and resilience.\n\nPotential biases/conflicting sentiments: There are no evident biases or conflicting sentiments in the text that would contradict the positive classification.\n\n##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "2": {
+                    "content": "what better message than ` love thyself ' could young women of any size receive ? ",
+                    "response": "Overall sentiment: Positive\n\nAspect breakdown:\n1. Emotional impact: +4\n2. Emotive language: +3\n3. Lexical choices: +4\n\nJustification:\nThe overall sentiment of the text is positive. The emotional impact is strong, as the message of \"love thyself\" is empowering and uplifting. The emotive language used, such as \"love thyself,\" conveys a sense of self-acceptance and positivity. The lexical choices, including \"young women\" and \"any size,\" promote inclusivity and self-love regardless of body type. The text encourages a positive and empowering message, making it overall positive.\n\nOverall emotional tone: Empowering and uplifting\nKey emotive words/phrases: \"love thyself,\" \"young women,\" \"any size\"\nSignificance: These words/phrases emphasize self-acceptance, inclusivity, and empowerment, promoting a positive message of self-love and confidence.\n\n##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "3": {
+                    "content": "nicks , seemingly uncertain what 's going to make people laugh , runs the gamut from stale parody to raunchy sex gags to formula romantic comedy . ",
+                    "response": "Overall sentiment: Negative\n\n1. Emotional impact: -3\nThe text conveys a sense of uncertainty and disappointment with the content described. The use of phrases like \"seemingly uncertain\" and \"stale parody\" suggests a lack of excitement or enjoyment.\n\n2. Emotive language: -2\nThe language used in the text is more critical and negative than positive. Terms like \"stale parody,\" \"raunchy sex gags,\" and \"formula romantic comedy\" evoke a sense of dissatisfaction and lack of originality.\n\n3. Lexical choices: -3\nThe choice of words such as \"stale,\" \"raunchy,\" and \"formula\" all have negative connotations, indicating a lack of creativity and quality in the content being described.\n\nOverall, the text conveys a negative sentiment due to the critical and disappointed tone used to describe the content. The key emotive words and phrases highlight the lack of originality and quality in the material, contributing to the overall negative assessment.\n\n##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "4": {
+                    "content": "it haunts you , you ca n't forget it , you admire its conception and are able to resolve some of the confusions you had while watching it . ",
+                    "response": "Overall Classification: Positive\n\nAspect Breakdown:\n1. Emotional Impact: +3\n2. Emotive Language: +4\n3. Lexical Choices: +3\n\nOverall Emotional Tone: The overall emotional tone of the text is positive. The use of phrases like \"admire its conception\" and \"resolve some of the confusions\" indicates a sense of appreciation and understanding. The phrases \"haunts you\" and \"can't forget it\" suggest a lingering impact, which adds depth to the emotional response.\n\nKey Emotive Words or Phrases: \"haunts you,\" \"admire its conception,\" \"resolve some of the confusions,\" \"can't forget it.\" These phrases evoke strong emotions of fascination, admiration, and introspection. The mention of being haunted and unable to forget implies a deep emotional connection to the subject matter.\n\nPotential Biases or Conflicting Sentiments: The text seems to express a mix of emotions, including being haunted by something while also admiring and resolving confusions about it. This complexity could indicate conflicting sentiments, but the overall tone leans towards positivity due to the appreciation and resolution mentioned.\n\n##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "5": {
+                    "content": "the film will play equally well on both the standard and giant screens . ",
+                    "response": "Aspect: Overall Sentiment\nRating: +3\nJustification: The overall sentiment of the text is positive as it suggests that the film will be enjoyable regardless of the screen size.\n\nAspect: Emotional Impact\nRating: +2\nJustification: The text conveys a sense of excitement and anticipation for the film being able to be enjoyed on both standard and giant screens.\n\nAspect: Emotive Language\nRating: +3\nJustification: The use of words like \"equally well\" implies fairness and satisfaction, contributing to a positive emotional tone.\n\nAspect: Lexical Choices\nRating: +3\nJustification: The choice of words like \"equally well\" and \"giant screens\" adds a sense of grandeur and inclusivity, enhancing the positive sentiment.\n\nOverall emotional tone: The overall emotional tone is optimistic and inclusive, suggesting that the film will be a great experience for viewers regardless of the screen size.\n\nKey emotive words/phrases: \"equally well\", \"giant screens\" - These words evoke a sense of equality and grandness, creating a positive and exciting atmosphere for the film.\n\nPotential biases/conflicting sentiments: There are no clear biases or conflicting sentiments present in the text.\n\n##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "6": {
+                    "content": "if there 's one thing this world needs less of , it 's movies about college that are written and directed by people who could n't pass an entrance exam . ",
+                    "response": "Overall Classification: Negative\n\nAspect Breakdown:\n1. Emotional Impact: -4\n2. Emotive Language: -3\n3. Lexical Choices: -4\n\nJustification:\n1. Emotional Impact: The text conveys a strong negative sentiment with the phrase \"this world needs less of.\" The tone is critical and dismissive, indicating a lack of appreciation for a particular type of movie.\n2. Emotive Language: The use of phrases like \"could n't pass an entrance exam\" adds a derogatory tone to the text, suggesting incompetence and lack of skill.\n3. Lexical Choices: The choice of words like \"less,\" \"could n't,\" and \"written and directed by people who could n't pass an entrance exam\" all contribute to a negative evaluation of the subject matter.\n\nOverall Emotional Tone: The overall emotional tone is disdainful and critical. The text expresses a strong disapproval of movies about college made by individuals perceived as lacking intelligence or capability.\n\nKey Emotive Words: \"needs less of,\" \"could n't pass an entrance exam\"\n\nPotential Biases: The text may reflect a bias against movies about college and those involved in creating them, potentially stemming from personal experiences or beliefs.\n\n##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "7": {
+                    "content": "a science-fiction pastiche so lacking in originality that if you stripped away its inspirations there would be precious little left . ",
+                    "response": "Overall sentiment: Negative\n\n1. Emotional impact: -3\nThe text conveys a sense of disappointment and criticism towards the lack of originality in the science-fiction pastiche. The tone is more on the negative side due to the use of words like \"lacking\" and \"precious little left.\"\n\n2. Emotive language: -4\nThe use of words like \"lacking,\" \"precious little,\" and \"stripped away\" evokes a sense of emptiness and inadequacy. These words carry a negative connotation and contribute to the overall negative sentiment of the text.\n\n3. Lexical choices: -4\nThe choice of words such as \"lacking in originality\" and \"precious little left\" emphasizes the unoriginal nature of the pastiche. These words highlight the negative aspect of the text and suggest a lack of creativity.\n\nOverall, the text conveys a negative sentiment due to its critical tone and the use of emotive language that highlights the lack of originality. The key emotive words like \"lacking\" and \"precious little left\" emphasize the disappointment and criticism towards the work. The context suggests a bias towards originality and creativity in science fiction, which is not met by the pastiche in question.\n\n##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "8": {
+                    "content": "chokes on its own depiction of upper-crust decorum . ",
+                    "response": "Overall sentiment: Negative\n\nAspect breakdown:\n1. Emotional impact: -3\n2. Emotive language: -4\n3. Lexical choices: -4\n\nJustification:\nThe overall sentiment of the text is negative due to the use of words like \"chokes\" and \"depiction of upper-crust decorum,\" which convey a sense of discomfort or disdain. The emotional impact is moderately negative as the text evokes a feeling of unease or displeasure. The emotive language used is quite negative, emphasizing the negative connotations associated with the subject matter. The lexical choices further contribute to the negative sentiment by highlighting the negative aspects of the depiction.\n\nOverall emotional tone: The overall emotional tone is critical and disapproving. The use of the word \"chokes\" suggests a sense of suffocation or discomfort, while \"depiction of upper-crust decorum\" implies a negative portrayal of high society norms.\n\nKey emotive words or phrases: \"chokes,\" \"depiction of upper-crust decorum.\" These words evoke strong negative emotions and emphasize the critical tone of the text.\n\nPotential biases or conflicting sentiments: The text appears to have a clear negative bias towards the subject matter, with no conflicting sentiments evident.\n\n##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "9": {
+                    "content": "one of the more intelligent children 's movies to hit theaters this year . ",
+                    "response": "Overall sentiment classification: ##positive\n\nAspect breakdown:\n1. Emotional impact: +4\n2. Emotive language: +3\n3. Lexical choices: +4\n\nJustification:\nThe overall sentiment of the text is positive. The emotional impact is rated as +4 due to the use of the word \"intelligent\" to describe the movie, suggesting a high level of quality and thoughtfulness. The emotive language is rated as +3 because the text conveys a sense of admiration and praise for the movie. The lexical choices are rated as +4 as the phrase \"one of the more intelligent children's movies\" indicates a positive evaluation of the film's content and appeal to a wide audience.\n\nOverall emotional tone: The overall emotional tone is one of admiration and praise for the movie, highlighting its intelligence and quality.\n\nKey emotive words or phrases: \"intelligent children's movies\" - This phrase stands out as it emphasizes the positive attributes of the movie, suggesting that it is not only entertaining but also intellectually stimulating for its target audience.\n\nPotential biases or conflicting sentiments: The text appears to be free from biases or conflicting sentiments, as it consistently praises the movie for its intelligence and quality.\n\n##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "10": {
+                    "content": "it 's one of those baseball pictures where the hero is stoic , the wife is patient , the kids are as cute as all get-out and the odds against success are long enough to intimidate , but short enough to make a dream seem possible . ",
+                    "response": "Overall sentiment classification: Positive\n\nAspect breakdown:\n1. Emotional impact: +4\n2. Emotive language: +3\n3. Lexical choices: +3\n\nJustification:\nThe overall sentiment of the text is positive. The emotional impact is quite strong, with descriptions of the hero being stoic, the wife patient, and the kids cute, creating a warm and endearing tone. The emotive language used, such as \"dream seem possible,\" evokes feelings of hope and optimism. The lexical choices, like \"intimidate\" and \"success,\" convey a sense of challenge and achievement, but also hint at the possibility of overcoming obstacles.\n\nOverall emotional tone: The overall emotional tone is uplifting and hopeful, with a focus on perseverance and the potential for success despite challenges. Key emotive words and phrases like \"dream seem possible\" and \"cute as all get-out\" emphasize positivity and a sense of possibility.\n\n##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "11": {
+                    "content": "may be far from the best of the series , but it 's assured , wonderfully respectful of its past and thrilling enough to make it abundantly clear that this movie phenomenon has once again reinvented itself for a new generation . ",
+                    "response": "Overall sentiment: Positive\n\n1. Emotional impact: +4\nThe text conveys a sense of excitement and positivity, describing the movie as \"thrilling enough\" and \"reinvented itself for a new generation.\"\n\n2. Emotive language: +3\nWords like \"wonderfully respectful\" and \"thrilling\" evoke positive emotions and enthusiasm.\n\n3. Lexical choices: +3\nPhrases like \"assured,\" \"abundantly clear,\" and \"reinvented itself\" suggest confidence and innovation, contributing to a positive sentiment.\n\nOverall, the text expresses a positive sentiment towards the movie, highlighting its respect for the past and its ability to captivate a new generation. The emotional tone is one of optimism and excitement, with key emotive words like \"thrilling\" and \"reinvented\" emphasizing the movie's appeal and evolution. ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "12": {
+                    "content": "although german cooking does not come readily to mind when considering the world 's best cuisine , mostly martha could make deutchland a popular destination for hungry tourists . ",
+                    "response": "Overall sentiment: Positive\n\nAspect breakdown:\n1. Emotional impact: +3\n2. Emotive language: +2\n3. Lexical choices: +1\n\nJustification:\nThe overall sentiment of the text is positive. The emotional impact is moderately positive, as the text suggests the potential for German cuisine to become popular among tourists. The emotive language used is somewhat positive, with phrases like \"world's best cuisine\" and \"popular destination for hungry tourists\" evoking a sense of excitement and possibility. The lexical choices are also slightly positive, as the text acknowledges that German cooking may not be the first choice for many but hints at a shift in perception.\n\nOverall emotional tone: The overall emotional tone is hopeful and optimistic, suggesting a positive change in perception towards German cuisine. The key emotive words or phrases include \"world's best cuisine,\" \"popular destination,\" and \"hungry tourists,\" which convey a sense of potential and desirability.\n\n##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "13": {
+                    "content": "vera 's technical prowess ends up selling his film short ; he smoothes over hard truths even as he uncovers them . ",
+                    "response": "Overall sentiment: Negative\n\n1. Technical prowess: +3\n2. Selling film short: -4\n3. Smoothing over hard truths: -3\n4. Uncovering truths: +2\n\nJustification: The text contains a mix of positive and negative aspects. While Vera is praised for his technical prowess (+3), the negative aspects outweigh the positive ones. The statement \"ends up selling his film short\" (-4) suggests that despite his skills, Vera's work is not reaching its full potential. Additionally, the act of \"smoothing over hard truths\" (-3) implies a lack of authenticity or honesty in his work. However, the aspect of \"uncovering truths\" (+2) shows a glimpse of positivity. Overall, the negative aspects dominate, leading to a classification of negative sentiment.\n\nEmotional tone: The overall emotional tone is critical and somewhat disappointed. The use of phrases like \"selling his film short\" and \"smoothes over hard truths\" conveys a sense of missed opportunities and lack of transparency. The word choices emphasize a sense of underachievement and compromise in Vera's work.\n\n##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "14": {
+                    "content": "corny , schmaltzy and predictable , but still manages to be kind of heartwarming , nonetheless . ",
+                    "response": "Overall sentiment classification: Positive\n\nAspect breakdown:\n1. Emotional impact: +2\n2. Emotive language: +1\n3. Lexical choices: +1\n\nJustification:\nThe overall sentiment of the text is positive, despite the initial negative descriptors like \"corny,\" \"schmaltzy,\" and \"predictable.\" The text acknowledges these aspects but then shifts to a more positive tone with \"kind of heartwarming\" and \"nonetheless.\" The emotional impact is slightly positive, as the text manages to evoke a sense of warmth or positivity. The emotive language used is not overly strong but still leans towards a positive sentiment. The lexical choices, while acknowledging some negative aspects, ultimately convey a sense of positivity.\n\nOverall emotional tone: The overall emotional tone of the text is one of mixed feelings but ultimately leaning towards positivity. The key emotive words or phrases include \"heartwarming\" and \"nonetheless,\" which suggest that despite any shortcomings, there is still a positive or uplifting element to be found.\n\n##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "15": {
+                    "content": "thanks to scott 's charismatic roger and eisenberg 's sweet nephew , roger dodger is one of the most compelling variations on in the company of men . ",
+                    "response": "Overall sentiment: Positive\n\nAspect breakdown:\n1. Emotional impact: +4\n2. Emotive language: +3\n3. Lexical choices: +4\n\nJustification:\nThe overall sentiment of the text is positive. The emotional impact is rated as +4 due to the use of words like \"charismatic\" and \"sweet,\" which evoke positive feelings. The emotive language is rated as +3 because terms like \"compelling\" suggest a strong emotional response. The lexical choices are rated as +4 for the positive connotations of words like \"charismatic\" and \"compelling.\"\n\nOverall emotional tone: The overall emotional tone is enthusiastic and appreciative. The mention of Scott's charismatic Roger and Eisenberg's sweet nephew creates a sense of admiration and warmth towards the characters. The comparison to \"in the company of men\" suggests that \"Roger Dodger\" is seen as a standout and engaging film.\n\nKey emotive words or phrases: \"charismatic,\" \"sweet,\" \"compelling,\" \"variations,\" \"in the company of men.\" These words convey admiration, warmth, and a sense of uniqueness, highlighting the positive aspects of the text.\n\nPotential biases or conflicting sentiments: The text appears to be free from biases or conflicting sentiments, as it focuses on praising the characters and the film positively.\n\n##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "16": {
+                    "content": "a gorgeous , witty , seductive movie . ",
+                    "response": "Overall sentiment classification: Positive\n\nAspect breakdown:\n1. Emotional impact: +4\n2. Emotive language: +5\n3. Lexical choices: +4\n\nJustification:\nThe overall sentiment of the text is positive due to the use of highly positive descriptors such as \"gorgeous,\" \"witty,\" and \"seductive.\" These words evoke a sense of admiration and enjoyment, contributing to a positive emotional impact. The emotive language used in the text is strong and vivid, enhancing the overall positive sentiment. The lexical choices are also positive, emphasizing the appealing qualities of the movie.\n\nOverall emotional tone: The overall emotional tone is one of admiration and allure. The use of words like \"gorgeous,\" \"witty,\" and \"seductive\" conveys a sense of beauty, intelligence, and charm associated with the movie.\n\nKey emotive words or phrases: \"gorgeous,\" \"witty,\" \"seductive\" - These words are significant as they highlight the positive attributes of the movie and create a strong emotional impact on the reader, emphasizing its appeal and allure.\n\nPotential biases or conflicting sentiments: The text is overwhelmingly positive with no apparent biases or conflicting sentiments present.\n\n##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "17": {
+                    "content": "sustains its dreamlike glide through a succession of cheesy coincidences and voluptuous cheap effects , not the least of which is rebecca romijn-stamos . ",
+                    "response": "Overall sentiment: Negative\n\n1. Emotional impact: -3\nThe text conveys a negative emotional impact by describing the events as \"cheesy coincidences\" and \"cheap effects.\" These phrases suggest a lack of authenticity and quality, leading to a negative emotional response.\n\n2. Emotive language: -4\nThe use of words like \"cheesy,\" \"cheap,\" and \"voluptuous\" carries a negative connotation. These words evoke feelings of distaste, insincerity, and superficiality, contributing to a negative sentiment.\n\n3. Lexical choices: -3\nThe choice of words such as \"sustains,\" \"dreamlike glide,\" and \"not the least of which\" adds a slightly positive tone initially. However, the negative descriptors that follow overshadow any positive connotations, resulting in an overall negative sentiment.\n\nJustification: The text's negative emotional impact, emotive language, and lexical choices collectively contribute to an overall negative sentiment. The use of words like \"cheesy\" and \"cheap\" sets a tone of low quality and lack of authenticity, leading to a negative classification.\n\nOverall emotional tone: The overall emotional tone is critical and dismissive, highlighting the perceived shortcomings of the subject matter. The text conveys a sense of disappointment or dissatisfaction with the content being described.\n\nKey emotive words or phrases: \"cheesy coincidences,\" \"voluptuous cheap effects,\" \"not the least of which\"\nThese phrases stand out as key emotive words that contribute to the negative sentiment. \"Cheesy\" and \"cheap\" are particularly strong in conveying a sense of low quality and lack of value.\n\n##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "18": {
+                    "content": "we know the plot 's a little crazy , but it held my interest from start to finish . ",
+                    "response": "Overall sentiment classification: Positive\n\nAspect breakdown:\n1. Emotional impact: +4\n2. Emotive language: +3\n3. Lexical choices: +3\n\nJustification:\nThe overall sentiment of the text is positive. The emotional impact is rated at +4 as the text expresses a strong sense of engagement and interest. The emotive language used, such as \"held my interest,\" conveys a positive tone and indicates a favorable experience. The lexical choices, including \"crazy\" and \"from start to finish,\" contribute to the overall positive sentiment by highlighting the engaging nature of the plot despite its unconventional aspects.\n\nOverall emotional tone: The overall emotional tone is one of enthusiasm and enjoyment. The phrase \"held my interest from start to finish\" indicates a high level of engagement and satisfaction with the plot, suggesting a positive viewing experience.\n\nKey emotive words/phrases: \"crazy,\" \"held my interest,\" \"from start to finish.\" These phrases emphasize the unique and captivating nature of the plot, showcasing the viewer's positive reaction to the storyline.\n\nPotential biases/conflicting sentiments: The acknowledgment that the plot is \"a little crazy\" may suggest a hint of skepticism or reservation, but the overall positive sentiment expressed in the text outweighs any potential biases. The viewer's enjoyment and engagement with the plot are the dominant sentiments conveyed.\n\n##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "19": {
+                    "content": "an occasionally funny , but overall limp , fish-out-of-water story . ",
+                    "response": "Overall sentiment: Negative\n\nAspect breakdown:\n1. Emotional impact: -2\n2. Humor: +3\n3. Plot: -3\n\nJustification:\nThe emotional impact of the text is slightly negative due to the use of the word \"limp\" which conveys a sense of weakness or lack of excitement. The humor aspect is rated positively as the text mentions the story being occasionally funny. However, the overall sentiment towards the plot is negative, as it is described as a fish-out-of-water story, which implies a lack of originality or engaging elements.\n\nOverall emotional tone: The overall emotional tone is somewhat critical and underwhelmed. The key emotive words are \"limp\" and \"occasionally funny,\" which highlight a mix of disappointment and mild amusement.\n\n##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "20": {
+                    "content": "this riveting world war ii moral suspense story deals with the shadow side of american culture : racial prejudice in its ugly and diverse forms . ",
+                    "response": "Overall sentiment: Negative\n\nAspect breakdown:\n1. Emotional impact: -4\n2. Emotive language: -5\n3. Lexical choices: -4\n\nJustification:\nThe overall sentiment of the text is negative due to the use of words like \"ugly,\" \"prejudice,\" and \"shadow side.\" These words evoke strong negative emotions and suggest a dark and troubling theme. The emotional impact is negative as the text addresses racial prejudice, a sensitive and serious issue. The emotive language further emphasizes the negative tone by highlighting the ugliness and diversity of prejudice. The lexical choices contribute to the negative sentiment by portraying American culture in a negative light, focusing on its shadow side.\n\nOverall emotional tone: The overall emotional tone is somber and critical, highlighting the dark aspects of American culture during World War II. The text conveys a sense of seriousness and introspection, prompting readers to reflect on the troubling themes of racial prejudice.\n\nKey emotive words or phrases: \"ugly,\" \"prejudice,\" \"shadow side,\" \"racial prejudice.\" These words carry strong negative connotations and emphasize the dark and troubling nature of the story.\n\nPotential biases or conflicting sentiments: The text may be biased towards portraying American culture in a negative light, focusing solely on its negative aspects related to racial prejudice. There may be conflicting sentiments among readers who have different perspectives on the portrayal of historical events and cultural issues.\n\n##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "21": {
+                    "content": "coughs and sputters on its own postmodern conceit . ",
+                    "response": "Overall sentiment classification: ##negative\n\nAspect breakdown:\n1. Emotional impact: -3\n2. Emotive language: -4\n3. Lexical choices: -3\n\nJustification:\nThe overall sentiment of the text is negative due to the use of words like \"coughs,\" \"sputters,\" and \"postmodern conceit,\" which convey a sense of struggle, instability, and pretentiousness. The emotional impact is slightly negative as the text evokes a feeling of discomfort or unease. The emotive language further contributes to the negative sentiment by emphasizing the negative aspects of the subject. The lexical choices, including \"postmodern conceit,\" suggest a negative judgment or criticism of the subject matter.\n\nOverall emotional tone: The overall emotional tone of the text is critical and dismissive. The use of words like \"coughs,\" \"sputters,\" and \"postmodern conceit\" conveys a sense of disdain or disapproval towards the subject matter. These words suggest that the subject is struggling or failing in some way, and the reference to \"postmodern conceit\" implies a sense of arrogance or self-importance that is being criticized.\n\nKey emotive words or phrases: \"coughs,\" \"sputters,\" \"postmodern conceit\"\n- \"coughs\" and \"sputters\" suggest a sense of struggle or malfunction, creating a negative image of the subject.\n- \"postmodern conceit\" implies a negative judgment of the subject's perceived arrogance or self-importance.\n\nPotential biases or conflicting sentiments: The text appears to have a clear negative bias towards the subject matter, as indicated by the critical language and tone used. There is a lack of positive or neutral language to balance out the negative sentiment, suggesting a one-sided perspective.",
+                    "pred": 0,
+                    "label": 0
+                },
+                "22": {
+                    "content": "not far beneath the surface , this reconfigured tale asks disturbing questions about those things we expect from military epics . ",
+                    "response": "Overall sentiment: Negative\n\nAspect breakdown:\n1. Emotional impact: -3\n2. Emotive language: -4\n3. Lexical choices: -3\n\nJustification:\nThe overall sentiment of the text is negative due to the use of words like \"disturbing\" and the implication that the reconfigured tale raises unsettling questions. The emotional impact is moderately negative, as the text suggests a sense of unease or discomfort. The emotive language further contributes to the negative sentiment by emphasizing the unsettling nature of the questions being asked. The lexical choices, including phrases like \"not far beneath the surface\" and \"disturbing questions,\" reinforce the negative tone of the text.\n\nOverall emotional tone: The overall emotional tone is one of unease and discomfort, with a hint of foreboding. The text suggests that there are unsettling questions being raised beneath the surface, creating a sense of tension and apprehension.\n\nKey emotive words or phrases: \"disturbing questions,\" \"not far beneath the surface,\" \"expect,\" \"military epics.\" These words and phrases evoke a sense of unease, uncertainty, and potential conflict, contributing to the negative emotional tone of the text.\n\n##negative",
+                    "pred": 0,
+                    "label": 1
+                },
+                "23": {
+                    "content": "it 's an offbeat treat that pokes fun at the democratic exercise while also examining its significance for those who take part . ",
+                    "response": "Overall sentiment: Positive\n\n1. Emotional impact: +3\nThe text conveys a sense of amusement and light-heartedness with the phrase \"offbeat treat\" suggesting a unique and enjoyable experience.\n\n2. Emotive language: +4\nThe use of words like \"pokes fun\" and \"examining its significance\" indicates a playful and thoughtful approach to the topic, adding depth and interest to the text.\n\n3. Lexical choices: +3\nThe choice of words such as \"offbeat\" and \"examining\" shows a creative and analytical perspective, contributing to a positive tone.\n\nOverall, the text has a positive sentiment as it combines humor and introspection in a way that is engaging and thought-provoking. The key emotive words like \"offbeat treat\" and \"pokes fun\" create a light-hearted and enjoyable tone, while \"examining its significance\" adds a layer of depth and meaning. The text balances humor with reflection, making it an overall positive portrayal of the subject matter. ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "24": {
+                    "content": "there 's really only one good idea in this movie , but the director runs with it and presents it with an unforgettable visual panache . ",
+                    "response": "Overall sentiment: Positive\n\nAspect breakdown:\n1. Emotional impact: +4\n2. Emotive language: +3\n3. Lexical choices: +4\n\nJustification:\nThe overall sentiment of the text is positive. The emotional impact is rated at +4 as the text conveys enthusiasm and admiration for the movie. The emotive language used, such as \"unforgettable visual panache,\" adds a positive tone to the review, rated at +3. The lexical choices, including \"good idea\" and \"director runs with it,\" are positive and contribute to the overall positive sentiment, rated at +4.\n\nOverall emotional tone: The overall emotional tone is one of appreciation and praise for the movie. The reviewer acknowledges that there is only one good idea in the movie but highlights the director's skill in presenting it with unforgettable visual flair.\n\nKey emotive words/phrases: \"unforgettable visual panache\" - This phrase conveys a sense of awe and admiration for the visual aspects of the movie, emphasizing its impact on the viewer.\n\nPotential biases/conflicting sentiments: The reviewer's positive sentiment may be influenced by their appreciation for the director's execution of the movie, despite there being only one standout idea. However, the overall positive tone suggests that this aspect is not a significant concern.\n\n##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "25": {
+                    "content": "a broad , melodramatic estrogen opera that 's pretty toxic in its own right . ",
+                    "response": "Overall sentiment: Negative\n\nAspect breakdown:\n1. Emotional impact: -3\n2. Emotive language: -4\n3. Lexical choices: -3\n\nJustification:\nThe overall sentiment of the text is negative due to the use of words like \"toxic\" and \"melodramatic.\" The emotional impact is slightly negative as the text conveys a sense of negativity and criticism. The emotive language is quite negative, with terms like \"toxic\" emphasizing a harmful or unpleasant nature. The lexical choices also contribute to the negative sentiment, with words like \"estrogen opera\" carrying a negative connotation.\n\nOverall emotional tone: The overall emotional tone is critical and dismissive. The text conveys a sense of disdain towards the subject matter, describing it as toxic and melodramatic. The use of the term \"estrogen opera\" adds a gendered aspect to the criticism, potentially indicating biases or conflicting sentiments related to gender stereotypes.\n\nKey emotive words or phrases: \"toxic,\" \"melodramatic,\" \"estrogen opera.\" These words carry strong negative connotations and contribute to the overall negative sentiment of the text.\n\n##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "26": {
+                    "content": "and if you 're not nearly moved to tears by a couple of scenes , you 've got ice water in your veins . ",
+                    "response": "Overall sentiment: Positive\n\nAspect breakdown:\n1. Emotional impact: +4\n2. Emotive language: +5\n3. Lexical choices: +3\n\nJustification:\nThe overall sentiment of the text is positive. The emotional impact is rated at +4 because the text suggests that the scenes are moving enough to potentially bring someone to tears, indicating a strong emotional response. The emotive language is rated at +5 as phrases like \"moved to tears\" and \"ice water in your veins\" evoke strong emotions and emphasize the impact of the scenes. The lexical choices are rated at +3 as the text uses vivid language to convey the intensity of the emotional response.\n\nOverall emotional tone: The emotional tone is intense and evocative, aiming to elicit a strong emotional reaction from the reader. Key emotive words and phrases like \"moved to tears\" and \"ice water in your veins\" highlight the contrast between deep emotion and lack thereof, emphasizing the power of the scenes described.\n\n##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "27": {
+                    "content": "bad . ",
+                    "response": "Overall sentiment classification: ##negative\n\nAspect breakdown:\n1. Emotional impact: -3\n2. Emotive language: -4\n3. Lexical choices: -4\n\nJustification:\nThe text \"bad\" is a very straightforward and negative term, conveying a strong negative sentiment. The emotional impact is rated at -3 as it lacks depth or nuance, simply stating a negative opinion without much elaboration. The emotive language is rated at -4 as the word \"bad\" itself is quite strong and evokes a negative emotional response. The lexical choices are also rated at -4 as the use of such a blunt and negative term leaves little room for interpretation or positivity.\n\nOverall emotional tone:\nThe overall emotional tone of the text is very negative and critical. The use of the word \"bad\" conveys a strong sense of disapproval or dissatisfaction. The lack of any additional context or explanation further emphasizes the negative tone.\n\nKey emotive words or phrases:\nThe key emotive word in this text is \"bad.\" This word is significant because it is a highly negative and judgmental term that leaves no room for positivity or ambiguity. Its straightforwardness contributes to the overall negative emotional impact of the text.\n\nPotential biases or conflicting sentiments:\nThe text is quite clear in its negative sentiment, so there are no apparent biases or conflicting sentiments present in this brief statement. The lack of additional context or information limits the potential for conflicting interpretations.\n\n##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "28": {
+                    "content": "the film 's hackneyed message is not helped by the thin characterizations , nonexistent plot and pretentious visual style . ",
+                    "response": "Overall Classification: ##negative\n\nAspect Breakdown:\n1. Emotional Impact: -4\n2. Emotive Language: -3\n3. Lexical Choices: -4\n\nJustification:\nThe overall sentiment of the text is negative. The emotional impact is rated at -4 due to the use of words like \"hackneyed,\" \"thin characterizations,\" \"nonexistent plot,\" and \"pretentious visual style,\" which all convey a sense of disappointment and dissatisfaction. The emotive language is rated at -3 as the text expresses a critical and dismissive tone towards the film's elements. The lexical choices are rated at -4 because the words used are strongly negative and convey a lack of quality in the film.\n\nOverall Emotional Tone:\nThe overall emotional tone is one of disdain and criticism. The text conveys a strong sense of disappointment and frustration with the film's perceived shortcomings. Key emotive words and phrases such as \"hackneyed message,\" \"thin characterizations,\" \"nonexistent plot,\" and \"pretentious visual style\" highlight the negative perception of the film's quality and execution.\n\n##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "29": {
+                    "content": "the man from elysian fields is a cold , bliss-less work that groans along thinking itself some important comment on how life throws us some beguiling curves . ",
+                    "response": "Overall sentiment: Negative\n\n1. Emotional impact: -3\nThe text conveys a sense of coldness and lack of joy, describing the man from Elysian Fields as \"cold\" and \"bliss-less.\" This evokes a feeling of emptiness and dissatisfaction.\n\n2. Emotive language: -4\nWords like \"groans,\" \"beguiling curves,\" and \"important comment\" carry negative connotations. They suggest a sense of burden, deception, and pretentiousness, contributing to the overall negative sentiment.\n\n3. Lexical choices: -3\nThe choice of words like \"cold,\" \"bliss-less,\" and \"groans\" paints a bleak picture. These words emphasize a lack of warmth, happiness, and fulfillment, further reinforcing the negative tone.\n\nJustification: The text's overall sentiment is negative due to the combination of cold, joyless descriptions, negative emotive language, and bleak lexical choices. The portrayal of the man from Elysian Fields as unfulfilled and pretentious adds to the negative tone.\n\nOverall emotional tone: The overall emotional tone is one of disillusionment and dissatisfaction. The text conveys a sense of emptiness and lack of fulfillment, highlighting the negative aspects of life and human experience.\n\nKey emotive words/phrases: \"cold,\" \"bliss-less,\" \"groans,\" \"beguiling curves,\" \"important comment.\" These words and phrases emphasize feelings of emptiness, dissatisfaction, burden, deception, and pretentiousness, contributing to the negative emotional tone.\n\n##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "30": {
+                    "content": "this is human comedy at its most amusing , interesting and confirming . ",
+                    "response": "Overall sentiment classification: ##positive\n\nAspect breakdown:\n1. Emotional impact: +4\n2. Emotive language: +5\n3. Lexical choices: +4\n\nJustification:\nThe overall sentiment of the text is positive. The emotional impact is rated at +4 as the text conveys a sense of amusement and interest. The emotive language used, such as \"amusing\" and \"interesting,\" contributes to a positive sentiment rating of +5. The lexical choices, including \"confirming,\" also add to the positive tone with a rating of +4. The text exudes a cheerful and optimistic vibe, highlighting the enjoyment and validation found in human comedy.\n\nOverall emotional tone: The overall emotional tone is upbeat and appreciative, emphasizing the joy and fascination derived from observing human comedy. The key emotive words/phrases like \"amusing,\" \"interesting,\" and \"confirming\" underscore the positive feelings associated with the subject matter.\n\nPotential biases/conflicting sentiments: There are no apparent biases or conflicting sentiments present in the text that would detract from the overall positive classification. The text seems to genuinely celebrate the humor and insights found in human interactions.\n\n##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "score": 0.9666666666666667
+            },
+            "prompt_mean_score": 0.9666666666666667
+        },
+        "3": {
+            "prompt": "Classify the sentiment of the following text as either positive or negative. Break down the text into different aspects, consider the sentiment of each aspect, and evaluate how these aspects contribute to the overall sentiment. Consider the emotional impact, nuances, levels of positivity or negativity, emotive language, and lexical choices in the text before making your decision. Please output your answer at the end as ##positive or ##negative with no spaces: {content}",
+            "results_1": {
+                "1": {
+                    "content": "the film will play equally well on both the standard and giant screens . ",
+                    "response": "Aspect 1: Visual Experience\nSentiment: Positive\nExplanation: The text mentions that the film will play equally well on both standard and giant screens, indicating that the visual experience is likely to be enjoyable regardless of the screen size. This aspect contributes positively to the overall sentiment as it suggests that viewers can expect a visually appealing experience.\n\nAspect 2: Flexibility\nSentiment: Positive\nExplanation: The statement implies that the film is versatile and can be enjoyed on different types of screens, which can be seen as a positive feature. This aspect adds to the overall positive sentiment by highlighting the adaptability of the film to various viewing environments.\n\nOverall Sentiment: Positive\n\n##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "2": {
+                    "content": "one of the more intelligent children 's movies to hit theaters this year . ",
+                    "response": "Aspect 1: Overall Tone\n- The text praises the movie as being \"one of the more intelligent children's movies.\"\n- The use of the word \"intelligent\" suggests a positive evaluation of the movie's quality.\n\nAspect 2: Target Audience\n- The movie is described as a children's movie, indicating that it is intended for a younger audience.\n- This suggests a positive sentiment as it implies the movie is suitable and engaging for children.\n\nAspect 3: Comparison to Other Movies\n- The text mentions that it is one of the more intelligent children's movies to hit theaters this year.\n- This comparison implies that the movie stands out positively among other children's movies released in the same year.\n\nOverall sentiment: Positive\n\n##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "3": {
+                    "content": "chokes on its own depiction of upper-crust decorum . ",
+                    "response": "Aspect 1: Emotional Impact\n- The text conveys a negative emotional impact with the phrase \"chokes on its own depiction,\" suggesting a sense of suffocation or discomfort.\n\nAspect 2: Nuances\n- The use of \"chokes\" implies a strong negative reaction, indicating a feeling of being overwhelmed or stifled.\n- The phrase \"upper-crust decorum\" suggests a sense of pretentiousness or artificiality, adding to the negative connotation.\n\nAspect 3: Levels of Positivity/Negativity\n- The overall tone of the text is negative, as it criticizes the portrayal of high society manners or behavior.\n\nAspect 4: Emotive Language\n- The use of \"chokes\" is highly emotive, evoking a visceral reaction and emphasizing the negative sentiment.\n\nAspect 5: Lexical Choices\n- The choice of words like \"chokes\" and \"depiction\" contributes to the negative sentiment by highlighting a sense of falseness or insincerity.\n\nOverall Sentiment: ##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "4": {
+                    "content": "if there 's one thing this world needs less of , it 's movies about college that are written and directed by people who could n't pass an entrance exam . ",
+                    "response": "Aspect 1: Subject Matter (Movies about college)\nSentiment: Negative\nExplanation: The text expresses a negative sentiment towards movies about college, suggesting that there is an oversaturation of such films.\n\nAspect 2: Authorship (Written and directed by people who couldn't pass an entrance exam)\nSentiment: Negative\nExplanation: The text implies a negative sentiment towards the creators of these movies, suggesting incompetence or lack of qualification.\n\nAspect 3: Critique of the World's Needs\nSentiment: Negative\nExplanation: The text conveys a negative sentiment towards the current state of the world, indicating a belief that there are more important things to focus on than movies about college.\n\nOverall Sentiment: Negative\nExplanation: The text overall conveys a negative sentiment by criticizing the prevalence of movies about college and questioning the qualifications of their creators, while also expressing a negative view of the world's priorities.\n\n##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "5": {
+                    "content": "it haunts you , you ca n't forget it , you admire its conception and are able to resolve some of the confusions you had while watching it . ",
+                    "response": "Aspect breakdown:\n\n1. **Emotional Impact**: The text conveys a sense of haunting and being unable to forget something, which can evoke a negative emotional impact.\n   \n2. **Nuances**: Despite the haunting nature mentioned, there is also an element of admiration for the conception of whatever is being referred to. This adds a layer of complexity to the sentiment.\n\n3. **Levels of Positivity/Negativity**: The initial phrases \"it haunts you\" and \"you can't forget it\" suggest a negative sentiment due to the persistence of the experience. However, the mention of admiring its conception introduces a positive aspect.\n\n4. **Emotive Language**: Phrases like \"haunts you\" and \"admire its conception\" contain emotive language that can influence the sentiment.\n\n5. **Lexical Choices**: Words like \"haunts,\" \"forget,\" and \"confusions\" carry negative connotations, while \"admire\" introduces a positive element.\n\nOverall sentiment: ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "6": {
+                    "content": "a science-fiction pastiche so lacking in originality that if you stripped away its inspirations there would be precious little left . ",
+                    "response": "Aspect breakdown:\n\n1. **Overall Tone**: The text conveys a negative sentiment by criticizing the lack of originality in the science-fiction pastiche.\n   \n2. **Emotional Impact**: The language used, such as \"lacking in originality\" and \"precious little left,\" evokes a sense of disappointment or disdain.\n   \n3. **Nuances**: The phrase \"lacking in originality\" suggests a strong critique of the work's creativity and uniqueness, indicating a negative evaluation.\n   \n4. **Levels of Positivity/Negativity**: The text is predominantly negative, focusing on the shortcomings of the science-fiction pastiche.\n   \n5. **Emotive Language**: Words like \"lacking\" and \"precious little left\" carry a negative connotation, emphasizing the lack of originality.\n   \n6. **Lexical Choices**: The use of words like \"stripped away\" and \"inspirations\" highlights the idea of removing borrowed elements to reveal the lack of substance in the work.\n\nBased on the analysis of the text, the sentiment is ##negative.",
+                    "pred": 0,
+                    "label": 0
+                },
+                "7": {
+                    "content": "it provides an honest look at a community striving to anchor itself in new grounds . ",
+                    "response": "Aspect 1: Emotional Impact\n- The text conveys a sense of honesty and sincerity in its portrayal of a community trying to establish itself in a new environment. This evokes a feeling of authenticity and genuine effort.\n\nAspect 2: Nuances\n- The use of the word \"striving\" suggests a sense of determination and hard work, indicating a positive aspect of the community's efforts.\n- The phrase \"anchor itself in new grounds\" implies a desire for stability and growth, which can be seen as a positive attribute.\n\nAspect 3: Levels of Positivity/Negativity\n- Overall, the text leans more towards a positive sentiment as it highlights the community's endeavor to adapt and thrive in a new setting.\n\nAspect 4: Emotive Language and Lexical Choices\n- The choice of words like \"honest\" and \"striving\" conveys a positive tone, emphasizing the community's commitment and integrity.\n- The phrase \"anchor itself in new grounds\" paints a picture of resilience and determination, adding a positive layer to the sentiment.\n\nOverall Sentiment: Positive\n\n##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "8": {
+                    "content": "what better message than ` love thyself ' could young women of any size receive ? ",
+                    "response": "Aspect 1: Message Content\n- The message \"love thyself\" is inherently positive as it promotes self-acceptance and self-love.\n- This aspect carries a strong positive sentiment as it encourages empowerment and self-worth.\n\nAspect 2: Target Audience\n- The text mentions young women, indicating a focus on empowering a specific demographic.\n- Empowering young women can be seen as positive, as it promotes confidence and self-esteem.\n\nAspect 3: Inclusivity\n- The phrase \"of any size\" suggests inclusivity and body positivity.\n- This aspect adds a layer of positivity by promoting acceptance and diversity.\n\nOverall, the text conveys a highly positive sentiment by promoting self-love, empowerment, inclusivity, and body positivity. The message is uplifting and encouraging, aiming to boost the confidence and self-worth of young women. ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "9": {
+                    "content": "it 's one of those baseball pictures where the hero is stoic , the wife is patient , the kids are as cute as all get-out and the odds against success are long enough to intimidate , but short enough to make a dream seem possible . ",
+                    "response": "Aspect breakdown:\n\n1. **Hero**: The hero is described as \"stoic,\" which typically conveys a sense of strength, resilience, and determination. This aspect leans towards a positive sentiment.\n   \n2. **Wife**: The wife is portrayed as \"patient,\" which is generally seen as a positive trait. It suggests understanding, support, and endurance.\n   \n3. **Kids**: The kids are described as \"cute,\" which is a positive attribute. It evokes warmth, affection, and endearment.\n   \n4. **Odds against success**: The odds against success are mentioned as being intimidating, which introduces a negative aspect. It implies challenges and obstacles that may be difficult to overcome.\n   \n5. **Dream seem possible**: Despite the long odds, the text mentions that the dream seems possible, which injects a hopeful and positive element into the overall sentiment.\n\nOverall sentiment: The text combines elements of positivity and negativity. While there are challenges and intimidating odds, the presence of stoicism, patience, cuteness, and the belief in the possibility of a dream creates an overall positive sentiment.\n\n##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "10": {
+                    "content": "nicks , seemingly uncertain what 's going to make people laugh , runs the gamut from stale parody to raunchy sex gags to formula romantic comedy . ",
+                    "response": "Aspect breakdown:\n\n1. **Nick's Performance**: The text mentions that Nick seems uncertain about what will make people laugh. This uncertainty can be seen as a negative aspect as it implies a lack of confidence or skill in delivering humor.\n\n2. **Humor Content**: The text describes the humor content as ranging from stale parody to raunchy sex gags to formulaic romantic comedy. Stale parody suggests unoriginality, raunchy sex gags may be polarizing, and formulaic romantic comedy implies predictability. These aspects contribute to a mixed sentiment.\n\n3. **Overall Tone**: The overall tone of the text seems critical, pointing out the variety of humor styles that Nick employs without much positive commentary.\n\nEvaluation:\n\nThe text's mention of Nick's uncertainty and the range of humor styles he uses, which are described in a somewhat negative light, contribute to an overall negative sentiment. The lack of positive language or praise for Nick's performance or humor content further supports this negative sentiment.\n\n##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "11": {
+                    "content": "thanks to scott 's charismatic roger and eisenberg 's sweet nephew , roger dodger is one of the most compelling variations on in the company of men . ",
+                    "response": "Aspect breakdown:\n\n1. **Scott's charismatic Roger**: Positive sentiment. The use of the word \"charismatic\" suggests that Scott's portrayal of Roger is engaging and likable.\n\n2. **Eisenberg's sweet nephew**: Positive sentiment. The term \"sweet\" conveys a positive and endearing quality to Eisenberg's character.\n\n3. **Comparison to \"In the Company of Men\"**: Neutral sentiment. The comparison to another film doesn't inherently carry positive or negative connotations.\n\nOverall sentiment: Positive\n\nFinal classification: ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "12": {
+                    "content": "vera 's technical prowess ends up selling his film short ; he smoothes over hard truths even as he uncovers them . ",
+                    "response": "Aspect 1: Technical Prowess\nSentiment: Positive\nExplanation: The text acknowledges Vera's technical prowess, which is a positive aspect. This suggests a level of skill and expertise in filmmaking.\n\nAspect 2: Selling Film Short\nSentiment: Negative\nExplanation: The phrase \"selling his film short\" implies that Vera's technical prowess may not be fully utilized or appreciated, leading to a negative connotation.\n\nAspect 3: Smoothing Over Hard Truths\nSentiment: Negative\nExplanation: The act of smoothing over hard truths suggests a lack of transparency or honesty, which can be seen as negative.\n\nAspect 4: Uncovering Truths\nSentiment: Neutral\nExplanation: While uncovering truths can be positive, the text implies that Vera's approach to this may not be entirely effective, leading to a more neutral sentiment.\n\nOverall Sentiment: ##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "13": {
+                    "content": "may be far from the best of the series , but it 's assured , wonderfully respectful of its past and thrilling enough to make it abundantly clear that this movie phenomenon has once again reinvented itself for a new generation . ",
+                    "response": "Aspect 1: Comparison to the rest of the series\nSentiment: Neutral to slightly negative\nExplanation: The text mentions that the movie may be \"far from the best of the series,\" indicating a comparison to previous installments. This comparison could be seen as slightly negative, suggesting that the movie may not live up to the standards set by its predecessors.\n\nAspect 2: Assurance and respect for the past\nSentiment: Positive\nExplanation: The text describes the movie as \"assured\" and \"wonderfully respectful of its past,\" indicating a positive sentiment towards the film's confidence and its treatment of the franchise's history.\n\nAspect 3: Thrilling and reinvention for a new generation\nSentiment: Positive\nExplanation: The text mentions that the movie is \"thrilling enough\" and has \"reinvented itself for a new generation,\" which conveys a positive sentiment towards the film's ability to excite audiences and evolve to appeal to a new demographic.\n\nOverall sentiment: ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "14": {
+                    "content": "a gorgeous , witty , seductive movie . ",
+                    "response": "Aspect breakdown:\n1. **Emotional Impact**: The text conveys a positive emotional impact with words like \"gorgeous,\" \"witty,\" and \"seductive,\" which evoke feelings of admiration and allure.\n2. **Nuances**: The use of \"gorgeous\" suggests visual beauty, \"witty\" implies cleverness and humor, and \"seductive\" hints at an enticing and captivating quality.\n3. **Levels of Positivity**: Each aspect - gorgeous, witty, and seductive - contributes positively to the overall sentiment, creating a multi-faceted appreciation for the movie.\n4. **Emotive Language**: The adjectives used are highly emotive, enhancing the positive sentiment by evoking strong feelings of admiration and charm.\n5. **Lexical Choices**: The choice of words like \"gorgeous,\" \"witty,\" and \"seductive\" is rich and descriptive, painting a vivid picture of the movie's appeal.\n\nOverall sentiment: ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "15": {
+                    "content": "although german cooking does not come readily to mind when considering the world 's best cuisine , mostly martha could make deutchland a popular destination for hungry tourists . ",
+                    "response": "Aspect breakdown:\n\n1. **Overall Tone**: The overall tone of the text seems to be slightly positive, as it mentions the potential of German cuisine becoming popular among tourists.\n   \n2. **Emotional Impact**: The text conveys a sense of surprise or unexpectedness regarding German cooking not being commonly associated with the world's best cuisine, but it hints at a positive change with the mention of \"mostly martha\" potentially changing perceptions.\n   \n3. **Nuances**: The text acknowledges a current perception about German cooking not being top-tier but suggests a shift in perception due to the influence of \"mostly martha.\"\n   \n4. **Levels of Positivity/Negativity**: The text leans more towards positivity by suggesting that German cuisine could become popular among tourists.\n   \n5. **Emotive Language**: The use of phrases like \"does not come readily to mind\" and \"could make Deutschland a popular destination\" adds a touch of optimism and potential to the text.\n   \n6. **Lexical Choices**: The mention of \"world's best cuisine\" and \"popular destination for hungry tourists\" implies a positive outlook on the potential of German cuisine.\n\nOverall sentiment: ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "16": {
+                    "content": "sustains its dreamlike glide through a succession of cheesy coincidences and voluptuous cheap effects , not the least of which is rebecca romijn-stamos . ",
+                    "response": "Aspect 1: Dreamlike Glide\nSentiment: Positive\nExplanation: The phrase \"dreamlike glide\" suggests a smooth and enchanting experience, which typically conveys a positive sentiment.\n\nAspect 2: Cheesy Coincidences\nSentiment: Negative\nExplanation: The term \"cheesy coincidences\" implies a lack of sophistication or believability, often associated with a negative sentiment.\n\nAspect 3: Voluptuous Cheap Effects\nSentiment: Neutral to Negative\nExplanation: \"Voluptuous cheap effects\" is a mix of contrasting terms. While \"voluptuous\" can have positive connotations, when paired with \"cheap effects,\" it may lean towards a negative sentiment due to the implication of low quality.\n\nAspect 4: Rebecca Romijn-Stamos\nSentiment: Positive\nExplanation: Mentioning Rebecca Romijn-Stamos could evoke a positive sentiment for fans of the actress or those who appreciate her work.\n\nOverall Sentiment: ##negative\nExplanation: The text contains a mix of positive and negative aspects. However, the negative connotations associated with \"cheesy coincidences\" and \"cheap effects\" seem to outweigh the positive aspects, leading to an overall negative sentiment.",
+                    "pred": 0,
+                    "label": 0
+                },
+                "17": {
+                    "content": "coughs and sputters on its own postmodern conceit . ",
+                    "response": "Aspect breakdown:\n\n1. **Emotional Impact**: The text conveys a sense of struggle or difficulty with the phrases \"coughs and sputters\" which typically indicate a negative or problematic situation.\n\n2. **Nuances**: The use of \"postmodern conceit\" adds a layer of complexity. \"Conceit\" can imply arrogance or excessive pride, which could be seen as negative. However, in the context of postmodernism, it might also suggest a self-aware, ironic tone.\n\n3. **Levels of Positivity/Negativity**: The overall tone seems more negative due to the imagery of something struggling or malfunctioning (\"coughs and sputters\") and the potentially negative connotations of \"conceit.\"\n\n4. **Emotive Language**: The words \"coughs\" and \"sputters\" evoke a sense of malfunction or struggle, which can elicit a negative emotional response.\n\n5. **Lexical Choices**: The choice of words like \"coughs\" and \"sputters\" paints a picture of something struggling or failing, while \"postmodern conceit\" suggests a level of self-importance or pretentiousness.\n\nOverall sentiment: ##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "18": {
+                    "content": "we know the plot 's a little crazy , but it held my interest from start to finish . ",
+                    "response": "Aspect 1: Plot\nSentiment: Positive\nExplanation: The text acknowledges that the plot is a little crazy, but it also states that it held the writer's interest from start to finish. This suggests that despite the craziness, the plot was engaging and captivating.\n\nAspect 2: Emotional Impact\nSentiment: Positive\nExplanation: The text conveys a sense of excitement and enthusiasm by stating that the plot held the writer's interest. This indicates a positive emotional response to the content.\n\nAspect 3: Nuances\nSentiment: Positive\nExplanation: The acknowledgment of the plot being a little crazy adds a layer of complexity to the sentiment. It shows an appreciation for the unconventional nature of the plot while still finding it engaging.\n\nAspect 4: Levels of Positivity/Negativity\nSentiment: Positive\nExplanation: The overall tone of the text is positive, emphasizing the writer's interest and engagement with the plot despite its craziness.\n\nAspect 5: Emotive Language\nSentiment: Positive\nExplanation: The use of words like \"held my interest\" conveys a strong emotional connection to the plot, indicating a positive sentiment towards the content.\n\nAspect 6: Lexical Choices\nSentiment: Positive\nExplanation: The choice of words such as \"crazy\" and \"interest\" suggests a mix of excitement and intrigue, contributing to an overall positive sentiment.\n\nFinal Sentiment: ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "19": {
+                    "content": "corny , schmaltzy and predictable , but still manages to be kind of heartwarming , nonetheless . ",
+                    "response": "Aspect breakdown:\n\n1. **Emotional Impact**: The text describes the content as \"corny, schmaltzy, and predictable,\" which typically have negative connotations. However, it also mentions that it manages to be \"kind of heartwarming,\" suggesting a positive emotional impact.\n\n2. **Nuances**: The use of \"corny\" and \"schmaltzy\" leans towards a negative sentiment, indicating something overly sentimental or clich\u00e9. On the other hand, the term \"heartwarming\" introduces a positive nuance, suggesting a touching or uplifting quality.\n\n3. **Levels of Positivity/Negativity**: The initial descriptors \"corny\" and \"schmaltzy\" are negative, but the subsequent phrase \"kind of heartwarming\" introduces a level of positivity, balancing out the sentiment.\n\n4. **Emotive Language**: The words \"corny,\" \"schmaltzy,\" and \"heartwarming\" are all emotive and carry strong connotations, influencing the overall sentiment of the text.\n\n5. **Lexical Choices**: The choice of words like \"predictable\" and \"heartwarming\" contributes to the overall sentiment by highlighting both negative and positive aspects of the content.\n\nOverall sentiment: ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "20": {
+                    "content": "bad . ",
+                    "response": "I'm sorry, but you haven't provided any text for me to analyze. Could you please provide the text you would like me to classify for sentiment analysis?",
+                    "pred": -1,
+                    "label": 0
+                },
+                "21": {
+                    "content": "this riveting world war ii moral suspense story deals with the shadow side of american culture : racial prejudice in its ugly and diverse forms . ",
+                    "response": "Aspect breakdown:\n\n1. **Overall Tone**: The text conveys a serious and critical tone by describing the story as \"riveting\" and addressing the \"shadow side of American culture.\"\n\n2. **Emotional Impact**: The mention of \"racial prejudice in its ugly and diverse forms\" suggests a negative emotional impact, highlighting the dark and troubling aspects of society.\n\n3. **Nuances**: The use of words like \"ugly\" and \"diverse forms\" implies a deep-rooted and pervasive issue, indicating a complex and multifaceted problem.\n\n4. **Levels of Positivity/Negativity**: The text leans heavily towards negativity due to the focus on racial prejudice and the portrayal of American culture's dark side.\n\n5. **Emotive Language**: Phrases like \"shadow side\" and \"ugly and diverse forms\" evoke strong emotions of discomfort, disapproval, and concern.\n\n6. **Lexical Choices**: The choice of words such as \"riveting,\" \"ugly,\" and \"prejudice\" further reinforces the negative sentiment of the text.\n\nOverall sentiment: ##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "22": {
+                    "content": "there 's really only one good idea in this movie , but the director runs with it and presents it with an unforgettable visual panache . ",
+                    "response": "Aspect 1: Overall Sentiment\n- The overall sentiment of the text is positive. The text acknowledges that there is only one good idea in the movie but praises the director for running with it and presenting it with unforgettable visual panache.\n\nAspect 2: Positive Aspects\n- The text acknowledges that there is at least one good idea in the movie.\n- The director is praised for presenting the idea with unforgettable visual panache.\n\nAspect 3: Negative Aspects\n- The text implies that there may be other aspects of the movie that are not as strong since it mentions there is only one good idea.\n\nOverall, the positive aspects of the text outweigh the negative aspects, leading to a positive sentiment.\n\n##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "23": {
+                    "content": "not far beneath the surface , this reconfigured tale asks disturbing questions about those things we expect from military epics . ",
+                    "response": "Aspect breakdown:\n\n1. Emotional Impact:\n   - The text conveys a sense of unease or discomfort with the phrase \"disturbing questions.\"\n   - The use of \"not far beneath the surface\" suggests hidden or deeper issues that may be unsettling.\n\n2. Nuances:\n   - The text implies a critical perspective on traditional military epics, suggesting a reevaluation of expectations.\n   - The word \"disturbing\" indicates a negative or unsettling tone.\n\n3. Levels of Positivity/Negativity:\n   - The overall tone of the text leans towards negativity due to the use of words like \"disturbing\" and the implication of unsettling questions.\n\n4. Emotive Language and Lexical Choices:\n   - The choice of words like \"disturbing\" and \"reconfigured\" adds a layer of complexity and critical evaluation to the text.\n   - The phrase \"those things we expect from military epics\" implies a contrast between expectations and reality, potentially leading to disappointment or discomfort.\n\nOverall sentiment: ##negative",
+                    "pred": 0,
+                    "label": 1
+                },
+                "24": {
+                    "content": "an occasionally funny , but overall limp , fish-out-of-water story . ",
+                    "response": "Aspect breakdown:\n\n1. **Overall Tone**: The overall tone of the text is somewhat negative, as it describes the story as \"limp,\" which suggests a lack of energy or excitement.\n\n2. **Humor**: The text mentions that the story is \"occasionally funny,\" indicating that there are some humorous elements present. This aspect leans slightly towards the positive side.\n\n3. **Fish-out-of-water Theme**: The phrase \"fish-out-of-water\" typically refers to a character in a situation where they feel out of place or uncomfortable. This aspect can evoke both positive and negative sentiments, depending on how it is portrayed in the story.\n\nEvaluation:\n\nThe text presents a mixed sentiment. While there are occasional moments of humor that add a positive aspect, the overall description of the story as \"limp\" suggests a lackluster or unimpressive quality. The fish-out-of-water theme can add depth to the narrative but may also contribute to feelings of discomfort or awkwardness. Overall, the negative tone outweighs the positive elements in this evaluation.\n\n##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "25": {
+                    "content": "this is human comedy at its most amusing , interesting and confirming . ",
+                    "response": "Aspect 1: Humor\nSentiment: Positive\nExplanation: The text describes the content as \"amusing,\" indicating a sense of humor. This aspect contributes positively to the overall sentiment as it suggests entertainment and enjoyment.\n\nAspect 2: Interest\nSentiment: Positive\nExplanation: The text mentions that it is \"interesting,\" which implies engagement and curiosity. This aspect adds a positive tone to the overall sentiment by suggesting that the content is engaging and thought-provoking.\n\nAspect 3: Confirmation\nSentiment: Positive\nExplanation: The text states that it is \"confirming,\" which suggests validation or affirmation. This aspect contributes positively to the sentiment by indicating that the content reinforces or supports something, likely in a positive way.\n\nOverall sentiment: Positive\n\n##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "26": {
+                    "content": "a broad , melodramatic estrogen opera that 's pretty toxic in its own right . ",
+                    "response": "Aspect breakdown:\n\n1. **Overall Tone**: The text describes the subject as a \"broad, melodramatic estrogen opera\" and labels it as \"pretty toxic.\" This indicates a negative overall sentiment towards the subject.\n\n2. **Emotional Impact**: The use of words like \"toxic\" and \"melodramatic\" conveys a strong negative emotional impact.\n\n3. **Nuances**: The term \"estrogen opera\" could imply a negative view towards works or content perceived as overly emotional or feminine, adding a layer of gender-related criticism.\n\n4. **Levels of Positivity/Negativity**: The text is predominantly negative, with the choice of words emphasizing the toxicity and dramatic nature of the subject.\n\n5. **Emotive Language**: Words like \"toxic\" and \"melodramatic\" are highly emotive and contribute to the negative sentiment.\n\n6. **Lexical Choices**: The use of \"toxic\" and \"pretty\" in a negative context further solidifies the negative sentiment towards the subject.\n\nBased on the analysis of the aspects above, the overall sentiment of the text is ##negative.",
+                    "pred": 0,
+                    "label": 0
+                },
+                "27": {
+                    "content": "it 's an offbeat treat that pokes fun at the democratic exercise while also examining its significance for those who take part . ",
+                    "response": "Aspect 1: Tone and Emotive Language\n- The text has a somewhat playful and light-hearted tone, indicated by the phrase \"offbeat treat\" and \"pokes fun.\"\n- Emotive language is used to convey a sense of amusement and light mockery.\n\nAspect 2: Examination of Democratic Exercise\n- The text mentions examining the significance of the democratic exercise, suggesting a deeper analysis beyond just humor.\n- This aspect adds a layer of seriousness and intellectual engagement to the overall sentiment.\n\nAspect 3: Nuances and Levels of Positivity/Negativity\n- While there is an element of poking fun, it is done in a way that seems more light-hearted than malicious.\n- The text seems to balance humor with a more thoughtful exploration of the topic.\n\nOverall, the text seems to have a mix of positive and negative elements, with a leaning towards a more positive sentiment due to the playful tone and the deeper examination of the democratic exercise.\n\n##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "28": {
+                    "content": "and if you 're not nearly moved to tears by a couple of scenes , you 've got ice water in your veins . ",
+                    "response": "Aspect 1: Emotional Impact\n- The text conveys a strong emotional impact by mentioning being moved to tears, indicating a deep emotional response to the scenes described.\n\nAspect 2: Nuances\n- The use of the phrase \"not nearly moved to tears\" suggests that the scenes are highly emotional and impactful.\n- The phrase \"ice water in your veins\" implies a lack of emotion or empathy, emphasizing the contrast between those who are deeply affected and those who are not.\n\nAspect 3: Levels of Positivity/Negativity\n- The text leans towards a positive sentiment as it suggests that the scenes are powerful enough to evoke tears, which is often associated with a positive emotional response to something moving or touching.\n\nAspect 4: Emotive Language\n- The use of phrases like \"moved to tears\" and \"ice water in your veins\" evokes strong emotions and emphasizes the contrast between being deeply affected and being emotionally detached.\n\nAspect 5: Lexical Choices\n- The choice of words like \"tears\" and \"ice water\" creates a vivid contrast between intense emotion and emotional detachment, enhancing the overall impact of the text.\n\nOverall Sentiment: ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "29": {
+                    "content": "the man from elysian fields is a cold , bliss-less work that groans along thinking itself some important comment on how life throws us some beguiling curves . ",
+                    "response": "Aspect breakdown:\n\n1. **Overall Tone**: The overall tone of the text is negative. It describes the man from Elysian Fields as cold and bliss-less, and the work as groaning along, suggesting a lack of vitality or enthusiasm.\n\n2. **Emotional Impact**: The text conveys a sense of disappointment or disillusionment. The use of words like \"cold,\" \"bliss-less,\" and \"groans\" evokes a feeling of negativity and dissatisfaction.\n\n3. **Nuances**: The text implies that the work is trying to be profound or insightful (\"important comment on how life throws us some beguiling curves\"), but it is perceived as falling short or pretentious.\n\n4. **Levels of Positivity/Negativity**: The text leans heavily towards negativity. The descriptions of the man and the work are predominantly negative, with no positive aspects highlighted.\n\n5. **Emotive Language**: The use of words like \"cold,\" \"bliss-less,\" and \"groans\" adds emotional weight to the text, emphasizing the negative sentiment.\n\n6. **Lexical Choices**: The choice of words such as \"beguiling curves\" and \"important comment\" contrasts with the negative descriptions, possibly indicating a sense of irony or sarcasm.\n\nOverall sentiment: ##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "30": {
+                    "content": "the film 's hackneyed message is not helped by the thin characterizations , nonexistent plot and pretentious visual style . ",
+                    "response": "Aspect 1: Message\nSentiment: Negative\nExplanation: The text describes the film's message as \"hackneyed,\" indicating that it is clich\u00e9d or lacking originality. This suggests a negative sentiment towards the central theme or moral of the film.\n\nAspect 2: Characterizations\nSentiment: Negative\nExplanation: The text mentions \"thin characterizations,\" implying that the characters in the film are poorly developed or lacking depth. This negative aspect contributes to a less engaging viewing experience.\n\nAspect 3: Plot\nSentiment: Negative\nExplanation: The text states that the plot is \"nonexistent,\" indicating a lack of coherent storyline or narrative structure. This negative aspect suggests a significant flaw in the film's storytelling.\n\nAspect 4: Visual Style\nSentiment: Negative\nExplanation: The text criticizes the visual style as \"pretentious,\" suggesting that it comes across as overly self-important or trying too hard to be impressive. This negative aspect can detract from the overall viewing experience.\n\nOverall Sentiment: Negative\nExplanation: The text highlights multiple negative aspects of the film, including a hackneyed message, thin characterizations, a nonexistent plot, and a pretentious visual style. These criticisms collectively contribute to an overall negative sentiment towards the film.\n\n##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "score": 0.9333333333333333
+            },
+            "prompt_mean_score": 0.9333333333333333
+        }
+    },
+    "architecture_mean_score": 0.9444444444444443,
+    "architecture_median_score": 0.9333333333333333,
+    "architecture_std_dev": 0.01571348402636772
+}

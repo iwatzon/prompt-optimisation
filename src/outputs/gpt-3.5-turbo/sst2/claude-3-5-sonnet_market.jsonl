@@ -1,0 +1,568 @@
+{
+    "results": {
+        "1": {
+            "prompt": "Classify sentiment: {content}\n\n\u2022 List aspects: Aspect | Sentiment (0=neg, 1=pos) | Weight (0-1)\n\u2022 Calculate: Sum(Sentiment * Weight) / Sum(Weights)\n\u2022 If result > 0.5, positive; else, negative\n\nOutput: ##positive or ##negative",
+            "results_1": {
+                "1": {
+                    "content": "what better message than ` love thyself ' could young women of any size receive ? ",
+                    "response": "\u2022 Aspect: Message content | Sentiment: 1 | Weight: 1\n\nCalculation: (1 * 1) / 1 = 1\n\nOutput: ##positive\n\nThe sentiment of the message \"love thyself\" is positive.",
+                    "pred": 1,
+                    "label": 1
+                },
+                "2": {
+                    "content": "the film will play equally well on both the standard and giant screens . ",
+                    "response": "Aspect | Sentiment | Weight\nScreen size | 1 | 0.5\n\nCalculation: (1 * 0.5) / 0.5 = 1\n\nOutput: ##positive\n\nThe sentiment of the statement is positive.",
+                    "pred": 1,
+                    "label": 1
+                },
+                "3": {
+                    "content": "nicks , seemingly uncertain what 's going to make people laugh , runs the gamut from stale parody to raunchy sex gags to formula romantic comedy . ",
+                    "response": "\u2022 List aspects:\n1. Stale parody | 0 | 0.3\n2. Raunchy sex gags | 0 | 0.4\n3. Formula romantic comedy | 0 | 0.3\n\n\u2022 Calculate:\n(0 * 0.3 + 0 * 0.4 + 0 * 0.3) / (0.3 + 0.4 + 0.3) = 0 / 1 = 0\n\nOutput: ##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "4": {
+                    "content": "chokes on its own depiction of upper-crust decorum . ",
+                    "response": "Aspect | Sentiment | Weight\nDepiction | 0 | 0.8\nUpper-crust decorum | 0 | 0.7\n\nCalculation:\n(0 * 0.8 + 0 * 0.7) / (0.8 + 0.7) = 0 / 1.5 = 0\n\nOutput: ##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "5": {
+                    "content": "it haunts you , you ca n't forget it , you admire its conception and are able to resolve some of the confusions you had while watching it . ",
+                    "response": "Aspect | Sentiment | Weight\nHaunting | 0 | 0.3\nMemorable | 1 | 0.2\nAdmiration | 1 | 0.3\nClarity | 1 | 0.2\n\nCalculating the sentiment classification:\n\n(0 * 0.3 + 1 * 0.2 + 1 * 0.3 + 1 * 0.2) / (0.3 + 0.2 + 0.3 + 0.2) = 0.7\n\nSince the result is greater than 0.5, the sentiment classification is ##positive.",
+                    "pred": 1,
+                    "label": 1
+                },
+                "6": {
+                    "content": "one of the more intelligent children 's movies to hit theaters this year . ",
+                    "response": "\u2022 Aspect: Intelligence | Sentiment: 1 | Weight: 0.8\n\u2022 Aspect: Children's movie | Sentiment: 1 | Weight: 0.7\n\u2022 Aspect: Theaters this year | Sentiment: 1 | Weight: 0.6\n\nCalculation:\n(1 * 0.8 + 1 * 0.7 + 1 * 0.6) / (0.8 + 0.7 + 0.6) = 2.1 / 2.1 = 1.0\n\nSince the result is greater than 0.5, the sentiment is ##positive.",
+                    "pred": 1,
+                    "label": 1
+                },
+                "7": {
+                    "content": "a science-fiction pastiche so lacking in originality that if you stripped away its inspirations there would be precious little left . ",
+                    "response": "\u2022 Science-fiction pastiche: 0 | 0.7\n\u2022 Lacking in originality: 0 | 0.9\n\u2022 Stripped away inspirations: 0 | 0.8\n\u2022 Precious little left: 0 | 0.6\n\nCalculation:\n(0 * 0.7 + 0 * 0.9 + 0 * 0.8 + 0 * 0.6) / (0.7 + 0.9 + 0.8 + 0.6) = 0 / 3 = 0\n\nOutput: ##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "8": {
+                    "content": "it 's one of those baseball pictures where the hero is stoic , the wife is patient , the kids are as cute as all get-out and the odds against success are long enough to intimidate , but short enough to make a dream seem possible . ",
+                    "response": "Aspect | Sentiment | Weight\nHero | 1 | 0.8\nWife | 1 | 0.7\nKids | 1 | 0.9\nOdds against success | 0 | 0.6\nDream possibility | 1 | 0.8\n\nCalculating the sentiment classification:\n\n(1 * 0.8 + 1 * 0.7 + 1 * 0.9 + 0 * 0.6 + 1 * 0.8) / (0.8 + 0.7 + 0.9 + 0.6 + 0.8) = 3.2 / 3.8 \u2248 0.8421\n\nSince the result is greater than 0.5, the sentiment of the text is ##positive.",
+                    "pred": 1,
+                    "label": 1
+                },
+                "9": {
+                    "content": "it provides an honest look at a community striving to anchor itself in new grounds . ",
+                    "response": "Aspect | Sentiment | Weight\nCommunity portrayal | 1 | 0.8\nStriving for growth | 1 | 0.7\nAnchoring in new grounds | 1 | 0.9\n\nCalculating the sentiment classification:\n(1 * 0.8 + 1 * 0.7 + 1 * 0.9) / (0.8 + 0.7 + 0.9) = 2.4 / 2.4 = 1.0\n\nSince the result is greater than 0.5, the sentiment classification is ##positive.",
+                    "pred": 1,
+                    "label": 1
+                },
+                "10": {
+                    "content": "if there 's one thing this world needs less of , it 's movies about college that are written and directed by people who could n't pass an entrance exam . ",
+                    "response": "Aspect | Sentiment | Weight\nCollege movies | 0 | 0.8\nWritten by people who couldn't pass an entrance exam | 0 | 0.2\n\nCalculation:\n(0 * 0.8 + 0 * 0.2) / (0.8 + 0.2) = 0 / 1 = 0\n\nSince the result is not greater than 0.5, the sentiment of the statement is negative.\n\nOutput: ##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "11": {
+                    "content": "coughs and sputters on its own postmodern conceit . ",
+                    "response": "Aspect | Sentiment | Weight\nPostmodern conceit | 0 | 0.8\n\nCalculation: (0 * 0.8) / 0.8 = 0\n\nOutput: ##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "12": {
+                    "content": "sustains its dreamlike glide through a succession of cheesy coincidences and voluptuous cheap effects , not the least of which is rebecca romijn-stamos . ",
+                    "response": "\u2022 Dreamlike glide: Positive | 0.8\n\u2022 Cheesy coincidences: Negative | 0.3\n\u2022 Voluptuous cheap effects: Negative | 0.4\n\u2022 Rebecca Romijn-Stamos: Positive | 0.7\n\nCalculation:\n(0.8 * 0.8 + 0.3 * 0.3 + 0.4 * 0.4 + 0.7 * 0.7) / (0.8 + 0.3 + 0.4 + 0.7) = 0.59\n\nOutput: ##positive",
+                    "pred": 1,
+                    "label": 0
+                },
+                "13": {
+                    "content": "we know the plot 's a little crazy , but it held my interest from start to finish . ",
+                    "response": "Aspect | Sentiment | Weight\nPlot | 1 | 0.8\nInterest | 1 | 0.7\n\nCalculating the sentiment score:\n(1 * 0.8 + 1 * 0.7) / (0.8 + 0.7) = 1.5 / 1.5 = 1.0\n\nSince the sentiment score is 1.0, which is greater than 0.5, the overall sentiment is positive.\n\nOutput: ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "14": {
+                    "content": "although german cooking does not come readily to mind when considering the world 's best cuisine , mostly martha could make deutchland a popular destination for hungry tourists . ",
+                    "response": "Aspect | Sentiment | Weight\nGerman cooking | 0 | 0.7\nMostly Martha movie | 1 | 0.3\nTourist destination | 1 | 0.5\n\nCalculating the sentiment classification:\n(0 * 0.7 + 1 * 0.3 + 1 * 0.5) / (0.7 + 0.3 + 0.5) = (0 + 0.3 + 0.5) / 1.5 = 0.8\n\nSince the result is greater than 0.5, the sentiment classification is ##positive.",
+                    "pred": 1,
+                    "label": 1
+                },
+                "15": {
+                    "content": "may be far from the best of the series , but it 's assured , wonderfully respectful of its past and thrilling enough to make it abundantly clear that this movie phenomenon has once again reinvented itself for a new generation . ",
+                    "response": "Aspect | Sentiment | Weight\n-----------------------------\nFar from the best | 0 | 0.3\nAssured | 1 | 0.2\nRespectful of its past | 1 | 0.2\nThrilling enough | 1 | 0.3\nReinvented itself for a new generation | 1 | 0.2\n\nCalculating the sentiment score:\n(0 * 0.3 + 1 * 0.2 + 1 * 0.2 + 1 * 0.3 + 1 * 0.2) / (0.3 + 0.2 + 0.2 + 0.3 + 0.2) = 0.7\n\nSince the sentiment score is greater than 0.5, the overall sentiment is ##positive.",
+                    "pred": 1,
+                    "label": 1
+                },
+                "16": {
+                    "content": "a gorgeous , witty , seductive movie . ",
+                    "response": "Aspect | Sentiment | Weight\n-----------------------------\nGorgeous | 1 | 0.8\nWitty | 1 | 0.7\nSeductive | 1 | 0.9\n\nCalculation:\n(1 * 0.8 + 1 * 0.7 + 1 * 0.9) / (0.8 + 0.7 + 0.9) = 2.4 / 2.4 = 1.0\n\nSince the result is greater than 0.5, the sentiment of the movie is ##positive.",
+                    "pred": 1,
+                    "label": 1
+                },
+                "17": {
+                    "content": "vera 's technical prowess ends up selling his film short ; he smoothes over hard truths even as he uncovers them . ",
+                    "response": "Aspect | Sentiment | Weight\nTechnical prowess | 0 | 0.8\nSmoothing over hard truths | 0 | 0.7\nUncovering hard truths | 1 | 0.9\n\nCalculating the sentiment classification:\n(0 * 0.8 + 0 * 0.7 + 1 * 0.9) / (0.8 + 0.7 + 0.9) = 0.9 / 2.4 \u2248 0.375\n\nSince the result is less than 0.5, the sentiment classification is ##negative.",
+                    "pred": 0,
+                    "label": 0
+                },
+                "18": {
+                    "content": "an occasionally funny , but overall limp , fish-out-of-water story . ",
+                    "response": "\u2022 List aspects: \n1. Humor | 1 | 0.7\n2. Plot | 0 | 0.3\n\n\u2022 Calculate: \n(1 * 0.7 + 0 * 0.3) / (0.7 + 0.3) = 0.7\n\nSince the result is greater than 0.5, the sentiment of the review is ##positive.",
+                    "pred": 1,
+                    "label": 0
+                },
+                "19": {
+                    "content": "thanks to scott 's charismatic roger and eisenberg 's sweet nephew , roger dodger is one of the most compelling variations on in the company of men . ",
+                    "response": "Aspect | Sentiment | Weight\n--------------------------------\nScott's performance | 1 | 0.7\nRoger's character | 1 | 0.8\nEisenberg's performance | 1 | 0.6\n\nCalculating the sentiment classification:\n\nSum(Sentiment * Weight) = (1 * 0.7) + (1 * 0.8) + (1 * 0.6) = 2.1 + 0.8 + 0.6 = 3.5\nSum(Weights) = 0.7 + 0.8 + 0.6 = 2.1\n\nResult = 3.5 / 2.1 \u2248 1.67\n\nSince the result is greater than 0.5, the sentiment classification is ##positive.",
+                    "pred": 1,
+                    "label": 1
+                },
+                "20": {
+                    "content": "there 's really only one good idea in this movie , but the director runs with it and presents it with an unforgettable visual panache . ",
+                    "response": "\u2022 Aspect: Good idea | Sentiment: 1 | Weight: 0.8\n\u2022 Aspect: Director's presentation | Sentiment: 1 | Weight: 0.9\n\nCalculation:\n(1 * 0.8 + 1 * 0.9) / (0.8 + 0.9) = 1.7 / 1.7 = 1.0\n\nSince the result is greater than 0.5, the sentiment classification is ##positive.",
+                    "pred": 1,
+                    "label": 1
+                },
+                "21": {
+                    "content": "bad . ",
+                    "response": "I will need more information to classify the sentiment. Please provide the aspects along with their sentiment (0=negative, 1=positive) and weight (0-1).",
+                    "pred": -1,
+                    "label": 0
+                },
+                "22": {
+                    "content": "not far beneath the surface , this reconfigured tale asks disturbing questions about those things we expect from military epics . ",
+                    "response": "\u2022 List aspects: \n1. Reconfigured tale | 0 | 0.5\n2. Disturbing questions | 0 | 0.7\n3. Expectations from military epics | 0 | 0.8\n\n\u2022 Calculate:\n(0 * 0.5 + 0 * 0.7 + 0 * 0.8) / (0.5 + 0.7 + 0.8) \n= 0 / 2 = 0\n\nSince the calculated result is not greater than 0.5, the sentiment is ##negative.",
+                    "pred": 0,
+                    "label": 1
+                },
+                "23": {
+                    "content": "corny , schmaltzy and predictable , but still manages to be kind of heartwarming , nonetheless . ",
+                    "response": "\u2022 corny | 0.2 | 0.3\n\u2022 schmaltzy | 0.1 | 0.3\n\u2022 predictable | 0.1 | 0.4\n\u2022 heartwarming | 0.8 | 0.5\n\nCalculation:\n(0.2 * 0.3 + 0.1 * 0.3 + 0.1 * 0.4 + 0.8 * 0.5) / (0.3 + 0.3 + 0.4 + 0.5) = 0.44\n\nSince the result is less than 0.5, the sentiment is negative.\n\nOutput: ##negative",
+                    "pred": 0,
+                    "label": 1
+                },
+                "24": {
+                    "content": "it 's an offbeat treat that pokes fun at the democratic exercise while also examining its significance for those who take part . ",
+                    "response": "\u2022 offbeat treat | 1 | 0.7\n\u2022 pokes fun | 1 | 0.6\n\u2022 examining significance | 1 | 0.8\n\nCalculation:\n(1*0.7 + 1*0.6 + 1*0.8) / (0.7 + 0.6 + 0.8) = 2.1 / 2.1 = 1.0\n\nSince the result is equal to 1.0, the sentiment classification is ##positive.",
+                    "pred": 1,
+                    "label": 1
+                },
+                "25": {
+                    "content": "and if you 're not nearly moved to tears by a couple of scenes , you 've got ice water in your veins . ",
+                    "response": "Aspect | Sentiment | Weight\nScenes | 0 | 0.8\n\nCalculation:\n(0 * 0.8) / 0.8 = 0\n\nOutput: ##negative",
+                    "pred": 0,
+                    "label": 1
+                },
+                "26": {
+                    "content": "this riveting world war ii moral suspense story deals with the shadow side of american culture : racial prejudice in its ugly and diverse forms . ",
+                    "response": "Aspect | Sentiment | Weight\n-----------------------------\nRiveting | 1 | 0.8\nWorld War II | 1 | 0.7\nMoral suspense story | 1 | 0.9\nShadow side of American culture | 0 | 0.6\nRacial prejudice | 0 | 0.7\nUgly and diverse forms | 0 | 0.8\n\nCalculating the sentiment classification:\n(1*0.8 + 1*0.7 + 1*0.9 + 0*0.6 + 0*0.7 + 0*0.8) / (0.8 + 0.7 + 0.9 + 0.6 + 0.7 + 0.8) = 2.4 / 4.5 \u2248 0.533\n\nSince the result is greater than 0.5, the sentiment classification is ##positive.",
+                    "pred": 1,
+                    "label": 0
+                },
+                "27": {
+                    "content": "a broad , melodramatic estrogen opera that 's pretty toxic in its own right . ",
+                    "response": "\u2022 Aspect: Broad | Sentiment: 0 | Weight: 0.5\n\u2022 Aspect: Melodramatic | Sentiment: 0 | Weight: 0.3\n\u2022 Aspect: Estrogen opera | Sentiment: 0 | Weight: 0.7\n\u2022 Aspect: Toxic | Sentiment: 0 | Weight: 0.8\n\nCalculation:\n(0 * 0.5 + 0 * 0.3 + 0 * 0.7 + 0 * 0.8) / (0.5 + 0.3 + 0.7 + 0.8) = 0 / 2.3 \u2248 0\n\nSince the calculated sentiment score is 0, the overall sentiment of the statement is ##negative.",
+                    "pred": 0,
+                    "label": 0
+                },
+                "28": {
+                    "content": "this is human comedy at its most amusing , interesting and confirming . ",
+                    "response": "\u2022 List aspects:\n1. Amusing | 1 | 0.8\n2. Interesting | 1 | 0.9\n3. Confirming | 1 | 0.7\n\n\u2022 Calculate:\n(1 * 0.8 + 1 * 0.9 + 1 * 0.7) / (0.8 + 0.9 + 0.7) = 2.4 / 2.4 = 1.0\n\nSince the result is greater than 0.5, the sentiment is ##positive.",
+                    "pred": 1,
+                    "label": 1
+                },
+                "29": {
+                    "content": "the film 's hackneyed message is not helped by the thin characterizations , nonexistent plot and pretentious visual style . ",
+                    "response": "Aspect | Sentiment | Weight\nCharacterizations | 0 | 0.3\nPlot | 0 | 0.2\nVisual style | 0 | 0.5\n\nCalculating the sentiment classification:\n(0 * 0.3 + 0 * 0.2 + 0 * 0.5) / (0.3 + 0.2 + 0.5) = 0 / 1 = 0\n\nTherefore, the sentiment classification is ##negative.",
+                    "pred": 0,
+                    "label": 0
+                },
+                "30": {
+                    "content": "the man from elysian fields is a cold , bliss-less work that groans along thinking itself some important comment on how life throws us some beguiling curves . ",
+                    "response": "Aspect | Sentiment | Weight\n-----------------------------\nCold | 0 | 0.7\nBliss-less | 0 | 0.6\nGroans along | 0 | 0.5\nImportant comment | 1 | 0.8\nBeguiling curves | 1 | 0.9\n\nCalculation:\n(0 * 0.7 + 0 * 0.6 + 0 * 0.5 + 1 * 0.8 + 1 * 0.9) / (0.7 + 0.6 + 0.5 + 0.8 + 0.9)\n(0 + 0 + 0 + 0.8 + 0.9) / 3.5\n1.7 / 3.5 \u2248 0.486\n\nSince the result is less than 0.5, the sentiment is negative. \n\nOutput: ##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "score": 0.7666666666666667
+            },
+            "prompt_mean_score": 0.7666666666666667
+        },
+        "2": {
+            "prompt": "Analyze {content}\n\nRate emotion 1-10.\n\nEnd with:\n##positive\nor\n##negative",
+            "results_1": {
+                "1": {
+                    "content": "it provides an honest look at a community striving to anchor itself in new grounds . ",
+                    "response": "I would rate the emotion as a 7.\n\n##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "2": {
+                    "content": "nicks , seemingly uncertain what 's going to make people laugh , runs the gamut from stale parody to raunchy sex gags to formula romantic comedy . ",
+                    "response": "I would rate the emotion in this statement as a 3. It seems to convey disappointment or frustration with the variety and quality of humor in the content described.\n\n##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "3": {
+                    "content": "if there 's one thing this world needs less of , it 's movies about college that are written and directed by people who could n't pass an entrance exam . ",
+                    "response": "I would rate the emotion in this statement as a 7. It conveys frustration and disappointment towards movies about college that lack authenticity and credibility.\n\n##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "4": {
+                    "content": "it 's one of those baseball pictures where the hero is stoic , the wife is patient , the kids are as cute as all get-out and the odds against success are long enough to intimidate , but short enough to make a dream seem possible . ",
+                    "response": "I would rate the emotion in this description as an 8. It conveys a sense of hope, determination, and possibility, which can evoke positive feelings in the reader. \n##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "5": {
+                    "content": "the film will play equally well on both the standard and giant screens . ",
+                    "response": "The film's visual effects and cinematography are designed to be impactful on both standard and giant screens, ensuring an immersive viewing experience for all audiences. \n\nEmotion rating: 8\n\n##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "6": {
+                    "content": "chokes on its own depiction of upper-crust decorum . ",
+                    "response": "\"Chokes\" presents a satirical take on upper-crust decorum, highlighting the absurdity and pretentiousness often associated with it. The depiction may exaggerate certain aspects for comedic effect, shedding light on the superficiality of such behavior.\n\nEmotion: 7\n\n##positive",
+                    "pred": 1,
+                    "label": 0
+                },
+                "7": {
+                    "content": "what better message than ` love thyself ' could young women of any size receive ? ",
+                    "response": "A more empowering message that young women of any size could receive is \"Embrace your uniqueness.\" This message encourages self-acceptance and celebrates individuality, regardless of size. It promotes self-love and confidence by emphasizing the beauty in diversity and encourages young women to appreciate and love themselves for who they are.\n\nEmotion: 9\n\n##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "8": {
+                    "content": "one of the more intelligent children 's movies to hit theaters this year . ",
+                    "response": "One of the more intelligent children's movies to hit theaters this year is \"Luca.\" This animated film tells the story of a young sea monster who experiences a life-changing summer on the Italian Riviera. \"Luca\" is not only visually stunning but also carries important themes of friendship, acceptance, and self-discovery.\n\nEmotion rating: 8\n\n##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "9": {
+                    "content": "it haunts you , you ca n't forget it , you admire its conception and are able to resolve some of the confusions you had while watching it . ",
+                    "response": "I would rate the emotion as a 9. The fact that the movie haunts you, stays with you, and helps resolve some of your confusions shows a deep emotional impact. It's clear that the film has made a lasting impression on you, and that level of engagement is powerful. \n\n##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "10": {
+                    "content": "a science-fiction pastiche so lacking in originality that if you stripped away its inspirations there would be precious little left . ",
+                    "response": "The science-fiction pastiche you described appears to heavily rely on existing works for its content, lacking originality and innovation. Without its inspirations, it seems there would be little substance remaining to distinguish it as a unique creation.\n\nEmotion rating: 2\n\n##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "11": {
+                    "content": "sustains its dreamlike glide through a succession of cheesy coincidences and voluptuous cheap effects , not the least of which is rebecca romijn-stamos . ",
+                    "response": "I would rate the emotion as a 3 out of 10.\n\n##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "12": {
+                    "content": "may be far from the best of the series , but it 's assured , wonderfully respectful of its past and thrilling enough to make it abundantly clear that this movie phenomenon has once again reinvented itself for a new generation . ",
+                    "response": "I would rate the emotion in this statement as an 8.\n\n##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "13": {
+                    "content": "vera 's technical prowess ends up selling his film short ; he smoothes over hard truths even as he uncovers them . ",
+                    "response": "I would rate the emotion in this statement as a 5.\n\n##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "14": {
+                    "content": "although german cooking does not come readily to mind when considering the world 's best cuisine , mostly martha could make deutchland a popular destination for hungry tourists . ",
+                    "response": "I would rate the emotion in this statement as a 6.\n\n##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "15": {
+                    "content": "thanks to scott 's charismatic roger and eisenberg 's sweet nephew , roger dodger is one of the most compelling variations on in the company of men . ",
+                    "response": "I would rate the emotion in this statement as an 8.\n\n##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "16": {
+                    "content": "coughs and sputters on its own postmodern conceit . ",
+                    "response": "I'm sorry, I'm not able to analyze abstract concepts like postmodern conceit. \n\nEmotion rating: 5\n\n##neutral",
+                    "pred": -1,
+                    "label": 0
+                },
+                "17": {
+                    "content": "we know the plot 's a little crazy , but it held my interest from start to finish . ",
+                    "response": "I would rate the emotion as an 8. The fact that the plot was a little crazy but still managed to hold your interest indicates a strong emotional response. \n\n##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "18": {
+                    "content": "there 's really only one good idea in this movie , but the director runs with it and presents it with an unforgettable visual panache . ",
+                    "response": "I would rate the emotion in this statement as an 8.\n\n##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "19": {
+                    "content": "this riveting world war ii moral suspense story deals with the shadow side of american culture : racial prejudice in its ugly and diverse forms . ",
+                    "response": "I would rate the emotion of this World War II moral suspense story as a solid 9. The exploration of racial prejudice in its various forms adds a layer of complexity and depth to the narrative, evoking strong emotions in readers. \n\n##positive",
+                    "pred": 1,
+                    "label": 0
+                },
+                "20": {
+                    "content": "not far beneath the surface , this reconfigured tale asks disturbing questions about those things we expect from military epics . ",
+                    "response": "I would rate the emotion in this statement as a 7. It conveys a sense of unease and introspection, prompting the reader to consider deeper implications. \n\n##negative",
+                    "pred": 0,
+                    "label": 1
+                },
+                "21": {
+                    "content": "corny , schmaltzy and predictable , but still manages to be kind of heartwarming , nonetheless . ",
+                    "response": "Based on your description, it sounds like the content may be lacking in originality and depth, but still succeeds in evoking a sense of warmth and positivity. I would rate the emotion as a 7 out of 10. \n\n##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "22": {
+                    "content": "an occasionally funny , but overall limp , fish-out-of-water story . ",
+                    "response": "The fish-out-of-water story has moments of humor but lacks a strong overall impact. The humor may be sporadic, and the story may feel lacking in depth or originality. \n\nEmotion rating: 5/10\n\n##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "23": {
+                    "content": "it 's an offbeat treat that pokes fun at the democratic exercise while also examining its significance for those who take part . ",
+                    "response": "I would rate the emotion of this statement as a 7. It seems to convey a sense of intrigue and curiosity about the subject matter. \n\n##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "24": {
+                    "content": "bad . ",
+                    "response": "I'm sorry, but I cannot provide an analysis or rating of the word \"bad\" as it is too vague. \n\nEmotion rating: 3\n\n##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "25": {
+                    "content": "the man from elysian fields is a cold , bliss-less work that groans along thinking itself some important comment on how life throws us some beguiling curves . ",
+                    "response": "Emotion rating: 2\n\n##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "26": {
+                    "content": "a gorgeous , witty , seductive movie . ",
+                    "response": "One movie that fits the description of being gorgeous, witty, and seductive is \"The Great Gatsby\" directed by Baz Luhrmann. The film captures the opulence and decadence of the 1920s Jazz Age, with stunning visuals, a captivating storyline, and a seductive atmosphere.\n\nEmotion Rating: 9\n\n##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "27": {
+                    "content": "a broad , melodramatic estrogen opera that 's pretty toxic in its own right . ",
+                    "response": "Analyzing a broad, melodramatic estrogen opera that is toxic in its own right, we can see that it likely contains exaggerated emotions, over-the-top conflicts, and potentially harmful stereotypes. The portrayal of women in a toxic manner can perpetuate negative stereotypes and reinforce harmful gender norms.\n\nEmotion rating: 8\n\n##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "28": {
+                    "content": "and if you 're not nearly moved to tears by a couple of scenes , you 've got ice water in your veins . ",
+                    "response": "I would rate the emotion in this statement as a 9 out of 10. The strong language and imagery suggest a deep emotional response. \n##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "29": {
+                    "content": "the film 's hackneyed message is not helped by the thin characterizations , nonexistent plot and pretentious visual style . ",
+                    "response": "I'm sorry to hear that the film's message is considered hackneyed, with thin characterizations, nonexistent plot, and a pretentious visual style. It seems like the overall experience might have been disappointing.\n\nEmotion rating: 2\n\n##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "30": {
+                    "content": "this is human comedy at its most amusing , interesting and confirming . ",
+                    "response": "\"The Human Comedy\" is a delightful exploration of human nature, filled with humor, intrigue, and heartwarming moments. The characters and their interactions are both amusing and thought-provoking, making it an engaging read that confirms the complexities of human relationships.\n\nEmotion rating: 9\n\n##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "score": 0.8666666666666667
+            },
+            "prompt_mean_score": 0.8666666666666667
+        },
+        "3": {
+            "prompt": "Analyze {content}:\n\n- List key topics\n- For each: rate (-2 to +2), explain, note importance (1-5)\n- Show topic links\n- Note sentiment shifts\n- Compare similar topics\n- Overall: average, consider links and shifts, state confidence\n- Summarize key points\n\nEnd: ##positive or ##negative",
+            "results_1": {
+                "1": {
+                    "content": "chokes on its own depiction of upper-crust decorum . ",
+                    "response": "Key Topics:\n1. Upper-crust decorum\n2. Depiction accuracy\n3. Sentiment portrayal\n\n1. Upper-crust decorum:\n   - Rating: +1\n   - Explanation: The portrayal of upper-crust decorum in the analysis seems somewhat accurate but lacks depth in capturing the nuances of this social class's behavior.\n   - Importance: 3\n   - Topic Link: Depiction accuracy\n   - Sentiment Shifts: None evident\n\n2. Depiction accuracy:\n   - Rating: +1\n   - Explanation: The analysis provides a decent portrayal of upper-crust decorum but could benefit from more specific examples or anecdotes to enhance the understanding.\n   - Importance: 4\n   - Topic Link: Upper-crust decorum\n   - Sentiment Shifts: None evident\n\n3. Sentiment portrayal:\n   - Rating: 0\n   - Explanation: The sentiment portrayal in the analysis is neutral, focusing more on factual descriptions rather than emotional or subjective interpretations.\n   - Importance: 2\n   - Topic Link: N/A\n   - Sentiment Shifts: None evident\n\nSentiment Shifts Comparison:\n- The analysis maintains a consistent tone throughout, focusing on objective observations rather than emotional responses.\n\nOverall:\n- Average Rating: +0.67\n- Confidence: Moderate\n- The analysis provides a basic overview of upper-crust decorum and its depiction accuracy, but it could benefit from more in-depth analysis and examples to enhance understanding.\n\n##positive",
+                    "pred": 1,
+                    "label": 0
+                },
+                "2": {
+                    "content": "nicks , seemingly uncertain what 's going to make people laugh , runs the gamut from stale parody to raunchy sex gags to formula romantic comedy . ",
+                    "response": "Key Topics:\n1. Stale parody\n2. Raunchy sex gags\n3. Formula romantic comedy\n\n1. Stale parody:\n   - Rating: -1\n   - Explanation: Nicks' use of stale parody lacks originality and fails to evoke genuine humor.\n   - Importance: 3\n   - Topic Link: Comedy\n   - Sentiment Shift: Negative\n   - Comparison: Stale parody is less effective compared to fresh, innovative humor.\n   \n2. Raunchy sex gags:\n   - Rating: +1\n   - Explanation: Nicks' inclusion of raunchy sex gags may appeal to some audiences seeking edgier humor.\n   - Importance: 4\n   - Topic Link: Humor\n   - Sentiment Shift: Neutral\n   - Comparison: Raunchy humor can be polarizing, with some finding it funny and others finding it offensive.\n   \n3. Formula romantic comedy:\n   - Rating: 0\n   - Explanation: Nicks' reliance on formulaic romantic comedy tropes may provide predictable but comforting entertainment.\n   - Importance: 2\n   - Topic Link: Romance\n   - Sentiment Shift: Neutral\n   - Comparison: Formulaic romantic comedies often follow predictable plotlines and character arcs.\n   \nOverall Average: 0\nConfidence: Moderate\n\nKey Points:\n- Nicks' humor ranges from stale parody to raunchy sex gags to formulaic romantic comedy.\n- Stale parody lacks originality and may not resonate with audiences.\n- Raunchy sex gags can be divisive, appealing to some while alienating others.\n- Formulaic romantic comedy provides predictable but familiar entertainment.\n\n##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "3": {
+                    "content": "it provides an honest look at a community striving to anchor itself in new grounds . ",
+                    "response": "Key Topics:\n1. Community Striving for Anchoring in New Grounds\n2. Honesty in Portrayal of Community\n\n1. Community Striving for Anchoring in New Grounds:\n   - Rating: +2\n   - Explanation: The focus on a community trying to establish itself in unfamiliar territory is crucial for understanding the challenges and growth that come with change.\n   - Importance: 5\n   - Topic Link: New beginnings, community development\n   - Sentiment Shifts: Initially uncertain, then hopeful and determined\n   - Comparison: Resilience in the face of adversity\n2. Honesty in Portrayal of Community:\n   - Rating: +1\n   - Explanation: The emphasis on honesty in depicting the community's journey adds authenticity and credibility to the narrative.\n   - Importance: 4\n   - Topic Link: Transparency, trust\n   - Sentiment Shifts: Initially raw and vulnerable, then empowering\n   - Comparison: Authenticity vs. facade\n\nOverall:\n- Average Rating: +1.5\n- Consideration of Links and Shifts: The positive ratings for both topics indicate a well-rounded exploration of the community's challenges and triumphs.\n- Confidence: High\n\nKey Points:\n- The film provides a compelling look at a community navigating unfamiliar territory with determination and resilience.\n- The emphasis on honesty in portraying the community's journey adds authenticity and depth to the narrative.\n\n##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "4": {
+                    "content": "it haunts you , you ca n't forget it , you admire its conception and are able to resolve some of the confusions you had while watching it . ",
+                    "response": "Key Topics:\n1. Haunting Nature of the Film\n2. Unforgettable Impact\n3. Admiration for Conception\n4. Resolving Confusions\n\n1. Haunting Nature of the Film:\n   - Rating: +2\n   - Explanation: The film's ability to linger in the viewer's mind long after watching it is a testament to its powerful storytelling and emotional depth.\n   - Importance: 5\n   - Topic Link: Unforgettable Impact\n   - Sentiment Shift: None\n\n2. Unforgettable Impact:\n   - Rating: +2\n   - Explanation: The fact that the film stays with you indicates its profound impact on the viewer, leaving a lasting impression.\n   - Importance: 5\n   - Topic Link: Haunting Nature of the Film\n   - Sentiment Shift: None\n\n3. Admiration for Conception:\n   - Rating: +2\n   - Explanation: Appreciating the creativity and originality of the film's concept adds to the overall admiration for the work.\n   - Importance: 4\n   - Topic Link: Resolving Confusions\n   - Sentiment Shift: None\n\n4. Resolving Confusions:\n   - Rating: +1\n   - Explanation: The film's ability to clarify and resolve any confusion the viewer may have had during the viewing enhances the overall experience.\n   - Importance: 3\n   - Topic Link: Admiration for Conception\n   - Sentiment Shift: None\n\nOverall Average: +1.75\nConfidence: High\n\nKey Points:\n- The film's haunting nature and unforgettable impact make it a memorable viewing experience.\n- Admiration for the film's conception and the ability to resolve confusions contribute to its overall appeal.\n\n##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "5": {
+                    "content": "if there 's one thing this world needs less of , it 's movies about college that are written and directed by people who could n't pass an entrance exam . ",
+                    "response": "Key Topics:\n1. Quality of Movies About College\n2. Qualifications of Writers and Directors\n3. Impact on Audience Perception\n\n1. Quality of Movies About College:\n- Rating: -2\n- Explanation: Movies about college play a significant role in shaping societal perceptions and expectations of the college experience. When these movies are poorly written and directed, they may perpetuate stereotypes, inaccuracies, and unrealistic portrayals of college life.\n- Importance: 5\n- Link: Movies About College\n- Sentiment Shift: Negative\n\n2. Qualifications of Writers and Directors:\n- Rating: +2\n- Explanation: The qualifications and experiences of writers and directors can greatly influence the authenticity and depth of storytelling in movies about college. Those who have personal experience or a strong understanding of the subject matter are more likely to create compelling and relatable narratives.\n- Importance: 4\n- Link: Impact of Writers and Directors on Film Quality\n- Sentiment Shift: Positive\n\n3. Impact on Audience Perception:\n- Rating: -1\n- Explanation: Movies about college have the power to shape how audiences perceive higher education, student life, and academic challenges. When these portrayals are inaccurate or superficial, they can create unrealistic expectations and misconceptions among viewers.\n- Importance: 4\n- Link: Influence of Media on Perception\n- Sentiment Shift: Negative\n\nComparing Similar Topics:\n- The quality of movies about college and the qualifications of writers and directors are closely linked. A lack of expertise and understanding in the creative team can lead to a decline in the quality of the final product, impacting audience perception.\n\nOverall Average: -0.33\nConsidering the links and sentiment shifts, there is a moderate level of confidence in the analysis.\n\nKey Points:\n- Movies about college written and directed by individuals lacking qualifications can perpetuate stereotypes and inaccuracies.\n- The authenticity and depth of storytelling in such movies heavily rely on the expertise and experiences of the creative team.\n\n##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "6": {
+                    "content": "the film will play equally well on both the standard and giant screens . ",
+                    "response": "Key Topics:\n1. Film Quality\n2. Screen Size\n3. Audience Experience\n\n1. Film Quality\n   - Rating: +2\n   - Explanation: The film's quality is crucial for its success on both standard and giant screens. A well-produced film with high production values, engaging storytelling, and impressive visuals will captivate audiences regardless of screen size.\n   - Importance: 5\n   - Topic Links: Screen Size, Audience Experience\n   - Sentiment Shifts: Positive\n   - Comparison: Film quality is the foundation that can enhance the viewing experience on both standard and giant screens.\n\n2. Screen Size\n   - Rating: +1\n   - Explanation: Screen size plays a role in the immersive experience of watching a film. While a giant screen can enhance visuals and create a more cinematic experience, a standard screen can still effectively showcase a well-made film.\n   - Importance: 4\n   - Topic Links: Film Quality, Audience Experience\n   - Sentiment Shifts: Neutral\n   - Comparison: The impact of screen size on audience engagement may vary, but a good film can still resonate regardless of the screen size.\n\n3. Audience Experience\n   - Rating: +2\n   - Explanation: The audience's overall experience, including factors like sound quality, seating comfort, and visual appeal, contributes significantly to how well a film is received on different screen sizes.\n   - Importance: 4\n   - Topic Links: Film Quality, Screen Size\n   - Sentiment Shifts: Positive\n   - Comparison: A positive audience experience can elevate the impact of a film, making it enjoyable for viewers on both standard and giant screens.\n\nOverall:\nAverage Rating: +1.67\nConfidence: High\n\nKey Points:\n- The quality of the film is paramount for its success on both standard and giant screens.\n- Screen size can enhance the viewing experience but is not the sole factor in determining a film's impact.\n- A positive audience experience contributes significantly to how well a film plays on different screen sizes.\n\n##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "7": {
+                    "content": "one of the more intelligent children 's movies to hit theaters this year . ",
+                    "response": "One of the more intelligent children's movies to hit theaters this year is \"Luca.\"\n\nKey Topics:\n1. Friendship\n   - Rating: +2\n   - Explanation: The movie beautifully portrays the bond between the main characters, Luca and Alberto, as they navigate challenges and adventures together.\n   - Importance: 5\n   - Topic Links: Trust, Loyalty\n   - Sentiment Shifts: Positive\n   - Comparison: Friendship vs. Betrayal\n2. Acceptance\n   - Rating: +1\n   - Explanation: The film addresses themes of acceptance and embracing differences, particularly in the context of the sea monster characters.\n   - Importance: 4\n   - Topic Links: Diversity, Inclusion\n   - Sentiment Shifts: Neutral\n   - Comparison: Acceptance vs. Prejudice\n3. Courage\n   - Rating: +2\n   - Explanation: Luca and Alberto demonstrate bravery in pursuing their dreams and standing up against adversity, inspiring young viewers.\n   - Importance: 4\n   - Topic Links: Resilience, Determination\n   - Sentiment Shifts: Positive\n   - Comparison: Courage vs. Fear\n4. Exploration\n   - Rating: +1\n   - Explanation: The movie encourages curiosity and exploration, showcasing the wonders of discovery and the joy of new experiences.\n   - Importance: 3\n   - Topic Links: Curiosity, Adventure\n   - Sentiment Shifts: Positive\n   - Comparison: Exploration vs. Stagnation\n\nOverall Average: +1.5\nConfidence: High\n\nKey Points:\n\"Luca\" excels in portraying the power of friendship, acceptance, courage, and exploration, offering valuable lessons for children while maintaining a positive and engaging narrative. The film's themes are interconnected, emphasizing the importance of embracing differences, staying true to oneself, and facing challenges with bravery and curiosity.\n\n##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "8": {
+                    "content": "what better message than ` love thyself ' could young women of any size receive ? ",
+                    "response": "Key Topics:\n1. Self-acceptance and body positivity\n2. Self-care and self-worth\n3. Empowerment and confidence\n4. Personal growth and self-improvement\n\n1. Self-acceptance and body positivity:\n   - Rating: +2\n   - Explanation: Encouraging young women to accept and love themselves regardless of their size promotes a positive body image and self-esteem.\n   - Importance: 5\n   - Topic Link: Body positivity movements, mental health awareness\n   - Sentiment Shift: Positive\n\n2. Self-care and self-worth:\n   - Rating: +2\n   - Explanation: Emphasizing the importance of self-care and recognizing one's self-worth helps young women prioritize their mental and physical well-being.\n   - Importance: 4\n   - Topic Link: Mental health, self-esteem\n   - Sentiment Shift: Positive\n\n3. Empowerment and confidence:\n   - Rating: +2\n   - Explanation: Encouraging young women to embrace their uniqueness and strengths fosters empowerment and confidence in their abilities.\n   - Importance: 4\n   - Topic Link: Feminism, leadership development\n   - Sentiment Shift: Positive\n\n4. Personal growth and self-improvement:\n   - Rating: +1\n   - Explanation: Inspiring young women to focus on personal growth and self-improvement encourages continuous learning and development.\n   - Importance: 3\n   - Topic Link: Goal setting, resilience\n   - Sentiment Shift: Neutral\n\nComparing similar topics, self-acceptance and body positivity are closely linked to self-care and self-worth, as they both contribute to a positive self-image and mental well-being. Empowerment and confidence also play a significant role in reinforcing self-acceptance and self-worth.\n\nOverall Average: +1.75\nConfidence: Moderate\n\nKey Points:\n- Encouraging self-acceptance and body positivity is crucial for promoting a positive self-image.\n- Emphasizing self-care and self-worth helps young women prioritize their well-being.\n- Fostering empowerment and confidence enables young women to embrace their strengths and uniqueness.\n\n##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "9": {
+                    "content": "it 's one of those baseball pictures where the hero is stoic , the wife is patient , the kids are as cute as all get-out and the odds against success are long enough to intimidate , but short enough to make a dream seem possible . ",
+                    "response": "Key topics:\n1. Baseball picture\n2. Hero's stoicism\n3. Wife's patience\n4. Cute kids\n5. Odds against success\n6. Dream possibility\n\n1. Baseball picture:\n   - Rating: +1\n   - Explanation: Sets the scene for the story, providing context and a familiar backdrop.\n   - Importance: 3\n   - Topic links: Hero, wife, kids, odds, dream\n   - Sentiment shifts: May evoke nostalgia or excitement for baseball fans.\n\n2. Hero's stoicism:\n   - Rating: +2\n   - Explanation: Portrays the hero as strong, resilient, and determined in the face of challenges.\n   - Importance: 4\n   - Topic links: Wife, kids, odds, dream\n   - Sentiment shifts: Inspires admiration and respect for the hero's character.\n\n3. Wife's patience:\n   - Rating: +1\n   - Explanation: Highlights the supportive role of the wife, adding depth to the family dynamic.\n   - Importance: 3\n   - Topic links: Hero, kids, odds, dream\n   - Sentiment shifts: Evokes feelings of warmth and appreciation for the wife's role.\n\n4. Cute kids:\n   - Rating: +2\n   - Explanation: Adds charm and innocence to the story, creating a sense of endearment.\n   - Importance: 3\n   - Topic links: Hero, wife, odds, dream\n   - Sentiment shifts: Brings joy and light-heartedness to the narrative.\n\n5. Odds against success:\n   - Rating: -1\n   - Explanation: Represents the challenges and obstacles the hero must overcome, adding tension to the plot.\n   - Importance: 4\n   - Topic links: Hero, wife, kids, dream\n   - Sentiment shifts: Can create suspense and uncertainty about the outcome.\n\n6. Dream possibility:\n   - Rating: +2\n   - Explanation: Offers hope and optimism, suggesting that success is achievable despite the odds.\n   - Importance: 5\n   - Topic links: Hero, wife, kids, odds\n   - Sentiment shifts: Inspires motivation and belief in the power of dreams.\n\nOverall average rating: +1.5\nConfidence: Moderate\n\nKey points: The baseball picture captures a story of a stoic hero, a patient wife, cute kids, and the possibility of achieving dreams despite challenging odds. The narrative balances tension with optimism, creating a sense of hope and resilience in the face of adversity.\n\n##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "10": {
+                    "content": "a science-fiction pastiche so lacking in originality that if you stripped away its inspirations there would be precious little left . ",
+                    "response": "Key Topics:\n1. Time travel\n2. Artificial intelligence\n3. Alien invasion\n4. Dystopian society\n\n1. Time travel:\n   - Rating: -2\n   - Explanation: The portrayal of time travel in this pastiche lacks originality and fails to offer any new perspectives or ideas. It relies heavily on clich\u00e9s and tropes seen in other works.\n   - Importance: 2 (common theme in science fiction)\n   - Links: Artificial intelligence, dystopian society\n   - Sentiment shifts: None\n   - Comparison: Similar to other works that explore time travel without adding any unique elements.\n   \n2. Artificial intelligence:\n   - Rating: -1\n   - Explanation: The depiction of artificial intelligence in this pastiche is unoriginal and does not contribute anything new to the genre. It simply rehashes existing ideas without adding depth or complexity.\n   - Importance: 3 (relevant topic in modern society and science fiction)\n   - Links: Time travel, alien invasion\n   - Sentiment shifts: None\n   - Comparison: Resembles other works that explore the dangers of AI without offering fresh insights.\n   \n3. Alien invasion:\n   - Rating: -2\n   - Explanation: The alien invasion plot in this pastiche lacks creativity and relies on tired tropes and predictable outcomes. It fails to bring anything new to the table in terms of alien encounters.\n   - Importance: 4 (classic science fiction theme)\n   - Links: Artificial intelligence, dystopian society\n   - Sentiment shifts: None\n   - Comparison: Similar to other works that depict alien invasions in a conventional and uninspired manner.\n   \n4. Dystopian society:\n   - Rating: -1\n   - Explanation: The portrayal of a dystopian society in this pastiche is generic and lacks originality. It does not offer any fresh insights into the consequences of societal collapse or authoritarian rule.\n   - Importance: 5 (common theme in science fiction and social commentary)\n   - Links: Time travel, alien invasion\n   - Sentiment shifts: None\n   - Comparison: Resembles other works that explore dystopian futures without adding new perspectives or ideas.\n   \nOverall average rating: -1.5\nConfidence: Moderate\n\nKey Points:\n- The pastiche lacks originality in its treatment of common science fiction themes such as time travel, artificial intelligence, alien invasion, and dystopian societies.\n- It fails to offer fresh perspectives or insights into these topics, relying instead on clich\u00e9s and tropes borrowed from other works.\n\n##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "11": {
+                    "content": "vera 's technical prowess ends up selling his film short ; he smoothes over hard truths even as he uncovers them . ",
+                    "response": "Key topics:\n1. Technical prowess\n2. Selling the film short\n3. Smoothing over hard truths\n4. Uncovering hard truths\n\n1. Technical prowess\n   - Rating: +1\n   - Explanation: Vera's technical skills are somewhat commendable, but they may not be fully utilized or showcased effectively.\n   - Importance: 3\n   - Link: 4\n   - Sentiment shift: None\n\n2. Selling the film short\n   - Rating: -2\n   - Explanation: Vera's approach may not fully capture the depth or impact of the film, potentially limiting its success.\n   - Importance: 4\n   - Link: 3\n   - Sentiment shift: Negative\n\n3. Smoothing over hard truths\n   - Rating: -1\n   - Explanation: Vera tends to downplay or gloss over challenging aspects of the film, which could diminish its authenticity.\n   - Importance: 4\n   - Link: 4\n   - Sentiment shift: Negative\n\n4. Uncovering hard truths\n   - Rating: +2\n   - Explanation: Despite smoothing over some truths, Vera is able to reveal important and impactful aspects of the film.\n   - Importance: 5\n   - Link: 3\n   - Sentiment shift: Positive\n\nOverall average: 0\nConfidence: Moderate\nKey points: Vera's technical skills are decent, but their application may be lacking. While uncovering hard truths, Vera's tendency to smooth over challenging aspects and sell the film short could hinder its overall impact.\n\n##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "12": {
+                    "content": "may be far from the best of the series , but it 's assured , wonderfully respectful of its past and thrilling enough to make it abundantly clear that this movie phenomenon has once again reinvented itself for a new generation . ",
+                    "response": "Key topics:\n1. Analysis of the movie \"Analyze\"\n2. Respect for the past\n3. Reinvention for a new generation\n\n1. Analysis of the movie \"Analyze\":\n   - Rating: +2\n   - Explanation: The analysis of the movie \"Analyze\" is positive, highlighting its ability to captivate a new generation while respecting its past.\n   - Importance: 5\n   - Topic link: N/A\n   - Sentiment shift: N/A\n\n2. Respect for the past:\n   - Rating: +1\n   - Explanation: The movie is commended for being respectful of its past, acknowledging its roots and history within the series.\n   - Importance: 4\n   - Topic link: Analysis of the movie \"Analyze\"\n   - Sentiment shift: N/A\n\n3. Reinvention for a new generation:\n   - Rating: +2\n   - Explanation: The movie successfully reinvents itself to appeal to a new generation while maintaining the essence of the series.\n   - Importance: 4\n   - Topic link: Analysis of the movie \"Analyze\"\n   - Sentiment shift: N/A\n\nSentiment shifts are generally positive, indicating a consistent tone throughout the analysis. The topics of respect for the past and reinvention for a new generation are closely related, emphasizing the importance of honoring the series' legacy while adapting to contemporary audiences.\n\nOverall average: +1.67\nConfidence: Moderate\n\nKey points: The movie \"Analyze\" is praised for its ability to reinvent itself for a new generation while maintaining respect for its past, ensuring the continuation of the series' success.\n\nEnd: ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "13": {
+                    "content": "we know the plot 's a little crazy , but it held my interest from start to finish . ",
+                    "response": "Key Topics:\n1. Plot: +2\n2. Interest: +2\n\n1. Plot: The plot of the story is described as \"a little crazy,\" indicating that it may be unconventional or unexpected. Despite this, it held the reader's interest from start to finish. Importance: 5. The plot is a crucial element of any story, setting the foundation for the narrative and character development.\n2. Interest: The level of interest the plot generated is rated positively, suggesting that it successfully engaged the reader throughout the story. Importance: 4. Maintaining reader interest is essential for a successful story, as it keeps the audience invested in the narrative.\n\nTopic Links:\n- The plot and interest are closely linked as the effectiveness of the plot directly impacts the reader's level of interest in the story.\n\nSentiment Shifts:\nThere is a positive sentiment throughout the review, indicating that the reader found the plot engaging despite its unconventional nature.\n\nComparing Similar Topics:\nThe topics of plot and interest are closely related, as a well-crafted plot often leads to increased reader interest. In this case, both elements are rated positively, suggesting that the plot successfully captured the reader's attention.\n\nOverall Rating: +2. The positive ratings for both plot and interest, along with the consistent sentiment and their close relationship, contribute to a high overall rating. Confidence: High.\n\nKey Points:\n- The plot is described as unconventional but engaging.\n- Despite its craziness, the plot held the reader's interest from start to finish.\n- The successful combination of plot and interest contributed to an overall positive reading experience.\n\nEnd: ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "14": {
+                    "content": "although german cooking does not come readily to mind when considering the world 's best cuisine , mostly martha could make deutchland a popular destination for hungry tourists . ",
+                    "response": "Key topics:\n1. German cooking reputation\n2. Influence of \"Mostly Martha\"\n3. Potential impact on tourism\n\n1. German cooking reputation\n   - Rating: -1\n   - Explanation: German cuisine is not typically considered among the world's best, often overshadowed by other European cuisines.\n   - Importance: 3\n   - Sentiment: Negative\n\n2. Influence of \"Mostly Martha\"\n   - Rating: +2\n   - Explanation: The film \"Mostly Martha\" showcases German cuisine in a positive light, potentially sparking interest in German food and culture.\n   - Importance: 4\n   - Sentiment: Positive\n\n3. Potential impact on tourism\n   - Rating: +1\n   - Explanation: If \"Mostly Martha\" successfully promotes German cuisine, it could attract more tourists to Germany seeking culinary experiences.\n   - Importance: 5\n   - Sentiment: Positive\n\nSentiment shifts:\n- The sentiment shifts from negative (regarding German cooking reputation) to positive (due to the influence of \"Mostly Martha\" and potential impact on tourism).\n\nComparing similar topics:\n- The positive influence of \"Mostly Martha\" and the potential impact on tourism outweigh the negative reputation of German cooking.\n\nOverall average: +0.67\nConsidering the positive influence of \"Mostly Martha\" and the potential boost in tourism, there is a moderate level of confidence that German cuisine could gain popularity among tourists.\n\nKey points:\n- \"Mostly Martha\" has the potential to improve the perception of German cuisine.\n- Increased interest in German food could lead to a rise in tourism.\n- Despite the current reputation, there is hope for German cuisine to become a popular culinary destination.\n\nEnd: ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "15": {
+                    "content": "sustains its dreamlike glide through a succession of cheesy coincidences and voluptuous cheap effects , not the least of which is rebecca romijn-stamos . ",
+                    "response": "Key topics:\n1. Dreamlike atmosphere: +1\n2. Cheesy coincidences: -1\n3. Voluptuous cheap effects: -2\n4. Rebecca Romijn-Stamos: +2\n\n1. Dreamlike atmosphere: The dreamlike atmosphere in the film is rated +1 as it adds to the surreal and fantastical nature of the story. This topic is important with a rating of 4 as it sets the tone for the entire film and enhances the viewer's experience.\n\n2. Cheesy coincidences: The presence of cheesy coincidences is rated -1 as it may detract from the overall quality of the storytelling. This topic is of moderate importance with a rating of 3 as it can affect the credibility of the plot.\n\n3. Voluptuous cheap effects: The use of voluptuous cheap effects is rated -2 as it suggests a lack of sophistication in the visual presentation. This topic is somewhat important with a rating of 2 as it can impact the overall aesthetic appeal of the film.\n\n4. Rebecca Romijn-Stamos: The inclusion of Rebecca Romijn-Stamos is rated +2 as it likely enhances the film with her performance. This topic is important with a rating of 5 as the presence of a well-known actor can attract audiences and add credibility to the production.\n\nSentiment shifts: The sentiment shifts from negative (cheesy coincidences, cheap effects) to positive (Rebecca Romijn-Stamos), indicating a mix of elements in the film.\n\nComparing similar topics: The dreamlike atmosphere and Rebecca Romijn-Stamos topics both contribute positively to the film, while the cheesy coincidences and cheap effects detract from its quality.\n\nOverall rating: The average rating is 0. Considering the mix of positive and negative elements, with some topics more important than others, the analysis is moderately confident.\n\nKey points: The film sustains a dreamlike atmosphere with the help of Rebecca Romijn-Stamos, but is hindered by cheesy coincidences and cheap effects. The presence of a well-known actor adds value to the production, while the visual effects and plot elements may not be as well-received.\n\nEnd: ##mixed",
+                    "pred": -1,
+                    "label": 0
+                },
+                "16": {
+                    "content": "coughs and sputters on its own postmodern conceit . ",
+                    "response": "Key Topics:\n1. Coughs and Sputters\n2. Postmodern conceit\n\n1. Coughs and Sputters:\n   - Rating: +1\n   - Explanation: The use of coughs and sputters in the context of the text may symbolize disruption or interference in communication or narrative flow.\n   - Importance: 3\n   - Topic Link: Coughs and sputters can be linked to the theme of communication breakdown or the portrayal of imperfection.\n   \n2. Postmodern Conceit:\n   - Rating: +2\n   - Explanation: Postmodern conceit refers to the self-awareness and irony present in postmodern literature, where authors play with traditional narrative conventions and challenge established norms.\n   - Importance: 4\n   - Topic Link: Postmodern conceit can be linked to the use of unconventional storytelling techniques and metafictional elements in the text.\n   \nSentiment Shifts:\n- The text seems to shift from a more straightforward narrative style to a more self-reflective and experimental approach when discussing postmodern conceit.\n\nComparison:\n- Both topics explore the theme of disrupting traditional storytelling methods, with coughs and sputters representing a physical manifestation of this disruption, while postmodern conceit deals with a more conceptual and intellectual challenge to narrative conventions.\n\nOverall:\n- Average Rating: +1.5\n- Considering the links between the topics and the shifts in sentiment, I am moderately confident in this analysis.\n\nKey Points:\nThe text uses coughs and sputters to symbolize disruption in communication or narrative flow, while also engaging with postmodern conceit by challenging traditional narrative norms through self-awareness and irony.\n\n##positive",
+                    "pred": 1,
+                    "label": 0
+                },
+                "17": {
+                    "content": "bad . ",
+                    "response": "Sure, I can help with that. Could you please provide the text or content you would like me to analyze?",
+                    "pred": -1,
+                    "label": 0
+                },
+                "18": {
+                    "content": "a gorgeous , witty , seductive movie . ",
+                    "response": "Movie: \"To Catch a Thief\" (1955)\n\nKey Topics:\n1. Romance: +2\n   - The movie revolves around a charming romance between a retired cat burglar and a wealthy socialite. The witty banter and seductive chemistry between the characters create a captivating love story. (Importance: 5)\n   - Links: Romance is intertwined with themes of trust, deception, and redemption.\n   - Sentiment Shifts: The romance starts off playful and flirtatious, then deepens as the characters confront their pasts.\n   - Comparison: Similar to other classic romantic films like \"Casablanca\" in its blend of romance and intrigue.\n\n2. Intrigue: +1\n   - The plot involves mystery and suspense as the protagonist is suspected of returning to his criminal ways. The audience is kept guessing about the true identity of the thief. (Importance: 4)\n   - Links: Intrigue is closely tied to themes of identity and perception.\n   - Sentiment Shifts: The intrigue builds tension throughout the movie, leading to a satisfying resolution.\n   - Comparison: Resembles Hitchcock's suspenseful storytelling in films like \"North by Northwest.\"\n\n3. Glamour: +2\n   - The movie is set against the backdrop of the French Riviera, showcasing luxurious settings, elegant costumes, and sophisticated characters. The glamour adds to the allure of the story. (Importance: 4)\n   - Links: Glamour is connected to themes of wealth, status, and appearance.\n   - Sentiment Shifts: The glamour creates a visually stunning atmosphere that enhances the overall charm of the film.\n   - Comparison: Similar to other classic Hollywood films known for their opulent aesthetics.\n\nOverall: Average rating is +1.67. The topics are well-connected, with romance, intrigue, and glamour complementing each other to create a captivating narrative. Sentiment shifts effectively enhance the storytelling, maintaining audience engagement. Confidence in analysis is high.\n\nKey Points: \"To Catch a Thief\" is a gorgeous, witty, and seductive movie that masterfully weaves romance, intrigue, and glamour into a visually stunning and emotionally engaging story set in the alluring world of the French Riviera.\n\n##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "19": {
+                    "content": "thanks to scott 's charismatic roger and eisenberg 's sweet nephew , roger dodger is one of the most compelling variations on in the company of men . ",
+                    "response": "Key topics:\n1. Charismatic character of Roger\n2. Sweet nephew character of Nick\n3. Comparison to \"In the Company of Men\"\n\n1. Charismatic character of Roger:\n   - Rating: +2\n   - Explanation: Scott's portrayal of Roger as charismatic adds depth and intrigue to the character, making him captivating to watch.\n   - Importance: 4\n   - Topic link: Nick's admiration for Roger's charisma drives the narrative forward and highlights the impact of Roger's personality on those around him.\n\n2. Sweet nephew character of Nick:\n   - Rating: +1\n   - Explanation: Eisenberg's portrayal of Nick as a sweet and innocent character provides a contrast to Roger's charisma, creating a dynamic relationship between the two characters.\n   - Importance: 3\n   - Topic link: Nick's innocence serves as a foil to Roger's manipulative nature, emphasizing the complexity of their interactions.\n\n3. Comparison to \"In the Company of Men\":\n   - Rating: +1\n   - Explanation: The film is seen as a compelling variation on the themes explored in \"In the Company of Men,\" offering a fresh perspective on similar dynamics between characters.\n   - Importance: 4\n   - Topic link: The comparison highlights the evolution of storytelling and character dynamics in contemporary cinema, showcasing the influence of past works on present narratives.\n\nSentiment shifts: The film presents a mix of positive and negative sentiments, with Roger's charisma drawing admiration but also revealing manipulative tendencies.\n\nComparing similar topics: The charismatic character of Roger can be compared to similar manipulative characters in other films, while Nick's innocence contrasts with the darker aspects of Roger's personality.\n\nOverall rating: +1. Confidence level: Medium\nThe film effectively explores the dynamics between charismatic and innocent characters, drawing parallels to similar themes in other works while offering a fresh perspective. The shifts in sentiment add depth to the narrative, making it a compelling watch.\n\nSummarize key points: \"Roger Dodger\" features a charismatic character in Roger and a sweet nephew character in Nick, creating a dynamic interplay between manipulation and innocence that is reminiscent of \"In the Company of Men.\"\n\nEnd: ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "20": {
+                    "content": "this riveting world war ii moral suspense story deals with the shadow side of american culture : racial prejudice in its ugly and diverse forms . ",
+                    "response": "Key Topics:\n1. World War II (-1)\n2. Racial Prejudice (+2)\n3. American Culture (-1)\n4. Moral Suspense (+1)\n\n1. **World War II (-1)**\n   - Explanation: The historical backdrop of World War II provides the setting for the narrative, influencing characters' actions and decisions.\n   - Importance: 4\n   - Topic Links: Racial Prejudice, American Culture\n   - Sentiment Shifts: May evoke a mix of emotions, including patriotism and sorrow.\n   \n2. **Racial Prejudice (+2)**\n   - Explanation: The central theme of the story, exploring the various manifestations of racial prejudice within American society during the war.\n   - Importance: 5\n   - Topic Links: World War II, American Culture\n   - Sentiment Shifts: Likely to evoke strong emotions such as anger, empathy, and reflection.\n   \n3. **American Culture (-1)**\n   - Explanation: The story delves into the shadow side of American culture, highlighting its flaws and complexities.\n   - Importance: 3\n   - Topic Links: Racial Prejudice, World War II\n   - Sentiment Shifts: May lead to feelings of introspection and critique.\n   \n4. **Moral Suspense (+1)**\n   - Explanation: The narrative likely involves moral dilemmas and ethical tensions that create suspense for the audience.\n   - Importance: 2\n   - Topic Links: Racial Prejudice\n   - Sentiment Shifts: Can generate tension and anticipation.\n   \nTopic Comparison:\n- Racial Prejudice and American Culture are closely intertwined, with the former being a manifestation of the latter in the context of the story.\n\nOverall Analysis:\nAverage: +0.25\nConfidence: Moderate\nThe story effectively intertwines themes of World War II, racial prejudice, American culture, and moral suspense to create a compelling narrative that sheds light on the darker aspects of society.\n\nSummarized Key Points:\nThe story set during World War II explores the pervasive racial prejudice within American culture, delving into moral suspense and highlighting the complexities of societal norms. The narrative effectively weaves these themes together to create a thought-provoking and impactful storyline.\n\n##positive",
+                    "pred": 1,
+                    "label": 0
+                },
+                "21": {
+                    "content": "there 's really only one good idea in this movie , but the director runs with it and presents it with an unforgettable visual panache . ",
+                    "response": "Key topics:\n1. Singular good idea in the movie\n2. Director's presentation with visual panache\n\n1. Singular good idea in the movie:\n   - Rating: +2\n   - Explanation: The presence of a singular good idea in a movie can be a driving force behind its success. It can captivate audiences and leave a lasting impact.\n   - Importance: 5\n   - Topic link: Director's presentation\n   - Sentiment shift: Positive\n\n2. Director's presentation with visual panache:\n   - Rating: +2\n   - Explanation: The director's ability to present the singular good idea with unforgettable visual panache enhances the overall viewing experience and elevates the impact of the idea.\n   - Importance: 4\n   - Topic link: Singular good idea in the movie\n   - Sentiment shift: Positive\n\nTopic comparison:\nBoth topics are closely linked as the director's presentation plays a crucial role in highlighting the singular good idea effectively.\n\nOverall:\nAverage rating: +2\nConsidering the strong link between the singular good idea and the director's presentation, the positive sentiment shifts throughout the analysis, and the high importance of these topics, the assessment is confident.\n\nKey points:\n- The movie contains a singular good idea that stands out.\n- The director's presentation with visual panache enhances the impact of the idea.\n- The topics are closely intertwined, contributing to a positive viewing experience.\n\n##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "22": {
+                    "content": "corny , schmaltzy and predictable , but still manages to be kind of heartwarming , nonetheless . ",
+                    "response": "Key Topics:\n1. Corny/schmaltzy elements\n2. Predictability\n3. Heartwarming moments\n\n1. Corny/schmaltzy elements:\n   - Rating: -1\n   - Explanation: The presence of corny and schmaltzy elements can make the story feel overly sentimental or contrived.\n   - Importance: 3\n   - Topic Links: Predictability, Heartwarming moments\n   - Sentiment Shifts: May evoke mixed feelings, as some viewers may find these elements endearing while others may find them off-putting.\n   - Comparison: Similar to predictability, as both can contribute to a sense of formulaic storytelling.\n   \n2. Predictability:\n   - Rating: -1\n   - Explanation: Predictability can diminish the element of surprise and make the story feel formulaic.\n   - Importance: 4\n   - Topic Links: Corny/schmaltzy elements, Heartwarming moments\n   - Sentiment Shifts: Can lead to a sense of boredom or disengagement if the audience can anticipate every plot twist.\n   - Comparison: Similar to corny/schmaltzy elements, as both can detract from the overall impact of the narrative.\n   \n3. Heartwarming moments:\n   - Rating: +2\n   - Explanation: Despite the corny and predictable aspects, the presence of heartwarming moments can evoke positive emotions and resonate with viewers on an emotional level.\n   - Importance: 5\n   - Topic Links: Corny/schmaltzy elements, Predictability\n   - Sentiment Shifts: Can uplift the overall tone of the story and leave a lasting impact on the audience.\n   - Comparison: Acts as a counterbalance to the corny and predictable elements, providing moments of genuine emotional connection.\n   \nOverall:\n- Average: 0\n- Consideration of Links and Shifts: The presence of heartwarming moments balances out the negative aspects of corny/schmaltzy elements and predictability.\n- Confidence: Moderate\n\nKey Points:\n- The story contains corny/schmaltzy elements and predictability, which may detract from its overall impact.\n- Despite these drawbacks, the presence of heartwarming moments adds emotional depth and resonates with viewers.\n- The balance between these elements determines the overall reception of the narrative.\n\n##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "23": {
+                    "content": "it 's an offbeat treat that pokes fun at the democratic exercise while also examining its significance for those who take part . ",
+                    "response": "Key topics:\n1. Offbeat treat: +1\n2. Poking fun at the democratic exercise: +2\n3. Examining significance for participants: +2\n\n1. Offbeat treat: This topic is rated +1 as it adds a unique and unconventional element to the analysis. While not the central focus, it provides a different perspective on the subject matter. Importance: 3\n2. Poking fun at the democratic exercise: Rated +2, this topic suggests a satirical or humorous approach to exploring the democratic process. It can offer insights through humor and satire. Importance: 4\n3. Examining significance for participants: Also rated +2, this topic delves into the impact and meaning of democratic participation for individuals. It adds depth to the analysis by considering the personal implications. Importance: 5\n\nTopic links:\n- The offbeat treat can serve as a lighthearted entry point to the more serious discussions about democracy.\n- Poking fun at the democratic exercise can lead to reflections on the flaws and strengths of the system.\n- Examining the significance for participants can provide a human-centered view of democracy, connecting theory to real experiences.\n\nSentiment shifts:\n- The tone may shift from light-hearted and humorous when poking fun at democracy to more introspective and serious when examining its significance for participants.\n\nComparing similar topics:\n- Poking fun at the democratic exercise and examining its significance for participants are closely related as they both involve critiquing and analyzing the democratic process, albeit from different angles.\n\nOverall rating: +1.67\nConfidence: Moderate\n\nKey points:\n- The analysis includes a mix of light-hearted and serious elements.\n- It explores democracy through satire and personal reflections.\n- The significance of democratic participation is highlighted alongside humor and critique.\n\nEnd: ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "24": {
+                    "content": "not far beneath the surface , this reconfigured tale asks disturbing questions about those things we expect from military epics . ",
+                    "response": "Key topics:\n1. Military epics\n2. Disturbing questions\n3. Expectations\n\n1. Military epics:\n   - Rating: +1\n   - Explanation: The mention of military epics suggests a focus on narratives involving warfare, heroism, and conflict.\n   - Importance: 4\n   - Topic links: Disturbing questions, Expectations\n   - Sentiment shifts: May evoke a sense of admiration or critique depending on the portrayal of military themes.\n   - Comparison: Can be compared to other genres like historical fiction or war literature.\n   \n2. Disturbing questions:\n   - Rating: +2\n   - Explanation: The presence of disturbing questions indicates a deeper exploration of complex and uncomfortable issues within the narrative.\n   - Importance: 5\n   - Topic links: Military epics, Expectations\n   - Sentiment shifts: Likely to provoke thought and reflection, potentially leading to a shift from admiration to introspection.\n   - Comparison: Contrasts with straightforward storytelling, adding layers of complexity.\n   \n3. Expectations:\n   - Rating: +1\n   - Explanation: The reference to expectations suggests a critical examination of the assumptions and anticipations associated with military epics.\n   - Importance: 3\n   - Topic links: Military epics, Disturbing questions\n   - Sentiment shifts: Could challenge preconceived notions and lead to a shift in perspective.\n   - Comparison: Can be compared to themes of disillusionment or subversion of tropes in literature.\n   \nOverall average rating: +1\nConsideration of links and sentiment shifts: The topics are interconnected, with the exploration of disturbing questions challenging traditional expectations within military epics. The potential sentiment shifts from admiration to introspection indicate a nuanced approach to the subject matter.\nConfidence: Moderate\n\nKey points:\n- The reconfigured tale delves beneath the surface of military epics to pose unsettling questions.\n- It challenges expectations and prompts reflection on the complexities of warfare narratives.\n\nEnd: ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "25": {
+                    "content": "and if you 're not nearly moved to tears by a couple of scenes , you 've got ice water in your veins . ",
+                    "response": "Key Topics:\n1. Emotional Impact: +2\n2. Scene Analysis: +1\n3. Sentiment Shifts: +1\n\n1. Emotional Impact: \n   - Rating: +2\n   - Explanation: The emotional impact of the scenes is profound, evoking strong feelings and potentially moving viewers to tears.\n   - Importance: 5\n   - Topic Link: Emotional Impact\n   - Sentiment Shifts: The emotional impact may lead to shifts in sentiment, from sadness to empathy or catharsis.\n  \n2. Scene Analysis:\n   - Rating: +1\n   - Explanation: Analyzing the scenes in detail can help understand the storytelling techniques and character development that contribute to the emotional impact.\n   - Importance: 4\n   - Topic Link: Scene Analysis\n   - Sentiment Shifts: Scene analysis may deepen the emotional connection to the characters and story.\n  \n3. Sentiment Shifts:\n   - Rating: +1\n   - Explanation: Tracking sentiment shifts throughout the scenes can reveal the effectiveness of the storytelling in eliciting emotional responses.\n   - Importance: 3\n   - Topic Link: Sentiment Shifts\n   - Sentiment Shifts: Sentiment shifts can indicate the complexity and depth of the emotional journey portrayed in the scenes.\n\nOverall Average: +1.33\nConfidence: High\n\n##positive\n\nKey Points:\n- The scenes have a significant emotional impact, potentially moving viewers to tears.\n- Analyzing the scenes and tracking sentiment shifts can enhance the understanding and appreciation of the storytelling.\n- Sentiment shifts reflect the emotional journey portrayed in the scenes, adding depth to the viewing experience.",
+                    "pred": 1,
+                    "label": 1
+                },
+                "26": {
+                    "content": "the film 's hackneyed message is not helped by the thin characterizations , nonexistent plot and pretentious visual style . ",
+                    "response": "Key topics:\n1. Hackneyed message\n2. Thin characterizations\n3. Nonexistent plot\n4. Pretentious visual style\n\n1. Hackneyed message:\n   - Rating: -2\n   - Explanation: The film's message is clich\u00e9d and lacks originality, failing to engage the audience or offer any meaningful insight.\n   - Importance: 4\n   - Sentiment shift: Negative\n\n2. Thin characterizations:\n   - Rating: -2\n   - Explanation: The characters in the film are poorly developed and lack depth, making it difficult for the audience to connect with or care about them.\n   - Importance: 3\n   - Sentiment shift: Negative\n\n3. Nonexistent plot:\n   - Rating: -2\n   - Explanation: The film lacks a coherent or engaging plot, leaving viewers feeling disconnected and disinterested in the story.\n   - Importance: 5\n   - Sentiment shift: Negative\n\n4. Pretentious visual style:\n   - Rating: -2\n   - Explanation: The film's visual style comes across as overly self-important and lacking in substance, adding to the overall sense of pretentiousness.\n   - Importance: 2\n   - Sentiment shift: Negative\n\nComparing similar topics, the thin characterizations and nonexistent plot both contribute to the overall lack of engagement and impact of the film.\n\nOverall average rating: -2\nConfidence: Moderate\n\nKey points: The film suffers from a hackneyed message, thin characterizations, nonexistent plot, and a pretentious visual style, resulting in a lackluster and unengaging viewing experience.\n\n##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "27": {
+                    "content": "an occasionally funny , but overall limp , fish-out-of-water story . ",
+                    "response": "Key Topics:\n1. Humor: +1\n   - The story has occasional funny moments that provide some entertainment value but overall falls short in delivering consistent humor.\n   - Importance: 3\n2. Fish-out-of-water theme: -1\n   - The fish-out-of-water element lacks depth and fails to fully explore the potential for character development and engaging storytelling.\n   - Importance: 2\n3. Plot Development: -2\n   - The plot feels weak and lacks coherence, resulting in a lackluster narrative that fails to engage the audience.\n   - Importance: 4\n4. Characterization: -1\n   - The characters lack depth and fail to evolve throughout the story, making it difficult for the audience to connect with them.\n   - Importance: 3\n\nSentiment Shifts:\n- The occasional humor provides brief moments of enjoyment but is overshadowed by the overall lackluster storytelling and character development.\n\nTopic Links:\n- The weak plot development directly impacts the effectiveness of the fish-out-of-water theme and the characterization of the story's characters.\n\nComparison:\n- The lack of plot development and weak characterization are common issues in stories with a fish-out-of-water theme, as they often struggle to balance humor with meaningful character growth.\n\nOverall:\nAverage: -0.75\nConfidence: Moderate\n\nKey Points:\nThe story's occasional humor provides some entertainment value, but the weak plot development, lack of depth in the fish-out-of-water theme, and poor characterization hinder its overall impact. The lack of coherence in the narrative and character evolution detract from the potential enjoyment of the story.\n\n##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "28": {
+                    "content": "the man from elysian fields is a cold , bliss-less work that groans along thinking itself some important comment on how life throws us some beguiling curves . ",
+                    "response": "Key Topics:\n1. Coldness and lack of bliss in \"The Man from Elysian Fields\"\n2. Life's beguiling curves\n3. Importance of self-perception\n\n1. Coldness and lack of bliss: -1\n   Explanation: The portrayal of the man and his environment as cold and lacking in joy sets a somber tone for the work. It emphasizes a sense of emptiness and dissatisfaction.\n   Importance: 4\n   Topic Links: Life's beguiling curves, self-perception\n   Sentiment Shifts: The consistent coldness may lead to a negative sentiment throughout the work.\n\n2. Life's beguiling curves: +1\n   Explanation: The idea that life presents unexpected challenges and twists is highlighted, suggesting a sense of unpredictability and complexity.\n   Importance: 3\n   Topic Links: Coldness and lack of bliss, self-perception\n   Sentiment Shifts: The exploration of life's twists may evoke a mix of emotions, from curiosity to frustration.\n\n3. Importance of self-perception: +2\n   Explanation: The work seems to delve into how individuals perceive themselves and their place in the world, hinting at themes of identity and self-awareness.\n   Importance: 5\n   Topic Links: Coldness and lack of bliss, life's beguiling curves\n   Sentiment Shifts: Self-perception can lead to shifts in sentiment as characters grapple with their own identities.\n\nComparing similar topics:\n- The coldness and lack of bliss in the work may be linked to the unexpected twists of life, creating a sense of disillusionment.\n- Self-perception plays a crucial role in how characters navigate the challenges presented by life's beguiling curves.\n\nOverall: The average rating for the key topics is 0.67, indicating a slightly positive leaning. The links between the topics and the potential shifts in sentiment suggest a nuanced exploration of human experiences. Confidence level: Moderate.\n\nKey Points:\n- The work portrays a cold and joyless atmosphere, emphasizing emptiness.\n- Life's unpredictability and challenges are highlighted, adding complexity to the narrative.\n- Self-perception is a key theme, influencing how characters navigate their experiences.\n\n##positive",
+                    "pred": 1,
+                    "label": 0
+                },
+                "29": {
+                    "content": "a broad , melodramatic estrogen opera that 's pretty toxic in its own right . ",
+                    "response": "Key Topics:\n1. Toxic Relationships\n2. Betrayal\n3. Revenge\n4. Power Struggles\n5. Redemption\n\n1. Toxic Relationships:\n   - Rating: -2\n   - Explanation: The opera heavily focuses on toxic relationships characterized by manipulation, deceit, and emotional abuse.\n   - Importance: 5\n   - Topic Links: Betrayal, Revenge\n   - Sentiment Shifts: Negative throughout\n   - Comparison: Interconnected with Betrayal and Revenge, highlighting the destructive nature of toxic relationships.\n   \n2. Betrayal:\n   - Rating: -2\n   - Explanation: Betrayal is a central theme, with characters double-crossing each other for personal gain or revenge.\n   - Importance: 4\n   - Topic Links: Toxic Relationships, Revenge\n   - Sentiment Shifts: Negative, leading to feelings of anger and resentment.\n   - Comparison: Often intertwined with Toxic Relationships, showcasing the depth of betrayal within the narrative.\n   \n3. Revenge:\n   - Rating: +1\n   - Explanation: Revenge drives many characters' actions, seeking retribution for past wrongs or injustices.\n   - Importance: 4\n   - Topic Links: Toxic Relationships, Betrayal\n   - Sentiment Shifts: Initially negative, but can lead to a sense of closure or justice.\n   - Comparison: Linked with Betrayal, illustrating the cyclical nature of seeking revenge in response to betrayal.\n   \n4. Power Struggles:\n   - Rating: +1\n   - Explanation: Power dynamics play a significant role, with characters vying for control and dominance.\n   - Importance: 3\n   - Topic Links: Toxic Relationships, Revenge\n   - Sentiment Shifts: Tense and competitive, reflecting the intensity of power struggles.\n   - Comparison: Overlaps with Revenge, as power can be a tool for seeking revenge or asserting dominance.\n   \n5. Redemption:\n   - Rating: +2\n   - Explanation: Redemption offers a glimmer of hope amidst the darkness, allowing characters to seek forgiveness and change.\n   - Importance: 3\n   - Topic Links: Toxic Relationships, Betrayal\n   - Sentiment Shifts: Positive, providing a sense of resolution and growth.\n   - Comparison: Contrasts with the negativity of Toxic Relationships and Betrayal, offering a path towards healing and transformation.\n\nOverall Average: -0.4\nConfidence: Moderate\n\nKey Points:\n- The opera delves into themes of toxicity, betrayal, and revenge, showcasing the destructive nature of relationships driven by manipulation and deceit.\n- Power struggles and redemption add layers to the narrative, highlighting the complexities of human emotions and motivations.\n\n##negative",
+                    "pred": 0,
+                    "label": 0
+                },
+                "30": {
+                    "content": "this is human comedy at its most amusing , interesting and confirming . ",
+                    "response": "Key Topics:\n1. Human Comedy\n2. Amusing Elements\n3. Interesting Elements\n4. Confirming Elements\n\n1. Human Comedy\n   - Rating: +2\n   - Explanation: Human comedy refers to the portrayal of human behavior in a humorous and satirical manner, often highlighting the absurdity of everyday life.\n   - Importance: 5\n   - Topic Links: Amusing Elements, Interesting Elements, Confirming Elements\n   - Sentiment Shifts: May shift between humor and satire, depending on the context.\n   - Comparison: Human comedy is closely related to the other listed topics, as they all contribute to the overall comedic effect.\n   \n2. Amusing Elements\n   - Rating: +2\n   - Explanation: Amusing elements are the comedic aspects of the human comedy that evoke laughter and entertainment.\n   - Importance: 4\n   - Topic Links: Human Comedy, Interesting Elements, Confirming Elements\n   - Sentiment Shifts: Generally positive, as they aim to entertain and amuse the audience.\n   - Comparison: Amusing elements are essential to human comedy, as they drive the humor and comedic effect.\n   \n3. Interesting Elements\n   - Rating: +1\n   - Explanation: Interesting elements add depth and intrigue to the human comedy, engaging the audience's attention beyond just humor.\n   - Importance: 3\n   - Topic Links: Human Comedy, Amusing Elements, Confirming Elements\n   - Sentiment Shifts: Can vary, as they may introduce thought-provoking or unexpected elements.\n   - Comparison: Interesting elements complement the amusing aspects by providing additional layers to the comedic narrative.\n   \n4. Confirming Elements\n   - Rating: +1\n   - Explanation: Confirming elements validate or reinforce the comedic situations or characters in the human comedy, enhancing the overall impact.\n   - Importance: 2\n   - Topic Links: Human Comedy, Amusing Elements, Interesting Elements\n   - Sentiment Shifts: Generally positive, as they help solidify the comedic premise.\n   - Comparison: Confirming elements serve to strengthen the comedic foundation laid out by the amusing and interesting elements.\n\nOverall:\n- Average Rating: +1.5\n- Consideration of Links and Shifts: The topics are interconnected, with each contributing to the overall comedic experience. Sentiment shifts may occur but generally maintain a positive tone.\n- Confidence: High\n\nKey Points:\n- Human comedy combines amusing, interesting, and confirming elements to create a humorous and satirical portrayal of human behavior.\n- The amusing elements drive the humor, while the interesting elements add depth and engagement.\n- Confirming elements validate and enhance the comedic premise, reinforcing the overall comedic effect.\n\nEnd: ##positive",
+                    "pred": 1,
+                    "label": 1
+                },
+                "score": 0.8
+            },
+            "prompt_mean_score": 0.8
+        }
+    },
+    "architecture_mean_score": 0.8111111111111112,
+    "architecture_median_score": 0.8,
+    "architecture_std_dev": 0.04157397096415489
+}

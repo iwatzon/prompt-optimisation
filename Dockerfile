@@ -1,21 +1,16 @@
-# Use an official Python 3.11 image as a base
-FROM python:3.11-slim
+# Better use newer Python as generated code can use new features
+FROM python:3.10-slim
 
-# Set the working directory inside the container
-WORKDIR /sandbox
+# install git
+RUN apt-get update && apt-get install -y git && apt-get clean
 
-# Install poetry
-RUN pip install poetry
+# upgrade to latest pip
+RUN pip install --upgrade pip
 
-# Copy only the files necessary for installing dependencies to avoid rebuilding the image unnecessarily
-COPY pyproject.toml poetry.lock* /sandbox/
+COPY . .
 
-# Install project dependencies (without dev dependencies to keep the image small)
-RUN poetry config virtualenvs.create false \
-    && poetry install --no-dev --no-interaction --no-ansi
+RUN cd /human-eval && pip install .
 
-# Ensure UTF-8 encoding in Python
-ENV PYTHONIOENCODING=UTF-8
+WORKDIR /human-eval
 
-# The container does nothing by default, waiting for commands
-CMD ["bash"]
+ENTRYPOINT ["python3", "-m", "human_eval.evaluation"]
