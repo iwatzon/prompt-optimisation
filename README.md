@@ -6,31 +6,21 @@ Welcome to the repository for my MSc Research Project titled Multi-Agent Convers
 
 The project is organised as follows:
 
+```
 ├── diagrams/               # Diagrams of multi-agent frameworks
-
 ├── human-eval/             # Forked HumanEval repo
-
 ├── promptbench/            # Forked rpomptbench repo
-
 ├── src/                    # Source code for the project
-
 │   ├── algorithms/         # Notebooks implementing each multi-agent framework
-
 │   ├── conversations/      # Conversations had by the agents during prompt optimisation
-
 │   ├── outputs/            # Raw outputs from evaluation as well as high performing agent interactions
-
 │   ├── prompts/            # Prompts evaluated and success criteria used during optimisation
-
 │   ├── tests/              # Notebooks to perform evaluation and significance testing
-
 │   └── agent_suite.py      # Collection of agents used in the frameworks  
-
 ├── Dockerfile              # Dockerfile defining a container for safe execution of code
-
 ├── README.md               # This README file
-
 └── requirements.txt        # Python dependencies
+```
 
 ## Usage
 
