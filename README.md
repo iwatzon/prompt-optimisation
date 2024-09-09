@@ -24,7 +24,7 @@ The project is organised as follows:
 
 ## Usage
 
-The frameworks can be run within the notebooks in the algorithms file. 
+The frameworks can be run within the notebooks in the algorithms file. OpenAI and Anthropic keys must be added to a .env file.
 They are setup to perform optimisation for GSM8K, SST-2 and HumanEval, however, can be easily tailored by adding agents to the agent suite and defining a new base prompt and success criteria. The new agents will need to be imported to the notebook script.
 
 Evaluation is completed using the notebooks in the tests folder. HumanEval outputs are evalauted using the run_humaneval notebook, whilst GSM8K and SST-2 are evaluated using the run_promptbench notebook. Significance testing can be done, however, manual input of results is required. 
