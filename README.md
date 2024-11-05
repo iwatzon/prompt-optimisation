@@ -1,4 +1,4 @@
-# MSs Research Project: Multi-Agent Conversational Architectures for Automated Prompt Engineering
+# MSc Research Project: Multi-Agent Conversational Architectures for Automated Prompt Engineering
 
 Welcome to the repository for my MSc Research Project titled Multi-Agent Conversational Architectures for Automated Prompt Engineering. This project aims to explore using multi-agent approaches to automate the optimisation of prompts. It uses the concpet of agent roles and core principles to perform domain-specific optimisation and directed prompt refinement. Three multi-agent architectures are evaluated - Authoritarian, Market-Based and Hierarchical - chosen due to the diveristy in agent coordination. 
 
